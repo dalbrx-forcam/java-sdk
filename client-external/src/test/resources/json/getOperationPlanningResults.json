@@ -1,0 +1,138 @@
+{
+  "properties": {
+    "startDate": "2018-09-23T06:00:00.000Z",
+    "endDate": "2018-09-24T06:00:00.000Z",
+    "numberOfWorkplaces": 3,
+    "scheduledOperatingTime": 216000000,
+    "plannedProcessingTime": 129600000,
+    "plannedExecutionTime": 158400000,
+    "numberOfPlannedProductionOrders": 4,
+    "plannedLeadTime": 259200000,
+    "minimumLeadTimeWithSetup": 208800000,
+    "numberOfPartiallyPlannedProductionOrders": 0,
+    "adherenceToDeliveryDates": 0.5,
+    "schedulingEfficiency": 0.8055555555555556,
+    "occupancyRate": 0.7333333333333333,
+    "setupReduction": 0.8181818181818182
+  },
+  "pagination": {
+    "total": 4,
+    "offset": 0,
+    "count": 4,
+    "limit": 100
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/planningResults?offset=0&endDate=2018-09-24T06:00:00.000Z&limit=100&startDate=2018-09-23T06:00:00.000Z"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/planningResults?offset=0&endDate=2018-09-24T06:00:00.000Z&limit=100&startDate=2018-09-23T06:00:00.000Z"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/planningResults?offset=0&endDate=2018-09-24T06:00:00.000Z&limit=100&startDate=2018-09-23T06:00:00.000Z"
+    }
+  },
+  "_embedded": {
+    "planningResults": [
+      {
+        "properties": {
+          "operationId": "7919768739654D4AA3A9097A2D71D63C",
+          "workplaceId": "1D37BABC1FB5403A95275BB54350D77D",
+          "startDate": "2018-09-23T06:00:00.000Z",
+          "endDate": "2018-09-23T16:00:00.000Z",
+          "setupStartDate": "2018-09-23T06:00:00.000Z",
+          "setupEndDate": "2018-09-23T08:00:00.000Z",
+          "processingStartDate": "2018-09-23T08:00:00.000Z",
+          "processingEndDate": "2018-09-23T16:00:00.000Z",
+          "fixed": true
+        },
+        "_links": {
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/2B25E0B1C53449229748726F2AC2794E"
+          },
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          },
+          "updatePlanningResult": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          },
+          "deletePlanningResult": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          }
+        }
+      },
+      {
+        "properties": {
+          "operationId": "34F1149C6D9D421EB43232ED9808B8D4",
+          "workplaceId": "39698567B93D4A95BB71CC31C2443075",
+          "startDate": "2018-09-23T06:00:00.000Z",
+          "endDate": "2018-09-23T16:00:00.000Z",
+          "setupStartDate": "2018-09-23T06:00:00.000Z",
+          "setupEndDate": "2018-09-23T08:00:00.000Z",
+          "processingStartDate": "2018-09-23T08:00:00.000Z",
+          "processingEndDate": "2018-09-23T16:00:00.000Z",
+          "fixed": false
+        },
+        "_links": {
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/2B25E0B1C53449229748726F2AC2794E"
+          },
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          },
+          "updatePlanningResult": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          },
+          "deletePlanningResult": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          }
+        }
+      },
+      {
+        "properties": {
+          "operationId": "BECCC47D1795465583ACE12F21E57190",
+          "workplaceId": "39698567B93D4A95BB71CC31C2443075",
+          "startDate": "2018-09-23T18:00:00.000Z",
+          "endDate": "2018-09-24T02:00:00.000Z",
+          "setupStartDate": "2018-09-23T18:00:00.000Z",
+          "setupEndDate": "2018-09-23T22:00:00.000Z",
+          "processingStartDate": "2018-09-23T22:00:00.000Z",
+          "processingEndDate": "2018-09-24T02:00:00.000Z",
+          "fixed": false
+        },
+        "_links": {
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/2B25E0B1C53449229748726F2AC2794E"
+          },
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          },
+          "updatePlanningResult": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          },
+          "deletePlanningResult": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/54642CEB33B441A7B180BFCF1DFD102A/planningResult"
+          }
+        }
+      }
+    ]
+  }
+}

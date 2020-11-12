@@ -1,0 +1,103 @@
+{
+  "properties" : {
+    "id" : "2121dab74e2844e9a890d19c861b5ac3",
+    "description" : "Surface",
+    "shortDescription" : "S1",
+    "qualityTypeId" : "SCRAP",
+    "code" : "S1",
+    "color" : "#C60A44"
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "7B50C9279C594DC4A808344483855D77",
+        "translations" : [ {
+          "language" : "de-DE",
+          "translation" : "Oberfläche"
+        }, {
+          "language" : "en-US",
+          "translation" : "Surface"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Surface"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/7B50C9279C594DC4A808344483855D77",
+          "embeddable" : false
+        }
+      }
+    },
+    "qualityType" : {
+      "properties" : {
+        "id" : "SCRAP",
+        "color" : "#C60A44",
+        "description" : "Scrap",
+        "shortDescription" : "SCRAP"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/32A7206C049E409E9D6F1C79FC4D54A7",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5AD7929117D549ED9EB79238E3D8B03F",
+          "embeddable" : true
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/72ABB0CA06E349878739BEB152335DD2",
+          "embeddable" : true
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "EDF6BEFDCA654AF5AB9D3BB670AC1FFC",
+        "translations" : [ {
+          "language" : "de-DE",
+          "translation" : "S1"
+        }, {
+          "language" : "en-US",
+          "translation" : "S1"
+        }, {
+          "language" : "en-GB",
+          "translation" : "S1"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/EDF6BEFDCA654AF5AB9D3BB670AC1FFC",
+          "embeddable" : false
+        }
+      }
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails/2121dab74e2844e9a890d19c861b5ac3?embed=qualityType,shortDescription,description",
+      "embeddable" : false
+    },
+    "qualityType" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/32A7206C049E409E9D6F1C79FC4D54A7",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/EDF6BEFDCA654AF5AB9D3BB670AC1FFC",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/7B50C9279C594DC4A808344483855D77",
+      "embeddable" : false
+    }
+  }
+}

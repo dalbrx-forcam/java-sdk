@@ -1,0 +1,60 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "workplaces": [
+          {
+            "id": "string",
+            "number": "string",
+            "description": "string",
+            "erpContextId": "string"
+          }
+        ],
+        "tools": [
+          {
+            "id": "string",
+            "name": "string",
+            "description": "string"
+          }
+        ],
+        "additionalConditions": "string",
+        "forecast": {
+          "delayFactor": 0,
+          "processAvailability": 0,
+          "performance": 0,
+          "qualityRate": 0,
+          "processingTime": 0,
+          "additionalSetupTime": 0,
+          "intermediateSetupTime": 0,
+          "staffCapacityFactor": 0,
+          "skillFactor": 0
+        }
+      }
+    ]
+  },
+  "pagination": {
+    "total": 1,
+    "offset": 0,
+    "count": 1,
+    "limit": 100,
+    "lastIdentifier": null,
+    "firstIdentifier": null
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/operations/B30EEEE8049842EF9E9D2FA15A4C84C0/manufacturingVariants?offset=0&limit=100",
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/operations/B30EEEE8049842EF9E9D2FA15A4C84C0/manufacturingVariants?offset=0&limit=100",
+      "title": "First page"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/operations/B30EEEE8049842EF9E9D2FA15A4C84C0/manufacturingVariants?offset=0&limit=100",
+      "title": "Last page"
+    }
+  }
+}

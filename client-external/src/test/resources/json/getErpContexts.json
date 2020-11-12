@@ -1,0 +1,65 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 2,
+    "limit" : 3,
+    "count" : 2,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "erpContexts" : [ {
+      "properties" : {
+        "id" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "type" : "PLANT",
+        "identifier3" : "9000",
+        "identifier2" : "9000",
+        "identifier1" : "100",
+        "systemNumber" : "1"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "4ca712a78a2b4cf58fa5a79544707e37",
+        "type" : "PERSONNEL_AREA",
+        "identifier3" : "9000",
+        "identifier2" : "9000",
+        "identifier1" : "100",
+        "systemNumber" : "1"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts?offset=0&limit=3",
+      "embeddable" : false
+    }
+  }
+}

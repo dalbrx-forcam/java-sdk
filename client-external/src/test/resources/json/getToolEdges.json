@@ -1,0 +1,394 @@
+{
+  "pagination": {
+    "offset": 0,
+    "total": 20,
+    "count": 20,
+    "limit": 100,
+    "lastIdentifier": null,
+    "firstIdentifier": null
+  },
+  "_embedded": {
+    "edges": [
+      {
+        "properties": {
+          "id": "9BC5AB58A81E4A108213527FBF8A8B20",
+          "identifier": "455877842",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/9BC5AB58A81E4A108213527FBF8A8B20",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "446E271255EF4C6A85149B64D78B3135",
+          "identifier": "15717594",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/446E271255EF4C6A85149B64D78B3135",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "2EE70BBBD72C484AA1C8105658326999",
+          "identifier": "693944258",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/2EE70BBBD72C484AA1C8105658326999",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "AA998D3263A64997AC0A1EFD0BA65C32",
+          "identifier": "-1441316254",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/AA998D3263A64997AC0A1EFD0BA65C32",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "5CC907AF680B466C929DA499068ABC1E",
+          "identifier": "-1013586735",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/5CC907AF680B466C929DA499068ABC1E",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "10982EAECD0F4949B88AED4E9E0414FE",
+          "identifier": "1276285799",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/10982EAECD0F4949B88AED4E9E0414FE",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "F31B40C953914F5E9BD2B2E2A042DC78",
+          "identifier": "1041471205",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/F31B40C953914F5E9BD2B2E2A042DC78",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "5E9BAD05E39942BEBFC9C5E2A608B522",
+          "identifier": "-282128207",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/5E9BAD05E39942BEBFC9C5E2A608B522",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "74D7C34840FB488EA8AF4132083B9BA4",
+          "identifier": "-427869796",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/74D7C34840FB488EA8AF4132083B9BA4",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "F06B1609717F401E8AFAC7B668F7027E",
+          "identifier": "697286725",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/F06B1609717F401E8AFAC7B668F7027E",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "362F8A9D6BDF4DD7B255286C6EA7CD4E",
+          "identifier": "-1342905325",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/362F8A9D6BDF4DD7B255286C6EA7CD4E",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "187BAA2685464423AA9FBD17AAF6736F",
+          "identifier": "998637413",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/187BAA2685464423AA9FBD17AAF6736F",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "87523E6718624268A0D1B93FAE94130F",
+          "identifier": "475189990",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/87523E6718624268A0D1B93FAE94130F",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "E427E1DD19984A618F1BC8D5C8227EC8",
+          "identifier": "90396132",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/E427E1DD19984A618F1BC8D5C8227EC8",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "7CFD5A42F45E4E55A20A270796963899",
+          "identifier": "-1031749032",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/7CFD5A42F45E4E55A20A270796963899",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "9F007D145FB94BF2B54A14FF790BBF7F",
+          "identifier": "-179326383",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/9F007D145FB94BF2B54A14FF790BBF7F",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "3B18B8DC354E425A9AC8F5F6A17413BB",
+          "identifier": "524219018",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/3B18B8DC354E425A9AC8F5F6A17413BB",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "67D0B29AA5664DD19B99B47D54BE9155",
+          "identifier": "-939304297",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/67D0B29AA5664DD19B99B47D54BE9155",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "8AAFD39CCF444A0B8CF800DEE9D493A7",
+          "identifier": "1426881527",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/8AAFD39CCF444A0B8CF800DEE9D493A7",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "F2E9BEE00A0E4767916501C2275083BF",
+          "identifier": "-1277614440",
+          "lifeTime": {
+            "current": 1000,
+            "warningLimit": 5000,
+            "maximum": 10000
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/F2E9BEE00A0E4767916501C2275083BF",
+            "embeddable": false
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges?offset=0&limit=100",
+      "embeddable": false,
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges?offset=0&limit=100",
+      "embeddable": false,
+      "title": "First page"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges?offset=0&limit=100",
+      "embeddable": false,
+      "title": "Last page"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "setupReduction": 0.0,
+    "processAvailability": null,
+    "performance": 0.0,
+    "quality": 0.0,
+    "productionProcessRatio": 0.0,
+    "ope": 0.0,
+    "schedulingEfficiency": 0.988333
+  },
+  "_links": {
+    "self": {
+      "embeddable": false,
+      "href": "http://ffwebservices:24080/ffwebservices/api/v2/reports/overallEquipmentEfficiency",
+      "method": "GET"
+    }
+  }
+}

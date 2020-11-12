@@ -1,0 +1,203 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 1,
+    "limit" : 3,
+    "count" : 1,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "machines" : [ {
+      "properties" : {
+        "id" : "9D218CAD17DD4E8EAE5CE68A76269685",
+        "number" : "M100",
+        "description" : "MA100",
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "workplaceId" : "C0E399EE92C946FBA0B38E5002B51C91",
+        "machineStateId" : "DOWNTIME"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/machines/9D218CAD17DD4E8EAE5CE68A76269685?embed=workplace,description,erpContext",
+          "embeddable" : false
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+          "embeddable" : false
+        },
+        "workplace" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/A138F8661C8D4E9582B65D2325168900",
+          "embeddable" : false
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "A138F8661C8D4E9582B65D2325168900",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "MA100"
+            }, {
+              "language" : "en-US",
+              "translation" : "MA100"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "??100"
+            }, {
+              "language" : "en-GB",
+              "translation" : "MA100"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/A138F8661C8D4E9582B65D2325168900",
+              "embeddable" : false
+            }
+          }
+        },
+        "erpContext" : {
+          "properties" : {
+            "id" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "type" : "PLANT",
+            "identifier3" : "9000",
+            "identifier2" : "9000",
+            "identifier1" : "100",
+            "systemNumber" : "1"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : false
+            }
+          }
+        },
+        "workplace" : {
+          "properties" : {
+            "id" : "C0E399EE92C946FBA0B38E5002B51C91",
+            "number" : "100",
+            "description" : "Workplace100",
+            "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "capacityGroup" : null,
+            "productionLine" : null,
+            "operatingState" : {
+              "id" : "00F07058355F4FD59E2E39C2B79AD0EE",
+              "description" : "Undefined stoppage",
+              "code" : "999",
+              "workplaceStateId" : "DOWNTIME"
+            },
+            "isManualWorkplace" : false
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+              "embeddable" : false
+            },
+            "workplaces" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces",
+              "embeddable" : false
+            },
+            "erpContext" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : true
+            },
+            "description" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/BBCAC995EB37423CB92FE3361163E47B",
+              "embeddable" : true
+            },
+            "devices" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/devices/169901",
+              "embeddable" : true
+            },
+            "shifts" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=C0E399EE92C946FBA0B38E5002B51C91",
+              "embeddable" : false
+            },
+            "recordedOperatingStates" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOperatingStates",
+              "embeddable" : false
+            },
+            "recordedOutputQuantities" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOutputQuantities",
+              "embeddable" : false
+            },
+            "quantitySummary" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/quantitySummary",
+              "embeddable" : false
+            },
+            "operatingStateSummary" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/operatingStateSummary",
+              "embeddable" : false
+            },
+            "scheduledOperatingTimes" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledOperatingTimes",
+              "embeddable" : false
+            },
+            "scheduledMaintenanceTimes" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledMaintenanceTimes",
+              "embeddable" : false
+            },
+            "recordedOperationPhases" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOperationPhases",
+              "embeddable" : false
+            },
+            "operatingState" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/00F07058355F4FD59E2E39C2B79AD0EE",
+              "embeddable" : true
+            },
+            "currentOperations" : [ ],
+            "location" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/location",
+              "embeddable" : true
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/machines?offset=0&limit=3&embed=workplace,description,erpContext",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/machines?offset=0&limit=3&embed=workplace,description,erpContext",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/machines?offset=0&limit=3&embed=workplace,description,erpContext",
+      "embeddable" : false
+    }
+  }
+}

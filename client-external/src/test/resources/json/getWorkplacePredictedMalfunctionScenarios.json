@@ -1,0 +1,48 @@
+{
+  "pagination": {
+    "offset": 0,
+    "total": 1,
+    "count": 1,
+    "limit": 100
+  },
+  "_embedded": {
+    "predictedMalfunctionScenarios": [
+      {
+        "properties": {
+          "id": "AF3BC3F3F6884540ACFCB053CF39241A",
+          "creator": "SYSTEM",
+          "creationDate": "2018-09-28T05:52:06.638Z",
+          "startDate": "2018-09-28T10:49:35.288Z",
+          "endDate": "2018-09-28T12:49:35.288Z"
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios/AF3BC3F3F6884540ACFCB053CF39241A"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios?offset=0&limit=100&startDate=2018-09-28T05:52:20.482Z"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios?offset=0&limit=100&startDate=2018-09-28T05:52:20.482Z"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios?offset=0&limit=100&startDate=2018-09-28T05:52:20.482Z"
+    },
+    "createMalfunctionScenario": {
+      "method": "POST",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios"
+    }
+  }
+}

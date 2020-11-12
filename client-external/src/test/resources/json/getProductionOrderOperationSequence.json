@@ -1,0 +1,149 @@
+{
+  "properties" : {
+    "elements" : [ {
+      "operation" : {
+        "id" : "5606DAC636BA4AAAA601FEED5229A1F8",
+        "number" : "0040",
+        "split" : "0",
+        "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "productionOrder" : {
+          "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+          "number" : "2001000100",
+          "split" : "0",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "material" : {
+            "number" : "299033455",
+            "description" : "TnT Flap",
+            "type" : null
+          },
+          "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+        },
+        "material" : {
+          "number" : "M-15223675",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "type" : null
+        },
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "sequenceNumber" : null
+      },
+      "predecessors" : [ {
+        "operationId" : "EB4B083CC03F4B64A8289D0066F25956",
+        "targetQueueTime" : 0,
+        "minimumSendAheadQuantity" : 0.0,
+        "minimumOffsetTime" : 0,
+        "minimumOverlapTime" : 0
+      } ],
+      "successors" : [ ]
+    }, {
+      "operation" : {
+        "id" : "343B43AC8A234F1886B9B417FF31B197",
+        "number" : "0030",
+        "split" : "0",
+        "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "productionOrder" : {
+          "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+          "number" : "2001000100",
+          "split" : "0",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "material" : {
+            "number" : "299033455",
+            "description" : "TnT Flap",
+            "type" : null
+          },
+          "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+        },
+        "material" : {
+          "number" : "M-15223675",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "type" : null
+        },
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "sequenceNumber" : null
+      },
+      "predecessors" : [ {
+        "operationId" : "3541262697C845229F31EB129FB5F940",
+        "targetQueueTime" : 0,
+        "minimumSendAheadQuantity" : 0.0,
+        "minimumOffsetTime" : 0,
+        "minimumOverlapTime" : 0
+      } ],
+      "successors" : [ {
+        "operationId" : "B5C48A83172745E7AB6A322367DFC853",
+        "targetWaitTime" : 0,
+        "targetMoveTime" : 0
+      } ]
+    }, {
+      "operation" : {
+        "id" : "3541262697C845229F31EB129FB5F940",
+        "number" : "0020",
+        "split" : "0",
+        "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "productionOrder" : {
+          "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+          "number" : "2001000100",
+          "split" : "0",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "material" : {
+            "number" : "299033455",
+            "description" : "TnT Flap",
+            "type" : null
+          },
+          "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+        },
+        "material" : {
+          "number" : "M-15223675",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "type" : null
+        },
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "sequenceNumber" : null
+      },
+      "predecessors" : [ {
+        "operationId" : "E2D9838CD7EF4FE48D1E60652FE80E46",
+        "targetQueueTime" : 0,
+        "minimumSendAheadQuantity" : 0.0,
+        "minimumOffsetTime" : 0,
+        "minimumOverlapTime" : 0
+      } ],
+      "successors" : [ {
+        "operationId" : "343B43AC8A234F1886B9B417FF31B197",
+        "targetWaitTime" : 0,
+        "targetMoveTime" : 0
+      } ]
+    } ]
+  },
+  "pagination" : {
+    "offset" : 0,
+    "total" : 6,
+    "count" : 3,
+    "limit" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/operationSequence?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/operationSequence?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/operationSequence?offset=3&limit=3",
+      "embeddable" : false,
+      "title" : "Last page"
+    },
+    "next" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/operationSequence?offset=3&limit=3",
+      "embeddable" : false,
+      "title" : "Next page"
+    }
+  }
+}

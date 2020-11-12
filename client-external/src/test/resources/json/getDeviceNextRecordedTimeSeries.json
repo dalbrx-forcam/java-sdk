@@ -1,0 +1,84 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "timestamp": "2018-09-16T00:19:56.881Z",
+        "value": "22854"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:55.878Z",
+        "value": "22852"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:54.876Z",
+        "value": "22850"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:53.878Z",
+        "value": "22848"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:52.877Z",
+        "value": "22846"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:51.878Z",
+        "value": "22844"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:50.872Z",
+        "value": "22842"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:49.875Z",
+        "value": "22840"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:48.870Z",
+        "value": "22838"
+      },
+      {
+        "timestamp": "2018-09-16T00:19:47.873Z",
+        "value": "22836"
+      }
+    ]
+  },
+  "pagination": {
+    "total": 67,
+    "count": 10,
+    "firstIdentifier": {
+      "timestamp": "2018-09-16T00:19:56.881Z"
+    },
+    "lastIdentifier": {
+      "timestamp": "2018-09-16T00:19:47.873Z"
+    },
+    "limit": 10
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices/417/recordedTimeSeries?paginationTimestamp=2018-09-16T00:19:57.875Z&endDate=2018-09-16T00:20:06.881Z&limit=10&tag=1&startDate=2018-09-16T00:18:27.779Z"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices/417/recordedTimeSeries?paginationDirection=NEXT&endDate=2018-09-16T00:20:06.881Z&limit=10&tag=1&startDate=2018-09-16T00:18:27.779Z"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices/417/recordedTimeSeries?paginationDirection=PREVIOUS&endDate=2018-09-16T00:20:06.881Z&limit=10&tag=1&startDate=2018-09-16T00:18:27.779Z"
+    },
+    "next": {
+      "method": "GET",
+      "title": "Next page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices/417/recordedTimeSeries?paginationTimestamp=2018-09-16T00:19:47.873Z&paginationDirection=NEXT&endDate=2018-09-16T00:20:06.881Z&limit=10&tag=1&startDate=2018-09-16T00:18:27.779Z"
+    },
+    "prev": {
+      "method": "GET",
+      "title": "Previous page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices/417/recordedTimeSeries?paginationTimestamp=2018-09-16T00:19:56.881Z&paginationDirection=PREVIOUS&endDate=2018-09-16T00:20:06.881Z&limit=10&tag=1&startDate=2018-09-16T00:18:27.779Z"
+    }
+  }
+}

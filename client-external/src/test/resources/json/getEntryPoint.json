@@ -1,0 +1,64 @@
+{
+  "properties" : {
+    "version" : "v1",
+    "title" : "FORCAM FORCE Bridge API",
+    "license" : "Creative Commons Attribution-NoDerivs 3.0 Unported License."
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/",
+      "embeddable" : false
+    },
+    "documentation" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/swagger/index.html",
+      "embeddable" : false
+    },
+    "productionOrders" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders",
+      "embeddable" : false
+    },
+    "operations" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations",
+      "embeddable" : false
+    },
+    "workplaces" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces",
+      "embeddable" : false
+    },
+    "staffMembers" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers",
+      "embeddable" : false
+    },
+    "tools" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools",
+      "embeddable" : false
+    },
+    "workplaceGroups" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaceGroups",
+      "embeddable" : false
+    },
+    "devices" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/devices",
+      "embeddable" : false
+    },
+    "fileRepository" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository",
+      "embeddable" : false
+    },
+    "masterData" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData",
+      "embeddable" : false
+    }
+  }
+}

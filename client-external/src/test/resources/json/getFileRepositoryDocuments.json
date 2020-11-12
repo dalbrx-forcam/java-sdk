@@ -1,0 +1,191 @@
+{
+  "pagination" : {
+    "offset" : null,
+    "total" : 154,
+    "limit" : 2,
+    "count" : 2,
+    "lastIdentifier" : {
+      "timestamp" : "2019-01-18T12:59:21.588Z",
+      "identifier" : null
+    },
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-18T12:59:21.805Z",
+      "identifier" : null
+    }
+  },
+  "_embedded" : {
+    "documents" : [ {
+      "properties" : {
+        "id" : "C3F7DB749BB64E519BDAA50F595AF37B",
+        "name" : "",
+        "extension" : "",
+        "size" : 0,
+        "creator" : "SYSTEM",
+        "editor" : "SYSTEM",
+        "lastTransferToMachine" : null,
+        "lastTransferedFromWorkplaceId" : null,
+        "lastTransferedToWorkplaceId" : null,
+        "numberOfMachineTransfers" : 0,
+        "version" : 1,
+        "origin" : "CREATED_INTERNALLY",
+        "type" : "txt",
+        "creationDate" : "2019-01-18T12:59:21.805Z",
+        "documentStateId" : "NEW",
+        "lastChangedDate" : "2019-01-18T12:59:21.805Z"
+      },
+      "_embedded" : {
+        "ncState" : {
+          "properties" : {
+            "id" : "NEW",
+            "description" : "Report Default Filter",
+            "shortDescription" : null,
+            "code" : "50",
+            "color" : "RED"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/documentStates/NEW",
+              "embeddable" : false
+            }
+          }
+        },
+        "documentFolders" : [ {
+          "properties" : {
+            "id" : "B5D22AF054324921B365BBD5A062053B",
+            "name" : "TEST",
+            "creationDate" : "2019-01-18T12:59:21.774Z",
+            "editor" : "SYSTEM",
+            "lastChangeDate" : "2019-01-18T12:59:21.774Z",
+            "workplace" : null,
+            "material" : null,
+            "creator" : "SYSTEM"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/folders/B5D22AF054324921B365BBD5A062053B",
+              "embeddable" : false
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/documents/C3F7DB749BB64E519BDAA50F595AF37B?embed=ncState,documentFolders",
+          "embeddable" : false
+        },
+        "ncState" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/documentStates/NEW",
+          "embeddable" : false
+        },
+        "documentFolders" : [ {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/folders/B5D22AF054324921B365BBD5A062053B",
+          "embeddable" : false
+        } ]
+      }
+    }, {
+      "properties" : {
+        "id" : "398DE81EC71D4F71904FDD4C4129C349",
+        "name" : "",
+        "extension" : "",
+        "size" : 0,
+        "creator" : "SYSTEM",
+        "editor" : "SYSTEM",
+        "lastTransferToMachine" : null,
+        "lastTransferedFromWorkplaceId" : null,
+        "lastTransferedToWorkplaceId" : null,
+        "numberOfMachineTransfers" : 0,
+        "version" : 1,
+        "origin" : "CREATED_INTERNALLY",
+        "type" : "txt",
+        "creationDate" : "2019-01-18T12:59:21.588Z",
+        "documentStateId" : "NEW",
+        "lastChangedDate" : "2019-01-18T12:59:21.588Z"
+      },
+      "_embedded" : {
+        "ncState" : {
+          "properties" : {
+            "id" : "NEW",
+            "description" : "Report Default Filter",
+            "shortDescription" : null,
+            "code" : "50",
+            "color" : "RED"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/documentStates/NEW",
+              "embeddable" : false
+            }
+          }
+        },
+        "documentFolders" : [ {
+          "properties" : {
+            "id" : "7100EE63DA584B96BBE5AA799E8855F9",
+            "name" : "TEST",
+            "creationDate" : "2019-01-18T12:59:21.557Z",
+            "editor" : "SYSTEM",
+            "lastChangeDate" : "2019-01-18T12:59:21.557Z",
+            "workplace" : null,
+            "material" : null,
+            "creator" : "SYSTEM"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/folders/7100EE63DA584B96BBE5AA799E8855F9",
+              "embeddable" : false
+            }
+          }
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/documents/398DE81EC71D4F71904FDD4C4129C349?embed=ncState,documentFolders",
+          "embeddable" : false
+        },
+        "ncState" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/documentStates/NEW",
+          "embeddable" : false
+        },
+        "documentFolders" : [ {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/folders/7100EE63DA584B96BBE5AA799E8855F9",
+          "embeddable" : false
+        } ]
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/documents?paginationDirection=NEXT&limit=2&embed=ncState,documentFolders",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/documents?paginationDirection=NEXT&limit=2&embed=ncState,documentFolders",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/documents?paginationDirection=PREVIOUS&limit=2&embed=ncState,documentFolders",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/documents?paginationDirection=NEXT&paginationTimestamp=2019-01-18T12:59:21.588Z&limit=2&embed=ncState,documentFolders",
+      "embeddable" : false
+    }
+  }
+}

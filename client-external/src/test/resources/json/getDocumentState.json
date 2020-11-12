@@ -1,0 +1,78 @@
+{
+  "properties": {
+    "id": "LOCKED",
+    "description": "Locked",
+    "shortDescription": "LOCKED",
+    "code": "45",
+    "color": "#FF0000"
+  },
+  "_embedded": {
+    "description": {
+      "properties": {
+        "id": "093473FADDE14708B68AFA0A0338D018",
+        "translations": [
+          {
+            "language": "pl-PL",
+            "translation": "zablokowany"
+          },
+          {
+            "language": "de-DE",
+            "translation": "Gesperrt"
+          },
+          {
+            "language": "hu-HU",
+            "translation": "zárt"
+          },
+          {
+            "language": "en-US",
+            "translation": "Locked"
+          },
+          {
+            "language": "es-ES",
+            "translation": "bloqueado"
+          },
+          {
+            "language": "fr-FR",
+            "translation": "verrouillé"
+          },
+          {
+            "language": "zh-CN",
+            "translation": "已锁定"
+          },
+          {
+            "language": "ja-JP",
+            "translation": "ロックされた"
+          },
+          {
+            "language": "en-GB",
+            "translation": "Locked"
+          }
+        ]
+      },
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/literals/093473FADDE14708B68AFA0A0338D018",
+          "embeddable": false
+        }
+      }
+    }
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/masterData/documentStates/LOCKED?embed=description",
+      "embeddable": false
+    },
+    "description": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/literals/093473FADDE14708B68AFA0A0338D018",
+      "embeddable": false
+    },
+    "shortDescription": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/literals/1CF4CBA40CF5460883A562711EC05048",
+      "embeddable": false
+    }
+  }
+}

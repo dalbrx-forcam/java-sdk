@@ -1,0 +1,19 @@
+{
+  "properties" : {
+    "id" : "38EC63B772D344B88E649FEA070EAC34",
+    "name" : "TEST",
+    "creationDate" : "2019-01-18T12:59:21.423Z",
+    "editor" : "SYSTEM",
+    "lastChangeDate" : "2019-01-18T12:59:21.423Z",
+    "workplace" : null,
+    "material" : null,
+    "creator" : "SYSTEM"
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/folders/38EC63B772D344B88E649FEA070EAC34?embed=ncState",
+      "embeddable" : false
+    }
+  }
+}

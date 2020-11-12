@@ -1,0 +1,53 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "qualityDetailId": "0afd55b28c9f4a9ca006583c7e8d9718",
+        "bookingTime": "2018-07-20T07:34:06.747Z",
+        "quantity": 1,
+        "qualityTypeId": "SCRAP"
+      },
+      {
+        "qualityDetailId": "0afd55b28c9f4a9ca006583c7e8d9718",
+        "bookingTime": "2018-07-20T11:02:55.621Z",
+        "quantity": 1,
+        "qualityTypeId": "YIELD"
+      },
+      {
+        "qualityDetailId": "0afd55b28c9f4a9ca006583c7e8d9718",
+        "bookingTime": "2018-07-20T11:04:21.696Z",
+        "quantity": 1,
+        "qualityTypeId": "REWORK"
+      },
+      {
+        "qualityDetailId": "0afd55b28c9f4a9ca006583c7e8d9718",
+        "bookingTime": "2018-07-20T11:10:36.541Z",
+        "quantity": 1,
+        "qualityTypeId": "YIELD"
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 4,
+    "limit": 4,
+    "count": 4
+  },
+  "_links": {
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/0884DFECCB4A40C2BD465D1F1F908FCD/recordedOutputQuantities?offset=0&endDate=2018-07-20T11:14:24.859Z&limit=100&startDate=2018-07-15T22:00:00.000Z"
+    },
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/0884DFECCB4A40C2BD465D1F1F908FCD/recordedOutputQuantities?offset=0&endDate=2018-07-20T11:14:24.859Z&limit=100&startDate=2018-07-15T22:00:00.000Z"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/0884DFECCB4A40C2BD465D1F1F908FCD/recordedOutputQuantities?offset=0&endDate=2018-07-20T11:14:24.859Z&limit=100&startDate=2018-07-15T22:00:00.000Z"
+    }
+  }
+}

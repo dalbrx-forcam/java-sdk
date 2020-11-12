@@ -1,0 +1,74 @@
+{
+  "properties" : {
+    "id" : "E34CDBE615C84928B3180BE8C4BB50EB",
+    "name" : "",
+    "extension" : "",
+    "size" : 0,
+    "creator" : "SYSTEM",
+    "editor" : "SYSTEM",
+    "lastTransferToMachine" : null,
+    "lastTransferedFromWorkplaceId" : null,
+    "lastTransferedToWorkplaceId" : null,
+    "numberOfMachineTransfers" : 0,
+    "version" : 1,
+    "origin" : "CREATED_INTERNALLY",
+    "type" : "txt",
+    "creationDate" : "2019-01-18T12:59:20.789Z",
+    "documentStateId" : "NEW",
+    "lastChangedDate" : "2019-01-18T12:59:20.789Z"
+  },
+  "_embedded" : {
+    "ncState" : {
+      "properties" : {
+        "id" : "NEW",
+        "description" : null,
+        "shortDescription" : null,
+        "code" : "50",
+        "color" : "RED"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/documentStates/NEW",
+          "embeddable" : false
+        }
+      }
+    },
+    "documentFolders" : [ {
+      "properties" : {
+        "id" : "37302CFC020E46198CB5A0545F027821",
+        "name" : "TEST",
+        "creationDate" : "2019-01-18T12:59:20.691Z",
+        "editor" : "SYSTEM",
+        "lastChangeDate" : "2019-01-18T12:59:20.691Z",
+        "workplace" : null,
+        "material" : null,
+        "creator" : "SYSTEM"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/folders/37302CFC020E46198CB5A0545F027821",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/documents/E34CDBE615C84928B3180BE8C4BB50EB?embed=ncState,documentFolders",
+      "embeddable" : false
+    },
+    "ncState" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/documentStates/NEW",
+      "embeddable" : false
+    },
+    "documentFolders" : [ {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/folders/37302CFC020E46198CB5A0545F027821",
+      "embeddable" : false
+    } ]
+  }
+}

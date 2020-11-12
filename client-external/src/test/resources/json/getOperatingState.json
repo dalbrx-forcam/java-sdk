@@ -1,0 +1,141 @@
+{
+  "properties" : {
+    "id" : "2C60FD5CBF104E7E9039C1ED630D108A",
+    "description" : "Production",
+    "shortDescription" : "Production",
+    "code" : "000",
+    "color" : "#00CC84",
+    "workplaceStateId" : "PRODUCTION",
+    "operatingStateClassId" : null
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "5A8658FC94F34EA38C3CF1194AB30E7E",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Production"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Produktion"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Production"
+        }, {
+          "language" : "en-US",
+          "translation" : "Production"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Production"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Production"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "Production"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Production"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Production"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5A8658FC94F34EA38C3CF1194AB30E7E",
+          "embeddable" : false
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "6B3CAD23613A4C95A07B2459BFAA2CB2",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Production"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Produktion"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Production"
+        }, {
+          "language" : "en-US",
+          "translation" : "Production"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Production"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Production"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "Production"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Production"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Production"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/6B3CAD23613A4C95A07B2459BFAA2CB2",
+          "embeddable" : false
+        }
+      }
+    },
+    "workplaceState" : {
+      "properties" : {
+        "id" : "PRODUCTION",
+        "description" : "Production",
+        "shortDescription" : "Production",
+        "code" : "000",
+        "color" : "#00CC84"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/workplaceStates/PRODUCTION",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/EA2FBB9321424C6899B1572930BEC051",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/2082D474CF1845548F9C79FAF566FE23",
+          "embeddable" : true
+        }
+      }
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/2C60FD5CBF104E7E9039C1ED630D108A?embed=workplaceState,operatingStateClass,shortDescription,description",
+      "embeddable" : false
+    },
+    "workplaceState" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/workplaceStates/PRODUCTION",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5A8658FC94F34EA38C3CF1194AB30E7E",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/6B3CAD23613A4C95A07B2459BFAA2CB2",
+      "embeddable" : false
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 2,
+    "count" : 2,
+    "limit" : 3,
+    "firstIdentifier" : null,
+    "lastIdentifier" : null
+  },
+  "_embedded" : {
+    "customerSpecificSettings" : [ {
+      "properties" : {
+        "id" : "b",
+        "topic" : "123",
+        "value" : "vaöc",
+        "description" : "adasd"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/customerSpecificSettings/b",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "id",
+        "topic" : "top",
+        "value" : "va",
+        "description" : "desc"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/customerSpecificSettings/id",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/customerSpecificSettings?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/customerSpecificSettings?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/customerSpecificSettings?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "Last page"
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "pagination" : {
+    "offset" : null,
+    "total" : 4,
+    "count" : 4,
+    "limit" : 100,
+    "lastIdentifier" : {
+      "timestamp" : "2019-01-18T14:01:20.522Z",
+      "identifier" : null
+    },
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-21T13:34:40.572Z",
+      "identifier" : null
+    }
+  },
+  "_embedded" : {
+    "planningScenarios" : [ {
+      "properties" : {
+        "id" : "90B835D9E39945E4A03D066FE863A0F4",
+        "creator" : null,
+        "creationDate" : "2019-01-21T13:34:40.572Z",
+        "startDate" : "2019-01-21T13:34:49.596Z",
+        "endDate" : "2019-01-21T13:35:59.596Z",
+        "numberOfWorkplaces" : 1,
+        "scheduledOperatingTime" : 70000,
+        "plannedProcessingTime" : 5000,
+        "plannedExecutionTime" : 25000,
+        "numberOfPlannedProductionOrders" : 0,
+        "plannedLeadTime" : 0,
+        "minimumLeadTimeWithSetup" : 0,
+        "numberOfPartiallyPlannedProductionOrders" : 1,
+        "adherenceToDeliveryDates" : null,
+        "schedulingEfficiency" : null,
+        "occupancyRate" : 0.35714285714285715,
+        "setupReduction" : 0.2
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios/90B835D9E39945E4A03D066FE863A0F4",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "FC3A722014B549E08BCB00AFD11548D7",
+        "creator" : null,
+        "creationDate" : "2019-01-21T13:34:30.210Z",
+        "startDate" : "2019-01-21T13:34:39.098Z",
+        "endDate" : "2019-01-21T13:35:49.098Z",
+        "numberOfWorkplaces" : 1,
+        "scheduledOperatingTime" : 70000,
+        "plannedProcessingTime" : 5000,
+        "plannedExecutionTime" : 25000,
+        "numberOfPlannedProductionOrders" : 0,
+        "plannedLeadTime" : 0,
+        "minimumLeadTimeWithSetup" : 0,
+        "numberOfPartiallyPlannedProductionOrders" : 1,
+        "adherenceToDeliveryDates" : null,
+        "schedulingEfficiency" : null,
+        "occupancyRate" : 0.35714285714285715,
+        "setupReduction" : 0.2
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios/FC3A722014B549E08BCB00AFD11548D7",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "69A7AE40682E4A739EB276678A8702E3",
+        "creator" : null,
+        "creationDate" : "2019-01-18T14:01:32.021Z",
+        "startDate" : "2019-01-18T14:01:40.914Z",
+        "endDate" : "2019-01-18T14:02:50.914Z",
+        "numberOfWorkplaces" : 1,
+        "scheduledOperatingTime" : 70000,
+        "plannedProcessingTime" : 5000,
+        "plannedExecutionTime" : 25000,
+        "numberOfPlannedProductionOrders" : 0,
+        "plannedLeadTime" : 0,
+        "minimumLeadTimeWithSetup" : 0,
+        "numberOfPartiallyPlannedProductionOrders" : 1,
+        "adherenceToDeliveryDates" : null,
+        "schedulingEfficiency" : null,
+        "occupancyRate" : 0.35714285714285715,
+        "setupReduction" : 0.2
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios/69A7AE40682E4A739EB276678A8702E3",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "3410D2845A9B41D0B8CD2877E211AA08",
+        "creator" : null,
+        "creationDate" : "2019-01-18T14:01:20.522Z",
+        "startDate" : "2019-01-18T14:01:29.364Z",
+        "endDate" : "2019-01-18T14:02:39.364Z",
+        "numberOfWorkplaces" : 1,
+        "scheduledOperatingTime" : 70000,
+        "plannedProcessingTime" : 5000,
+        "plannedExecutionTime" : 25000,
+        "numberOfPlannedProductionOrders" : 0,
+        "plannedLeadTime" : 0,
+        "minimumLeadTimeWithSetup" : 0,
+        "numberOfPartiallyPlannedProductionOrders" : 1,
+        "adherenceToDeliveryDates" : null,
+        "schedulingEfficiency" : null,
+        "occupancyRate" : 0.35714285714285715,
+        "setupReduction" : 0.2
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios/3410D2845A9B41D0B8CD2877E211AA08",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios?paginationDirection=NEXT&limit=100&startDate=1970-01-01T00:00:00.000Z",
+      "embeddable" : false,
+      "title" : "The current page of this collection"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios?paginationDirection=NEXT&limit=100&startDate=1970-01-01T00:00:00.000Z",
+      "embeddable" : false,
+      "title" : "First page of this collection"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios?paginationDirection=PREVIOUS&limit=100&startDate=1970-01-01T00:00:00.000Z",
+      "embeddable" : false,
+      "title" : "Last page of this collection"
+    },
+    "createPlanningScenario" : {
+      "method" : "POST",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios",
+      "embeddable" : false
+    }
+  }
+}

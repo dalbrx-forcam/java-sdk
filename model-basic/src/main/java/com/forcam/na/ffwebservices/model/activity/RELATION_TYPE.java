@@ -1,0 +1,19 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// Created by DAlbrecht on 27.04.2018.
+//
+// Copyright (c) 2006 - 2018 FORCAM GmbH. All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+
+package com.forcam.na.ffwebservices.model.activity;
+
+/**
+ *
+ */
+public enum RELATION_TYPE {
+
+    TERMINAL,
+
+    WORKPLACE
+
+}

@@ -1,0 +1,275 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// Created by DAlbrecht on 01.02.2018.
+//
+// Copyright (c) 2006 - 2018 FORCAM GmbH. All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+package com.forcam.na.ffwebservices.model.event;
+
+import com.forcam.na.common.webserviceaccess.util.ToStringUtility;
+
+import java.util.Optional;
+
+/**
+ * The events.
+ */
+public enum Event {
+
+    // ------------------------------------------------------------------------
+    // enums
+    // ------------------------------------------------------------------------
+
+    COMMAND__OPERATION_PHASE(EventType.COMMAND, EventObjectType.OPERATION, "OPERATION_PHASE"),
+
+    COMMAND__OPERATION_QUANTITY(EventType.COMMAND, EventObjectType.OPERATION, "OPERATION_QUANTITY"),
+
+    COMMAND__MACHINE_STATE(EventType.COMMAND, EventObjectType.MACHINE, "MACHINE_STATE"),
+
+    COMMAND__MACHINE_COUNT(EventType.COMMAND, EventObjectType.MACHINE, "MACHINE_COUNT"),
+
+    COMMAND__WORKPLACE_SHIFT_STATE(EventType.COMMAND, EventObjectType.WORKPLACE, "WORKPLACE_SHIFT_STATE"),
+
+    COMMAND__WORKPLACE_PLANNED_MAINTENANCE_STATE(EventType.COMMAND, EventObjectType.WORKPLACE, "WORKPLACE_PLANNED_MAINTENANCE_STATE"),
+
+    COMMAND__WORKPLACE_MAINTENANCE_STATE(EventType.COMMAND, EventObjectType.WORKPLACE, "WORKPLACE_MAINTENANCE_STATE"),
+
+    COMMAND__WORKPLACE_MAINTENANCE_REQUEST(EventType.COMMAND, EventObjectType.WORKPLACE, "WORKPLACE_MAINTENANCE_REQUEST"),
+
+    INTERNAL__WORKPLACE_GROUP_MANUFACTURING_VARIANT_RULE_CREATED(EventType.MANUFACTURING_VARIANT_RULE_CREATED, EventObjectType.WORKPLACE_GROUP),
+
+    INTERNAL__WORKPLACE_GROUP_MANUFACTURING_VARIANT_RULE_UPDATED(EventType.MANUFACTURING_VARIANT_RULE_UPDATED, EventObjectType.WORKPLACE_GROUP),
+
+    INTERNAL__SETUP_TRANSITION_RULE_CREATED(EventType.SETUP_TRANSITION_RULE_CREATED, EventObjectType.WORKPLACE_GROUP),
+
+    INTERNAL__SETUP_TRANSITION_RULE_UPDATED(EventType.SETUP_TRANSITION_RULE_UPDATED, EventObjectType.WORKPLACE_GROUP),
+
+    INTERNAL__OPERATION_CREATED(EventType.OPERATION_CREATED, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_UPDATED(EventType.OPERATION_UPDATED, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_DELETED(EventType.OPERATION_DELETED, EventObjectType.OPERATION),
+
+    INTERNAL__PRODUCTION_ORDER_CREATED(EventType.PRODUCTION_ORDER_CREATED, EventObjectType.PRODUCTION_ORDER),
+
+    INTERNAL__PRODUCTION_ORDER_DELETED(EventType.PRODUCTION_ORDER_DELETED, EventObjectType.PRODUCTION_ORDER),
+
+    INTERNAL__PRODUCTION_ORDER_UPDATED(EventType.PRODUCTION_ORDER_UPDATED, EventObjectType.PRODUCTION_ORDER),
+
+    INTERNAL__WORKPLACE_CREATED(EventType.WORKPLACE_CREATED, EventObjectType.WORKPLACE),
+
+    INTERNAL__WORKPLACE_DELETED(EventType.WORKPLACE_DELETED, EventObjectType.WORKPLACE),
+
+    INTERNAL__WORKPLACE_UPDATED(EventType.WORKPLACE_UPDATED, EventObjectType.WORKPLACE),
+
+    INTERNAL__WORKPLACE_OPERATING_STATE_CHANGED(EventType.WORKPLACE_OPERATING_STATE_CHANGED, EventObjectType.WORKPLACE),
+
+    INTERNAL__STAFF_MEMBER_CREATED(EventType.STAFF_MEMBER_CREATED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__STAFF_MEMBER_DELETED(EventType.STAFF_MEMBER_DELETED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__STAFF_MEMBER_UPDATED(EventType.STAFF_MEMBER_UPDATED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__DOCUMENT_CREATED(EventType.DOCUMENT_CREATED, EventObjectType.DOCUMENT),
+
+    INTERNAL__DOCUMENT_DELETED(EventType.DOCUMENT_DELETED, EventObjectType.DOCUMENT),
+
+    INTERNAL__DOCUMENT_UPDATED(EventType.DOCUMENT_UPDATED, EventObjectType.DOCUMENT),
+
+    INTERNAL__TOOL_CREATED(EventType.TOOL_CREATED, EventObjectType.TOOL),
+
+    INTERNAL__TOOL_DELETED(EventType.TOOL_DELETED, EventObjectType.TOOL),
+
+    INTERNAL__TOOL_UPDATED(EventType.TOOL_UPDATED, EventObjectType.TOOL),
+
+    INTERNAL__TICKET_CREATED(EventType.TICKET_CREATED, EventObjectType.TICKET),
+
+    INTERNAL__TICKET_DELETED(EventType.TICKET_DELETED, EventObjectType.TICKET),
+
+    INTERNAL__TICKET_UPDATED(EventType.TICKET_UPDATED, EventObjectType.TICKET),
+
+    INTERNAL__TICKET_STATE_CHANGED(EventType.TICKET_STATE_CHANGED, EventObjectType.TICKET),
+
+    INTERNAL__TICKET_ATTACHMENT_CREATED(EventType.TICKET_ATTACHMENT_CREATED, EventObjectType.TICKET_ATTACHMENT),
+
+    INTERNAL__TICKET_ATTACHMENT_DELETED(EventType.TICKET_ATTACHMENT_DELETED, EventObjectType.TICKET_ATTACHMENT),
+
+    INTERNAL__TICKET_ATTACHMENT_UPDATED(EventType.TICKET_ATTACHMENT_UPDATED, EventObjectType.TICKET_ATTACHMENT),
+
+    INTERNAL__TICKET_ACTIVITY_CREATED(EventType.TICKET_ACTIVITY_CREATED, EventObjectType.TICKET_ACTIVITY),
+
+    INTERNAL__TICKET_ACTIVITY_DELETED(EventType.TICKET_ACTIVITY_DELETED, EventObjectType.TICKET_ACTIVITY),
+
+    INTERNAL__TICKET_ACTIVITY_UPDATED(EventType.TICKET_ACTIVITY_UPDATED, EventObjectType.TICKET_ACTIVITY),
+
+    INTERNAL__TICKET_ACTIVITY_STATE_CHANGED(EventType.TICKET_ACTIVITY_STATE_CHANGED, EventObjectType.TICKET_ACTIVITY),
+
+    INTERNAL__TICKET_ACTIVITY_ATTACHMENT_CREATED(EventType.TICKET_ACTIVITY_ATTACHMENT_CREATED, EventObjectType.TICKET_ACTIVITY_ATTACHMENT),
+
+    INTERNAL__TICKET_ACTIVITY_ATTACHMENT_DELETED(EventType.TICKET_ACTIVITY_ATTACHMENT_DELETED, EventObjectType.TICKET_ACTIVITY_ATTACHMENT),
+
+    INTERNAL__TICKET_ACTIVITY_ATTACHMENT_UPDATED(EventType.TICKET_ACTIVITY_ATTACHMENT_UPDATED, EventObjectType.TICKET_ACTIVITY_ATTACHMENT),
+
+    INTERNAL__TICKET_ACTIVITY_REMARK_CREATED(EventType.TICKET_ACTIVITY_REMARK_CREATED, EventObjectType.TICKET_ACTIVITY_REMARK),
+
+    INTERNAL__TICKET_ACTIVITY_REMARK_DELETED(EventType.TICKET_ACTIVITY_REMARK_DELETED, EventObjectType.TICKET_ACTIVITY_REMARK),
+
+    INTERNAL__TICKET_ACTIVITY_REMARK_UPDATED(EventType.TICKET_ACTIVITY_REMARK_UPDATED, EventObjectType.TICKET_ACTIVITY_REMARK),
+
+    INTERNAL__TOOL_ASSEMBLY_ORDER_STATE_CHANGED(EventType.TOOL_ASSEMBLY_ORDER_STATE_CHANGED, EventObjectType.TOOL_ASSEMBLY_ORDER),
+
+    INTERNAL__WORKPLACE_SHIFTS_UPDATED(EventType.WORKPLACE_SHIFTS_UPDATED, EventObjectType.WORKPLACE),
+
+    INTERNAL__SCHEDULED_MAINTENANCE_CREATED(EventType.SCHEDULED_MAINTENANCE_CREATED, EventObjectType.WORKPLACE),
+
+    INTERNAL__SCHEDULED_MAINTENANCE_DELETED(EventType.SCHEDULED_MAINTENANCE_DELETED, EventObjectType.WORKPLACE),
+
+    INTERNAL__SCHEDULED_MAINTENANCE_UPDATED(EventType.SCHEDULED_MAINTENANCE_UPDATED, EventObjectType.WORKPLACE),
+
+    INTERNAL__OPERATION_FORECAST_RESULT_CREATED(EventType.OPERATION_FORECAST_RESULT_CREATED, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_FORECAST_RESULT_UPDATED(EventType.OPERATION_FORECAST_RESULT_UPDATED, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_FORECAST_RESULT_DELETED(EventType.OPERATION_FORECAST_RESULT_DELETED, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_PLANNING_RESULT_CREATED(EventType.OPERATION_PLANNING_RESULT_CREATED, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_PLANNING_RESULT_DELETED(EventType.OPERATION_PLANNING_RESULT_DELETED, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_PLANNING_RESULT_UPDATED(EventType.OPERATION_PLANNING_RESULT_UPDATED, EventObjectType.OPERATION),
+
+    INTERNAL__OBSOLETE_OPERATION_FORECAST_RESULTS(EventType.OBSOLETE_OPERATION_FORECAST_RESULTS, EventObjectType.OPERATION),
+
+    INTERNAL__STAFF_MEMBER_PLANNING_RESULT_CREATED(EventType.STAFF_MEMBER_PLANNING_RESULT_CREATED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__STAFF_MEMBER_PLANNING_RESULT_DELETED(EventType.STAFF_MEMBER_PLANNING_RESULT_DELETED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__STAFF_MEMBER_PLANNING_RESULT_UPDATED(EventType.STAFF_MEMBER_PLANNING_RESULT_UPDATED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__PREDICTED_MALFUNCTION_SCENARIO_CREATED(EventType.PREDICTED_MALFUNCTION_SCENARIO_CREATED, EventObjectType.PREDICTED_MALFUNCTION_SCENARIO),
+
+    INTERNAL__OBSOLETE_PREDICTED_MALFUNCTION_SCENARIOS(EventType.OBSOLETE_PREDICTED_MALFUNCTION_SCENARIOS, EventObjectType.PREDICTED_MALFUNCTION_SCENARIO),
+
+    INTERNAL__OBSOLETE_OPERATION_PLANNING_SCENARIOS(EventType.OBSOLETE_OPERATION_PLANNING_SCENARIOS, EventObjectType.OPERATION),
+
+    INTERNAL__OPERATION_PLANNING_SCENARIO_CREATED(EventType.OPERATION_PLANNING_SCENARIO_CREATED, EventObjectType.OPERATION_PLANNING_SCENARIO),
+
+    INTERNAL__STAFF_MEMBER_PLANNING_SCENARIO_CREATED(EventType.STAFF_MEMBER_PLANNING_SCENARIO_CREATED, EventObjectType.STAFF_MEMBER_PLANNING_SCENARIO),
+
+    INTERNAL__WORKPLACE_SHIFT_CHANGE(EventType.WORKPLACE_SHIFT_CHANGED, EventObjectType.WORKPLACE),
+
+    INTERNAL__OPERATION_PHASE_CHANGE(EventType.OPERATION_PHASE_CHANGED, EventObjectType.OPERATION),
+
+    INTERNAL__STAFF_MEMBER_LOGIN_STATE_CHANGED(EventType.STAFF_MEMBER_LOGIN_STATE_CHANGED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__SETUP_TRANSITION_MATRIX_UPDATED(EventType.SETUP_TRANSITION_MATRIX_UPDATED, EventObjectType.WORKPLACE_GROUP),
+
+    INTERNAL__CUSTOMIZED_ACTION(EventType.CUSTOMIZED_ACTION_TRIGGERED, EventObjectType.NONE),
+
+    INTERNAL__CUSTOMIZED_ACTION_OPERATION(EventType.CUSTOMIZED_ACTION_TRIGGERED, EventObjectType.OPERATION),
+
+    INTERNAL__CUSTOMIZED_ACTION_WORKPLACE(EventType.CUSTOMIZED_ACTION_TRIGGERED, EventObjectType.WORKPLACE),
+
+    INTERNAL__CUSTOMIZED_ACTION_PRODUCTION_ORDER(EventType.CUSTOMIZED_ACTION_TRIGGERED, EventObjectType.PRODUCTION_ORDER),
+
+    INTERNAL__CUSTOMIZED_ACTION_DOCUMENT(EventType.CUSTOMIZED_ACTION_TRIGGERED, EventObjectType.DOCUMENT),
+
+    INTERNAL__CUSTOMIZED_ACTION_STAFF_MEMBER(EventType.CUSTOMIZED_ACTION_TRIGGERED, EventObjectType.STAFF_MEMBER),
+
+    INTERNAL__CUSTOMIZED_ACTION_TOOL(EventType.CUSTOMIZED_ACTION_TRIGGERED, EventObjectType.TOOL),
+
+    EXTERNAL__OPERATION_PRODUCTION_ORDER(EventType.EXTERNAL, EventObjectType.PRODUCTION_ORDER),
+
+    EXTERNAL__OPERATION(EventType.EXTERNAL, EventObjectType.OPERATION),
+
+    EXTERNAL__WORKPLACE(EventType.EXTERNAL, EventObjectType.WORKPLACE),
+
+    EXTERNAL__STAFF_MEMBER(EventType.EXTERNAL, EventObjectType.STAFF_MEMBER),
+
+    EXTERNAL__TOOL(EventType.EXTERNAL, EventObjectType.TOOL),
+
+    EXTERNAL__EMPTY(EventType.EXTERNAL, EventObjectType.NONE),
+
+    /** Process data rule violated workplace. */
+    PROCESS_DATA_RULE_VIOLATED_WORKPLACE(EventType.PROCESS_DATA_RULE_VIOLATED, EventObjectType.WORKPLACE),
+
+    /** Feedback to warehouse. */
+    FEEDBACK_TO_WAREHOUSE_EMPTY(EventType.FEEDBACK_TO_WAREHOUSE, EventObjectType.NONE),
+
+    /** Capability index violated workplace. */
+    CAPABILITY_INDEX_VIOLATED_WORKPLACE(EventType.CAPABILITY_INDEX_VIOLATED, EventObjectType.WORKPLACE),
+
+    /** Specification limit violated workplace. */
+    SPECIFICATION_LIMIT_VIOLATED_WORKPLACE(EventType.SPECIFICATION_LIMIT_VIOLATED, EventObjectType.WORKPLACE),
+
+    /** Statistical violated workplace */
+    STATISTICAL_VIOLATED_WORKPLACE(EventType.STATISTICAL_VIOLATED, EventObjectType.WORKPLACE);
+
+    // ------------------------------------------------------------------------
+    // members
+    // ------------------------------------------------------------------------
+
+    /** The event object type. */
+    private final EventObjectType mEventObjectType;
+    /** The event type of the event */
+    private final EventType mEventType;
+    /** The event name. */
+    private String mEventName;
+
+    // ------------------------------------------------------------------------
+    // constructor
+    // ------------------------------------------------------------------------
+
+    /**
+     * Creates a new instance.
+     *
+     * @param eventType       The event type.
+     * @param eventObjectType The event object type.
+     * @param eventName       The event name.
+     */
+    Event(EventType eventType, EventObjectType eventObjectType, String eventName) {
+        mEventType = eventType;
+        mEventObjectType = eventObjectType;
+        mEventName = eventName;
+    }
+
+    /**
+     * Creates a new instance.
+     *
+     * @param eventType       The event type.
+     * @param eventObjectType The event object type.
+     */
+    Event(EventType eventType, EventObjectType eventObjectType) {
+        mEventType = eventType;
+        mEventObjectType = eventObjectType;
+    }
+
+    // ------------------------------------------------------------------------
+    // methods
+    // ------------------------------------------------------------------------
+
+    @Override
+    public String toString() {
+        return ToStringUtility
+            .newToStringBuilder(this)
+            .append("mEventObjectType", mEventObjectType)
+            .append("mEventName", mEventName)
+            .append("mEventType", mEventType)
+            .toString();
+    }
+
+    // ------------------------------------------------------------------------
+    // getters/setters
+    // ------------------------------------------------------------------------
+
+    public EventType getEventType() {
+        return mEventType;
+    }
+
+    public Optional<String> getEventName() {
+        return Optional.ofNullable(mEventName);
+    }
+
+    public EventObjectType getEventObjectType() {
+        return mEventObjectType;
+    }
+}

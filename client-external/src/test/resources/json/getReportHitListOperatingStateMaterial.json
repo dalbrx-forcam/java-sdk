@@ -1,0 +1,134 @@
+{
+  "properties" : {
+    "elements" : [ {
+      "duration" : 4500000,
+      "operatingStateId" : "D4DA43A45EA642D7BE9AD74DD6D7B4C3",
+      "materialId" : "8B34A988530B4DADA361B89D602026F5",
+      "durationPercentage" : 0.058964,
+      "absoluteDurationPercentage" : 0.058964,
+      "frequency" : 0.416666
+    }, {
+      "duration" : 71817608,
+      "operatingStateId" : "B122EE769866418A8B9D71BC862CE477",
+      "materialId" : "8B34A988530B4DADA361B89D602026F5",
+      "durationPercentage" : 0.941035,
+      "absoluteDurationPercentage" : 0.941035,
+      "frequency" : 0.583333
+    } ]
+  },
+  "pagination" : {
+    "offset" : 0,
+    "total" : 2,
+    "count" : 2,
+    "limit" : 100,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/reports/hitListOperatingStatesMaterial?offset=0&limit=100",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/reports/hitListOperatingStatesMaterial?offset=0&limit=100",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/reports/hitListOperatingStatesMaterial?offset=0&limit=100",
+      "embeddable" : false
+    }
+  },
+  "_embedded" : {
+    "materials" : [ {
+      "properties" : {
+        "id" : "8B34A988530B4DADA361B89D602026F5",
+        "number" : "M-15223675",
+        "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+        "type" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/materials/8B34A988530B4DADA361B89D602026F5",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/2532382D80354C7CAC9647E6960372B3",
+          "embeddable" : true
+        }
+      }
+    } ],
+    "operatingStates" : [ {
+      "properties" : {
+        "id" : "D4DA43A45EA642D7BE9AD74DD6D7B4C3",
+        "description" : "Planned break",
+        "shortDescription" : "Planned break",
+        "code" : "993",
+        "color" : "#B6BABF",
+        "workplaceStateId" : null,
+        "operatingStateClassId" : "2BAF9DAED3B64800A1F1F641A1DE4EBB"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/D4DA43A45EA642D7BE9AD74DD6D7B4C3",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/F516AC25A313415F9C86CBD90DBFF5CB",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/6671A767A6024464A9833433092A013B",
+          "embeddable" : true
+        },
+        "operatingStateClass" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses/2BAF9DAED3B64800A1F1F641A1DE4EBB",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "B122EE769866418A8B9D71BC862CE477",
+        "description" : "Undefined stoppage",
+        "shortDescription" : "UNDEF",
+        "code" : "999",
+        "color" : "#662C7C",
+        "workplaceStateId" : "DOWNTIME",
+        "operatingStateClassId" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/B122EE769866418A8B9D71BC862CE477",
+          "embeddable" : false
+        },
+        "workplaceState" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/workplaceStates/DOWNTIME",
+          "embeddable" : true
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/E582E0AAAFF04969B10405C12FC34D53",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/3815FEC618174DD9BC797257C2A3E9FB",
+          "embeddable" : true
+        }
+      }
+    } ]
+  }
+}

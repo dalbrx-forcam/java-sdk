@@ -1,0 +1,62 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "workplaceId": "AAD64762680C4FEFBA291BD4A093AA5D",
+        "operationId": "252F5721F47E448AB368CA97015CBFD6",
+        "operationPhase": "E7FD713D554E40CA85DC99504F7EC0CE",
+        "timePeriod": {
+          "duration": 14103736,
+          "startDate": "2018-08-30T09:44:20.012Z",
+          "endDate": "2018-08-30T11:44:20.012Z"
+        },
+        "proportion": 1
+      },
+      {
+        "workplaceId": "AAD64762680C4FEFBA291BD4A093A45D",
+        "operationId": "252F5721F47E448AB368CA97015CBFD6",
+        "operationPhase": "E7FD713D554E40CA85DC99504F7EC0CE",
+        "timePeriod": {
+          "duration": 14103000,
+          "startDate": "2018-08-30T11:44:20.012Z",
+          "endDate": "2018-08-30T14:44:20.012Z"
+        },
+        "proportion": 1
+      },
+      {
+        "workplaceId": "091CBF4BB3B24876B82B1858BE7EA8E9",
+        "operationId": "7E5E673CF49C499B90F5531AC3D46AB2",
+        "operationPhase": "E7FD713D554E40CA85DC99504F7EC0CE",
+        "timePeriod": {
+          "duration": 13883339,
+          "startDate": "2018-08-30T15:48:00.426Z",
+          "endDate": "2018-08-30T17:44:20.012Z"
+        },
+        "proportion": 1
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 2,
+    "count": 2,
+    "limit": 100
+  },
+  "_links": {
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/staffMembers/815640EEB7C5486992ECC68E4C6BB1A1/recordedActivities?offset=0&endDate=2018-08-30T13:39:23.345Z&limit=100&startDate=2018-08-26T22:00:00.000Z",
+      "title": "Last page"
+    },
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/staffMembers/815640EEB7C5486992ECC68E4C6BB1A1/recordedActivities?offset=0&endDate=2018-08-30T13:39:23.345Z&limit=100&startDate=2018-08-26T22:00:00.000Z",
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/staffMembers/815640EEB7C5486992ECC68E4C6BB1A1/recordedActivities?offset=0&endDate=2018-08-30T13:39:23.345Z&limit=100&startDate=2018-08-26T22:00:00.000Z",
+      "title": "First page"
+    }
+  }
+}

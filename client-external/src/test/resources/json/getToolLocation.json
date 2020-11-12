@@ -1,0 +1,30 @@
+{
+  "properties" : {
+    "workplace" : {
+      "id" : "C0E399EE92C946FBA0B38E5002B51C91",
+      "number" : "100",
+      "description" : "Workplace100",
+      "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+    },
+    "magazineNumber" : 0,
+    "magazinePlace" : 0,
+    "geoCoordinates" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/location",
+      "embeddable" : false
+    },
+    "tool" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856",
+      "embeddable" : false
+    },
+    "workplace" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+      "embeddable" : true
+    }
+  }
+}

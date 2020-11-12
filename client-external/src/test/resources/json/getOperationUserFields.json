@@ -1,0 +1,125 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "value": "UF1 --> tempor invidunt ut labore et dolore",
+        "position": 1
+      },
+      {
+        "value": "UF2 --> tempor invidunt ut labore et dolore",
+        "position": 2
+      },
+      {
+        "value": "UF3 --> tempor invidunt ut labore et dolore",
+        "position": 3
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 50,
+    "count": 3,
+    "limit": 3
+  },
+  "_links": {
+    "next": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/userFields?offset=3&limit=3&embed=operation",
+      "title": "Next page"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/userFields?offset=48&limit=3&embed=operation",
+      "title": "Last page"
+    },
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/userFields?offset=0&limit=3&embed=operation",
+      "title": "The current page"
+    },
+    "operation": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/userFields?offset=0&limit=3&embed=operation",
+      "title": "First page"
+    }
+  },
+  "_embedded": {
+    "operation": {
+      "properties": {
+        "id": "735ABA4BACE74AEB90820BCF4B46DD02",
+        "operationPhaseId": "RELEASED",
+        "currentWorkplace": {
+          "id": "645A7F0310C54A1696B4E4D8F4014E61",
+          "number": "90340",
+          "erpContextId": "CF797FBFB4AE40AC9252AF2A4C6ECFF1"
+        },
+        "number": "0020",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "erpContextId": "CF797FBFB4AE40AC9252AF2A4C6ECFF1",
+        "split": "0",
+        "material": {
+          "number": "M-15223675",
+          "description": "AFTV-Vertikal-Kettenförderer VKF 600"
+        },
+        "productionOrder": {
+          "id": "CE3EFF230098479680AD0E84183291A9",
+          "number": "1001000100",
+          "description": "AFTV-Vertikal-Kettenförderer VKF 600",
+          "erpContextId": "CF797FBFB4AE40AC9252AF2A4C6ECFF1",
+          "split": "0",
+          "material": {
+            "number": "M-15223675",
+            "description": "AFTV-Vertikal-Kettenförderer VKF 600"
+          }
+        }
+      },
+      "_links": {
+        "productionResourcesAndTools": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/productionResourceTools"
+        },
+        "self": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02"
+        },
+        "description": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/literals/5893BB0D06714C0BB385D1E40D3A8DC2"
+        },
+        "specification": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/specification"
+        },
+        "operationPhase": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/masterData/operationPhases/RELEASED"
+        },
+        "erpContext": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/erpContexts/CF797FBFB4AE40AC9252AF2A4C6ECFF1"
+        },
+        "quantitySummary": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/quantitySummary"
+        },
+        "recordedOperatingStates": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/recordedOperatingStates"
+        },
+        "productionOrder": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v1/productionOrders/CE3EFF230098479680AD0E84183291A9"
+        },
+        "setOperationPhase": {
+          "method": "POST",
+          "href": "http://localhost:24080/ffwebservices/api/v1/operations/735ABA4BACE74AEB90820BCF4B46DD02/{operationPhaseId}",
+          "templated": true
+        }
+      }
+    }
+  }
+}

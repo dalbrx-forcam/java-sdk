@@ -1,0 +1,83 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 2,
+    "count" : 2,
+    "limit" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "machineStates" : [ {
+      "properties" : {
+        "id" : "DOWNTIME",
+        "description" : "Stoppage",
+        "shortDescription" : "Stoppage",
+        "code" : "1",
+        "color" : "#C60A44"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStates/DOWNTIME",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/51F7E1EE05F14E1FA275A8B756032ED2",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C84ECE041BD74626B18E8ACB76A53BFE",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "PRODUCTION",
+        "description" : "Production",
+        "shortDescription" : "Production",
+        "code" : "2",
+        "color" : "#00CC84"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStates/PRODUCTION",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/BC1E3702B32E468BB22223FC59EA437B",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CE29494086E04BF183EFF686F85F1FB8",
+          "embeddable" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStates?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStates?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStates?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "Last page"
+    }
+  }
+}

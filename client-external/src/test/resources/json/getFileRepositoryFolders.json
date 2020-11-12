@@ -1,0 +1,81 @@
+{
+  "pagination" : {
+    "offset" : null,
+    "total" : 210,
+    "limit" : 2,
+    "count" : 2,
+    "lastIdentifier" : {
+      "timestamp" : "2019-01-18T12:59:20.691Z",
+      "identifier" : null
+    },
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-18T12:59:20.904Z",
+      "identifier" : null
+    }
+  },
+  "_embedded" : {
+    "folders" : [ {
+      "properties" : {
+        "id" : "5C238FDB47974911A8222FE21042CD42",
+        "name" : "TEST",
+        "creationDate" : "2019-01-18T12:59:20.904Z",
+        "editor" : "SYSTEM",
+        "lastChangeDate" : "2019-01-18T12:59:20.904Z",
+        "workplace" : null,
+        "material" : null,
+        "creator" : "SYSTEM"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/folders/5C238FDB47974911A8222FE21042CD42?embed=ncState",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "37302CFC020E46198CB5A0545F027821",
+        "name" : "TEST",
+        "creationDate" : "2019-01-18T12:59:20.691Z",
+        "editor" : "SYSTEM",
+        "lastChangeDate" : "2019-01-18T12:59:20.691Z",
+        "workplace" : null,
+        "material" : null,
+        "creator" : "SYSTEM"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/folders/37302CFC020E46198CB5A0545F027821?embed=ncState",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/folders?paginationDirection=NEXT&limit=2&embed=ncState",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/folders?paginationDirection=NEXT&limit=2&embed=ncState",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/folders?paginationDirection=PREVIOUS&limit=2&embed=ncState",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/fileRepository/folders?paginationDirection=NEXT&paginationTimestamp=2019-01-18T12:59:20.691Z&limit=2&embed=ncState",
+      "embeddable" : false
+    }
+  }
+}

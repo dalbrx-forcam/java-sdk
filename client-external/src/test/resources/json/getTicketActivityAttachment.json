@@ -1,0 +1,44 @@
+{
+  "_embedded": {
+    "attachments": [
+      {
+        "properties": {
+          "id": "CFBD056034BD4E9BAC5355778DD1CAD6",
+          "name": "TestAttachment",
+          "editor": "Test Editor",
+          "description": "d3",
+          "creationDate": "2019-11-07T11:56:04.864Z",
+          "mimeType": "TEXT_HTML",
+          "size": 10213
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/attachments",
+            "embeddable": false
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/attachments?paginationDirection=NEXT&limit=100",
+      "embeddable": false,
+      "title": "The current page of this collection"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/attachments?paginationDirection=NEXT&limit=100",
+      "embeddable": false,
+      "title": "First page of this collection"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/attachments?paginationDirection=PREVIOUS&limit=100",
+      "embeddable": false,
+      "title": "Last page of this collection"
+    }
+  }
+}

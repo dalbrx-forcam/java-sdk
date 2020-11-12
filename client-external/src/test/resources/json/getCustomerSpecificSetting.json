@@ -1,0 +1,15 @@
+{
+  "properties" : {
+    "id" : "b",
+    "topic" : "123",
+    "value" : "vaöc",
+    "description" : "adasd"
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/customerSpecificSettings/b",
+      "embeddable" : false
+    }
+  }
+}

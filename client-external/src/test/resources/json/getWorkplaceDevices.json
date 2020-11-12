@@ -1,0 +1,147 @@
+{
+  "pagination": {
+    "offset": 0,
+    "total": 4,
+    "count": 4,
+    "limit": 100
+  },
+  "_embedded": {
+    "devices": [
+      {
+        "properties": {
+          "id": "417",
+          "name": "Welding 247",
+          "description": "Welding 247",
+          "recordedPhysicalQuantities": [
+            {
+              "tag": "1",
+              "name": "HV Demand"
+            },
+            {
+              "tag": "2",
+              "name": "Gun Vacuum"
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices/417"
+          },
+          "devices": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "418",
+          "name": "Temperaturen",
+          "description": "Temperaturen",
+          "recordedPhysicalQuantities": [
+            {
+              "tag": "1",
+              "name": "Temp1"
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices/418"
+          },
+          "devices": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "419",
+          "name": "Welding 247-2",
+          "description": "Welding 247-2",
+          "recordedPhysicalQuantities": [
+            {
+              "tag": "1",
+              "name": "HV Demand"
+            },
+            {
+              "tag": "2",
+              "name": "Gun Vacuum"
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices/419"
+          },
+          "devices": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "420",
+          "name": "Temperaturen",
+          "description": "Temperaturen",
+          "recordedPhysicalQuantities": [
+            {
+              "tag": "1",
+              "name": "Temp1"
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices/420"
+          },
+          "devices": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "devices": [
+      {
+        "method": "GET",
+        "href": "http://localhost:24080/ffwebservices/api/v1/devices/417"
+      },
+      {
+        "method": "GET",
+        "href": "http://localhost:24080/ffwebservices/api/v1/devices/418"
+      },
+      {
+        "method": "GET",
+        "href": "http://localhost:24080/ffwebservices/api/v1/devices/419"
+      },
+      {
+        "method": "GET",
+        "href": "http://localhost:24080/ffwebservices/api/v1/devices/420"
+      }
+    ],
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/08E6E35BF9FC42A7A88BBB043CB8A4B8/devices?offset=0&limit=100",
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/08E6E35BF9FC42A7A88BBB043CB8A4B8/devices?offset=0&limit=100",
+      "title": "First page"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/08E6E35BF9FC42A7A88BBB043CB8A4B8/devices?offset=0&limit=100",
+      "title": "Last page"
+    }
+  }
+}

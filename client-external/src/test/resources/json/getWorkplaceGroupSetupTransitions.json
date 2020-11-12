@@ -1,0 +1,48 @@
+{
+  "properties": {
+    "creationDate": "2018-12-04T13:18:03.452Z",
+    "elements": [
+      {
+        "predecessorMaterial": {
+          "number": "299033215"
+        },
+        "successorMaterial": {
+          "number": "M-15223675"
+        },
+        "setupTime": 49875
+      },
+      {
+        "predecessorMaterial": {
+          "number": "M-15223675"
+        },
+        "successorMaterial": {
+          "number": "M-15223675"
+        },
+        "setupTime": 49845
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 2,
+    "count": 2,
+    "limit": 2
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitions?offset=0&limit=100",
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitions?offset=0&limit=100",
+      "title": "First page"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitions?offset=0&limit=100",
+      "title": "Last page"
+    }
+  }
+}

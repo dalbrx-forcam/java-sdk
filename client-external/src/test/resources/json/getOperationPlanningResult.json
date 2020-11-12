@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "operationId": "operationId",
+    "workplaceId": "workplaceId",
+    "startDate": "2016-07-06T04:00:00.000Z",
+    "endDate": "2016-07-07T21:30:00.000Z",
+    "setupStartDate": "2018-03-05T23:00:00.000Z",
+    "setupEndDate": "2018-03-06T23:00:00.000Z",
+    "processingStartDate": "2018-03-05T23:00:00.000Z",
+    "processingEndDate": "2018-03-06T23:00:00.000Z",
+    "fixed": true
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/550CE9EA03934C968E9B43EA67F2AEA9/planningResult"
+    }
+  }
+}

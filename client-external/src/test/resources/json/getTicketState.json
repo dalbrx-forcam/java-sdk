@@ -1,0 +1,19 @@
+{
+  "properties" : {
+    "id" : "NEW",
+    "name" : "New",
+    "color" : "#ff0000"
+  },
+  "_links" : {
+    "name" : {
+      "method" : "GET",
+      "embeddable" : true,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/FDF4D554C0E748C5B2F62FF39A067BE0"
+    },
+    "self" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/ticketStates/NEW"
+    }
+  }
+}

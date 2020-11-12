@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "id": "C9559A213E34471E840234925EDE4BDE",
+    "objectFilter": [],
+    "eventType": "COMMAND",
+    "eventName": "OPERATION_PHASE",
+    "url": "http://www.beispielcallback.com",
+    "creationDate": "2019-01-16T15:43:47.234Z",
+    "maxRedeliveryAttempts": 1,
+    "maxUnconfirmedMessages": 1
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "embeddable": false,
+      "href": "http://localhost:24080/ffwebservices/api/v2/callbacks/C9559A213E34471E840234925EDE4BDE"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "properties" : {
+    "id" : "C0E399EE92C946FBA0B38E5002B51C91",
+    "number" : "100",
+    "description" : "Workplace100",
+    "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+    "capacityGroup" : {
+      "id" : "22FED9316B6E489CB2174D252AA68254",
+      "number" : "test",
+      "description" : "TEST",
+      "type" : "CAPACITY_GROUP",
+      "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+    },
+    "productionLine" : null,
+    "operatingState" : {
+      "id" : "4022D2948C98470FB4A66A3FB168F069",
+      "description" : "Production",
+      "code" : "000",
+      "workplaceStateId" : "PRODUCTION"
+    },
+    "isManualWorkplace" : false
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91?embed=machine,erpContext,"
+    },
+    "workplaces" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces"
+    },
+    "erpContext" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D"
+    },
+    "description" : {
+      "method" : "GET",
+      "embeddable" : true,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/BBCAC995EB37423CB92FE3361163E47B"
+    },
+    "devices" : {
+      "method" : "GET",
+      "embeddable" : true,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/devices/169901"
+    },
+    "shifts" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=C0E399EE92C946FBA0B38E5002B51C91"
+    },
+    "recordedOperatingStates" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOperatingStates"
+    },
+    "machine" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/machines/9D218CAD17DD4E8EAE5CE68A76269685"
+    },
+    "recordedOutputQuantities" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOutputQuantities"
+    },
+    "quantitySummary" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/quantitySummary"
+    },
+    "operatingStateSummary" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/operatingStateSummary"
+    },
+    "scheduledOperatingTimes" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledOperatingTimes"
+    },
+    "scheduledMaintenanceTimes" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledMaintenanceTimes"
+    },
+    "recordedOperationPhases" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOperationPhases"
+    },
+    "capacityGroup" : {
+      "method" : "GET",
+      "embeddable" : true,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/22FED9316B6E489CB2174D252AA68254"
+    },
+    "operatingState" : {
+      "method" : "GET",
+      "embeddable" : true,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/4022D2948C98470FB4A66A3FB168F069?embed=machine,erpContext,"
+    },
+    "currentOperations" : [ ],
+    "location" : {
+      "method" : "GET",
+      "embeddable" : true,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/location"
+    }
+  },
+  "_embedded" : {
+    "machine" : {
+      "properties" : {
+        "id" : "9D218CAD17DD4E8EAE5CE68A76269685",
+        "number" : "M100",
+        "description" : "MA100",
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "workplaceId" : "C0E399EE92C946FBA0B38E5002B51C91",
+        "machineStateId" : "PRODUCTION"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/machines/9D218CAD17DD4E8EAE5CE68A76269685"
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "embeddable" : true,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D"
+        },
+        "workplace" : {
+          "method" : "GET",
+          "embeddable" : true,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91"
+        },
+        "description" : {
+          "method" : "GET",
+          "embeddable" : true,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/A138F8661C8D4E9582B65D2325168900"
+        }
+      }
+    },
+    "erpContext" : {
+      "properties" : {
+        "id" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "type" : "PLANT",
+        "identifier1" : "100",
+        "identifier2" : "9000",
+        "identifier3" : "9000",
+        "systemNumber" : "1"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D"
+        }
+      }
+    }
+  }
+}

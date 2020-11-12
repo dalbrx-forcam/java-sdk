@@ -1,0 +1,38 @@
+{
+  "properties" : {
+    "elements" : [ ]
+  },
+  "pagination" : {
+    "offset" : null,
+    "total" : 0,
+    "count" : 0,
+    "limit" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/absenceTimes?paginationDirection=NEXT&limit=3&startDate=2019-01-20T00:00:00.000+0100",
+      "embeddable" : false,
+      "title" : "The current page of this collection"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/absenceTimes?paginationDirection=NEXT&limit=3&startDate=2019-01-20T00:00:00.000+0100",
+      "embeddable" : false,
+      "title" : "First page of this collection"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/absenceTimes?paginationDirection=PREVIOUS&limit=3&startDate=2019-01-20T00:00:00.000+0100",
+      "embeddable" : false,
+      "title" : "Last page of this collection"
+    },
+    "staffMember" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830",
+      "embeddable" : true
+    }
+  }
+}

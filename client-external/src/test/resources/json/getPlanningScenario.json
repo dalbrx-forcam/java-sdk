@@ -1,0 +1,60 @@
+{
+  "properties" : {
+    "id" : "CDC731870BBF406CB2E780FA2E978406",
+    "creator" : null,
+    "creationDate" : "2019-01-22T08:38:56.512Z",
+    "startDate" : "2019-01-22T08:39:05.409Z",
+    "endDate" : "2019-01-22T08:40:15.409Z",
+    "numberOfWorkplaces" : 1,
+    "scheduledOperatingTime" : 70000,
+    "plannedProcessingTime" : 5000,
+    "plannedExecutionTime" : 22226,
+    "numberOfPlannedProductionOrders" : 0,
+    "plannedLeadTime" : 0,
+    "minimumLeadTimeWithSetup" : 0,
+    "numberOfPartiallyPlannedProductionOrders" : 1,
+    "adherenceToDeliveryDates" : null,
+    "schedulingEfficiency" : null,
+    "occupancyRate" : 0.3175142857142857,
+    "setupReduction" : 0.22496175650139477,
+    "elements" : [ {
+      "operationId" : "5606DAC636BA4AAAA601FEED5229A1F8",
+      "workplaceId" : "C0E399EE92C946FBA0B38E5002B51C91",
+      "startDate" : "2019-01-22T08:39:02.635Z",
+      "endDate" : "2019-01-22T08:39:27.635Z",
+      "setupStartDate" : "2019-01-22T08:39:07.635Z",
+      "setupEndDate" : "2019-01-22T08:39:12.635Z",
+      "processingStartDate" : "2019-01-22T08:39:17.635Z",
+      "processingEndDate" : "2019-01-22T08:39:22.635Z",
+      "fixed" : false
+    } ]
+  },
+  "pagination" : {
+    "offset" : 0,
+    "total" : 1,
+    "count" : 1,
+    "limit" : 100,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios/CDC731870BBF406CB2E780FA2E978406?offset=0&limit=100",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios/CDC731870BBF406CB2E780FA2E978406?offset=0&limit=100",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios/CDC731870BBF406CB2E780FA2E978406?offset=0&limit=100",
+      "embeddable" : false,
+      "title" : "Last page"
+    }
+  }
+}

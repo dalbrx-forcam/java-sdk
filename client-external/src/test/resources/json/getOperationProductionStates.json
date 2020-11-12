@@ -1,0 +1,83 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "count" : 2,
+    "limit" : 3,
+    "total" : 2,
+    "firstIdentifier" : null,
+    "lastIdentifier" : null
+  },
+  "_embedded" : {
+    "operationProductionStates" : [ {
+      "properties" : {
+        "id" : "DOWNTIME",
+        "description" : "Stoppage",
+        "shortDescription" : "Stoppage",
+        "code" : "1",
+        "color" : "#C60A44"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v3/masterData/machineStates/DOWNTIME",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v3/literals/2D4831C52A54441CA1A397F0F5616FA8",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v3/literals/E925E501586341828736CD0A9F8CAFF7",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "PRODUCTION",
+        "description" : "Production",
+        "shortDescription" : "Production",
+        "code" : "2",
+        "color" : "#00CC84"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v3/masterData/machineStates/PRODUCTION",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v3/literals/3015366D4017480193948584A41B443A",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v3/literals/F65E750CF1DC4F419D8832330D99B9AF",
+          "embeddable" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v3/masterData/operationProductionStates?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v3/masterData/operationProductionStates?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v3/masterData/operationProductionStates?offset=0&limit=3",
+      "embeddable" : false
+    }
+  }
+}

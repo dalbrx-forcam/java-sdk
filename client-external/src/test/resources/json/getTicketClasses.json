@@ -1,0 +1,114 @@
+{
+  "pagination": {
+    "offset": 0,
+    "total": 1,
+    "count": 1,
+    "limit": 3,
+    "firstIdentifier": null,
+    "lastIdentifier": null
+  },
+  "_embedded": {
+    "ticketClasses": [
+      {
+        "properties": {
+          "id": "29EC6B9804B744ABAAAF3E13D86E1E63",
+          "shortDescription": "Comment",
+          "description": "Simple comment",
+          "sequence": 0,
+          "code": "1"
+        },
+        "_embedded": {
+          "description": {
+            "properties": {
+              "id": "7460F3A6789B4520BD0737328674FD2C",
+              "translations": [
+                {
+                  "language": "de-DE",
+                  "translation": "Bemerkung"
+                },
+                {
+                  "language": "en-US",
+                  "translation": "Comment"
+                },
+                {
+                  "language": "en-GB",
+                  "translation": "Comment"
+                }
+              ]
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "embeddable": false,
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/7460F3A6789B4520BD0737328674FD2C"
+              }
+            }
+          },
+          "shortDescription": {
+            "properties": {
+              "id": "7460F3A6789B4520BD0737328674FD21",
+              "translations": [
+                {
+                  "language": "de-DE",
+                  "translation": "Bemerkung"
+                },
+                {
+                  "language": "en-US",
+                  "translation": "Comment"
+                },
+                {
+                  "language": "en-GB",
+                  "translation": "Comment"
+                }
+              ]
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "embeddable": false,
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/7460F3A6789B4520BD0737328674FD2C"
+              }
+            }
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "embeddable": false,
+            "href": "http://localhost:24080/ffwebservices/api/v2/ticketClasses/29EC6B9804B744ABAAAF3E13D86E1E63?embed=shortDescription&embed=description"
+          },
+          "description": {
+            "method": "GET",
+            "embeddable": true,
+            "href": "http://localhost:24080/ffwebservices/api/v2/literals/7460F3A6789B4520BD0737328674FD2C"
+          },
+          "shortDescription": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/literals/76CFF831883E489690A5576D9BE7BB87",
+            "embeddable": true
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "embeddable": false,
+      "href": "http://localhost:24080/ffwebservices/api/v2/masterData/ticketClasses?offset=0&limit=3"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "embeddable": false,
+      "href": "http://localhost:24080/ffwebservices/api/v2/masterData/ticketClasses?offset=0&limit=3"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "embeddable": false,
+      "href": "http://localhost:24080/ffwebservices/api/v2/masterData/ticketClasses?offset=0&limit=3"
+    }
+  }
+}

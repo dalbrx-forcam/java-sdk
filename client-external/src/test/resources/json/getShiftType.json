@@ -1,0 +1,107 @@
+{
+  "properties" : {
+    "id" : "1D4120CC185346F7A6021845C09EB824",
+    "description" : "Nonworking shift 1",
+    "shortDescription" : "FS1",
+    "isWorkingShift" : false
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null?embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/E6CC1739C93446C598D3EECCA416E5F4",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/EB9C52D9FF3E4A33855826A110A69680",
+      "embeddable" : false
+    }
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "E6CC1739C93446C598D3EECCA416E5F4",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Nonworking shift 1"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Freischicht 1"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Nonworking shift 1"
+        }, {
+          "language" : "en-US",
+          "translation" : "Nonworking shift 1"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Turno libre 1"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "jour libre 1"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "第1空余班组"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Nonworking shift 1"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Nonworking shift 1"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/E6CC1739C93446C598D3EECCA416E5F4",
+          "embeddable" : false
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "EB9C52D9FF3E4A33855826A110A69680",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "FS1"
+        }, {
+          "language" : "de-DE",
+          "translation" : "FS1"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "FS1"
+        }, {
+          "language" : "en-US",
+          "translation" : "FS1"
+        }, {
+          "language" : "es-ES",
+          "translation" : "FS1"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "FS1"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "FS1"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "FS1"
+        }, {
+          "language" : "en-GB",
+          "translation" : "FS1"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/EB9C52D9FF3E4A33855826A110A69680",
+          "embeddable" : false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "properties": {
+    "id": "4605E004EE7C4E05936D40695DC804AE",
+    "staffMemberId": "51714551F1DB4EDD977DE9D97F001AF4",
+    "shift": {
+      "timePeriod": {
+        "startDate": "2019-01-17T09:53:00.000Z",
+        "endDate": "2019-01-17T17:53:00.000Z",
+        "duration": 28800000
+      },
+      "associatedDay": "2019-01-16T23:00:00.000Z",
+      "breaks": []
+    },
+    "shiftTypeId": "B2000D67169941CCAD650A552EB1317C"
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/shifts/4605E004EE7C4E05936D40695DC804AE?embed=staffMember,shiftType",
+      "embeddable": false
+    },
+    "shiftType": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null",
+      "embeddable": false
+    },
+    "staffMember": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4",
+      "embeddable": false
+    }
+  },
+  "_embedded": {
+    "shiftType": {
+      "properties": {
+        "id": "B2000D67169941CCAD650A552EB1317C",
+        "description": "First shift",
+        "shortDescription": "F",
+        "isWorkingShift": true
+      },
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null",
+          "embeddable": false
+        },
+        "description": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/literals/CFE58B7E9A754947AE66E37A9A8F2D51",
+          "embeddable": true
+        },
+        "shortDescription": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/literals/38342549F1B64BB2A39D56A2B7EB30AC",
+          "embeddable": true
+        }
+      }
+    },
+    "staffMember": {
+      "properties": {
+        "id": "51714551F1DB4EDD977DE9D97F001AF4",
+        "staffNumber": "54000001",
+        "firstName": "Gerd",
+        "lastName": "Schlotterheimer",
+        "erpContextId": "4ca712a78a2b4cf58fa5a79544707e37",
+        "identificationNumber": "5000002"
+      },
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4",
+          "embeddable": false
+        },
+        "erpContext": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+          "embeddable": true
+        },
+        "currentlyExecutedOperations": [],
+        "skills": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/skills",
+          "embeddable": true
+        },
+        "scheduledWorkingTimes": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/scheduledWorkingTimes",
+          "embeddable": false
+        },
+        "assignedWorkplaces": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/assignedWorkplace",
+          "embeddable": true
+        },
+        "location": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/location",
+          "embeddable": true
+        }
+      }
+    }
+  }
+}

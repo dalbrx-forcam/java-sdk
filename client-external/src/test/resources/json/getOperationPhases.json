@@ -1,0 +1,114 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 6,
+    "limit" : 3,
+    "count" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "operationPhases" : [ {
+      "properties" : {
+        "id" : "RELEASED",
+        "description" : "Released",
+        "shortDescription" : "Released",
+        "code" : "45",
+        "color" : "#FFFFFF"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases/RELEASED",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/093473FADDE14708B68AFA0A0338D018",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1CF4CBA40CF5460883A562711EC05048",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "COMPLETED",
+        "description" : "Completed",
+        "shortDescription" : "Completed",
+        "code" : "90",
+        "color" : "#FFFFFF"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases/COMPLETED",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/3A04B9B33618490DA5DC27E394FA42DC",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/ADBCAB9390B245B4909912051B5EEC55",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "SETUP",
+        "description" : "Setup",
+        "shortDescription" : "Setup",
+        "code" : "48",
+        "color" : "#AA7900"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases/SETUP",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/F6557BA606954025B60740D7464E3B2B",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/2729332617324CA9AD33E79902DE9DBD",
+          "embeddable" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases?offset=3&limit=3",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases?offset=3&limit=3",
+      "embeddable" : false
+    }
+  }
+}

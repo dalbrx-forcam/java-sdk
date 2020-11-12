@@ -1,0 +1,18 @@
+{
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/attachments",
+      "embeddable": false
+    }
+  },
+  "properties": {
+    "id": "CFBD056034BD4E9BAC5355778DD1CAD6",
+    "name": "TestAttachment",
+    "editor": "Test Editor",
+    "description": "d3",
+    "creationDate": "2019-11-07T11:56:04.864Z",
+    "mimeType": "TEXT_HTML",
+    "size": 10213
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "properties" : {
+    "earliestStartDate" : null,
+    "latestStartDate" : null,
+    "earliestEndDate" : null,
+    "latestEndDate" : null,
+    "scheduledStartDate" : null,
+    "scheduledEndDate" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/scheduledDates"
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "pagination": {
+    "offset": null,
+    "total": 3,
+    "count": 3,
+    "limit": 100,
+    "firstIdentifier": {
+      "timestamp": "2019-11-07T11:56:04.864Z",
+      "identifier": "CFBD056034BD4E9BAC5355778DD1CAD6"
+    },
+    "lastIdentifier": {
+      "timestamp": "2019-11-07T10:06:40.858Z",
+      "identifier": "EEAC8FFF9229490FAA3F752EE423770F"
+    }
+  },
+  "_embedded": {
+    "tickets": [
+      {
+        "properties": {
+          "id": "CFBD056034BD4E9BAC5355778DD1CAD6",
+          "number": "3",
+          "title": "t3",
+          "description": "d3",
+          "rootCause": "r3",
+          "priority": "VERY_HIGH",
+          "creationDate": "2019-11-07T11:56:04.864Z",
+          "operationId": null,
+          "material": null,
+          "workplace": {
+            "id": "75DE708E3215456A8829146FED901BA8",
+            "number": "90270",
+            "description": "B07",
+            "erpContextId": "37F432309B70482AB91056E2D3BE8478"
+          },
+          "shiftId": null
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tickets/CFBD056034BD4E9BAC5355778DD1CAD6",
+            "embeddable": false
+          },
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/75DE708E3215456A8829146FED901BA8",
+            "embeddable": true
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "E718FE1BAE0D4EA68239548864ABA7D2",
+          "number": "2",
+          "title": "2",
+          "description": "d2",
+          "rootCause": "r2",
+          "priority": "LOW",
+          "creationDate": "2019-11-07T11:52:59.610Z",
+          "operationId": null,
+          "material": null,
+          "workplace": null,
+          "shiftId": null
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tickets/E718FE1BAE0D4EA68239548864ABA7D2",
+            "embeddable": false
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "EEAC8FFF9229490FAA3F752EE423770F",
+          "number": "1",
+          "title": "testTitle",
+          "description": "Description",
+          "rootCause": "rootCause",
+          "priority": "LOW",
+          "creationDate": "2019-11-07T10:06:40.858Z",
+          "operationId": "E3C39A230B3C4DFAB3E20309B7452B51",
+          "material": {
+            "number": "M-15223675",
+            "description": "AFTV-Vertikal-Kettenförderer VKF 600",
+            "type": null
+          },
+          "workplace": {
+            "id": "75DE708E3215456A8829146FED901BA8",
+            "number": "90270",
+            "description": "B07",
+            "erpContextId": "37F432309B70482AB91056E2D3BE8478"
+          },
+          "shiftId": "2A1644DC41264EC7A33277735C17E9D3"
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F",
+            "embeddable": false
+          },
+          "operation": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/operations/E3C39A230B3C4DFAB3E20309B7452B51",
+            "embeddable": true
+          },
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/75DE708E3215456A8829146FED901BA8",
+            "embeddable": true
+          },
+          "shift": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts/2A1644DC41264EC7A33277735C17E9D3",
+            "embeddable": true
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets?paginationDirection=NEXT&limit=100",
+      "embeddable": false,
+      "title": "The current page of this collection"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets?paginationDirection=NEXT&limit=100",
+      "embeddable": false,
+      "title": "First page of this collection"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets?paginationDirection=PREVIOUS&limit=100",
+      "embeddable": false,
+      "title": "Last page of this collection"
+    }
+  }
+}

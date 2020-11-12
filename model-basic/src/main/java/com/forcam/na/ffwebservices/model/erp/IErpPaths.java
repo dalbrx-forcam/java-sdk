@@ -1,0 +1,16 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+// Created by DAlbrecht on 05.02.2020.
+//
+// Copyright (c) 2006 - 2020 FORCAM GmbH. All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+
+package com.forcam.na.ffwebservices.model.erp;
+
+/**
+ * Defines ERP API paths.
+ */
+public interface IErpPaths {
+
+    String ERP_DATA = "erpData";
+}

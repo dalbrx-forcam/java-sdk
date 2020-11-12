@@ -1,0 +1,216 @@
+{
+  "pagination": {
+    "total": 4,
+    "count": 3,
+    "limit": 3,
+    "lastIdentifier": {
+      "timestamp": "2018-11-29T22:48:00.000Z",
+      "identifier": "251178AB0B864346111BC45A7EB1FD66"
+    },
+    "firstIdentifier": {}
+  },
+  "_embedded": {
+    "planningResults": [
+      {
+        "properties": {
+          "elements": [
+            {
+              "staffMemberId": "FA9B83212C3A441887C0DEF214633890",
+              "staffMemberShiftId": "251178AB0B864346111BC45A7EB1FD44",
+              "workplaceId": "92AC18B5261F4F8D8A7EA3713238DED6",
+              "skillId": "84CFAD168848407F8FF768DEA804D222",
+              "workplaceShiftId": "D1EC5B912D074B4AB0B62657F00D2ED2",
+              "startDate": "2018-11-30T17:57:23.135Z",
+              "endDate": "2018-11-30T20:57:23.135Z",
+              "capacity": 0.5,
+              "fixed": true
+            },
+            {
+              "staffMemberId": "FA9B83212C3A441887C0DEF214633890",
+              "staffMemberShiftId": "251178AB0B864346111BC45A7EB1FD44",
+              "workplaceId": "92AC18B5261F4F8D8A7EA3713238DED6",
+              "skillId": "84CFAD168848407F8FF768DEA804D222",
+              "workplaceShiftId": "D1EC5B912D074B4AB0B62657F00D2ED2",
+              "startDate": "2018-11-30T17:57:23.135Z",
+              "endDate": "2018-11-30T20:57:23.135Z",
+              "capacity": 0.7,
+              "fixed": false
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD44/planningResult"
+          },
+          "staffMemberShift": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/shifts/251178AB0B864346111BC45A7EB1FD44"
+          },
+          "updateAssignments": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD44/planningResult"
+          },
+          "deleteAssignments": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD44/planningResult"
+          },
+          "workplace": [
+            {
+              "method": "GET",
+              "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/92AC18B5261F4F8D8A7EA3713238DED6"
+            }
+          ],
+          "skill": [
+            {
+              "method": "GET",
+              "href": "http://localhost:24080/ffwebservices/api/v2/masterData/skills/84CFAD168848407F8FF768DEA804D222"
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "elements": [
+            {
+              "staffMemberId": "FA9B83212C3A441887C0DEF214633890",
+              "staffMemberShiftId": "251178AB0B864346111BC45A7EB1FD55",
+              "workplaceId": "92AC18B5261F4F8D8A7EA3713238DED6",
+              "skillId": "84CFAD168848407F8FF768DEA804D222",
+              "workplaceShiftId": "8DC8E61D43854F6CA5013E5509007C25",
+              "startDate": "2018-11-30T09:57:23.135Z",
+              "endDate": "2018-11-30T12:57:23.135Z",
+              "capacity": 0.5,
+              "fixed": true
+            },
+            {
+              "staffMemberId": "FA9B83212C3A441887C0DEF214633890",
+              "staffMemberShiftId": "251178AB0B864346111BC45A7EB1FD55",
+              "workplaceId": "92AC18B5261F4F8D8A7EA3713238DED6",
+              "skillId": "84CFAD168848407F8FF768DEA804D222",
+              "workplaceShiftId": "8DC8E61D43854F6CA5013E5509007C25",
+              "startDate": "2018-11-30T09:57:23.135Z",
+              "endDate": "2018-11-30T12:57:23.135Z",
+              "capacity": 0.7,
+              "fixed": false
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD55/planningResult"
+          },
+          "staffMemberShift": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/shifts/251178AB0B864346111BC45A7EB1FD55"
+          },
+          "updateAssignments": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD55/planningResult"
+          },
+          "deleteAssignments": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD55/planningResult"
+          },
+          "workplace": [
+            {
+              "method": "GET",
+              "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/92AC18B5261F4F8D8A7EA3713238DED6"
+            }
+          ],
+          "skill": [
+            {
+              "method": "GET",
+              "href": "http://localhost:24080/ffwebservices/api/v2/masterData/skills/84CFAD168848407F8FF768DEA804D222"
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "elements": [
+            {
+              "staffMemberId": "FA9B83212C3A441887C0DEF214633890",
+              "staffMemberShiftId": "251178AB0B864346111BC45A7EB1FD66",
+              "workplaceId": "92AC18B5261F4F8D8A7EA3713238DED6",
+              "skillId": "84CFAD168848407F8FF768DEA804D222",
+              "workplaceShiftId": "6FBCE5F753514893A8AD4FEA3FF5FA0B",
+              "startDate": "2018-11-30T02:57:23.135Z",
+              "endDate": "2018-11-30T05:57:23.135Z",
+              "capacity": 0.5,
+              "fixed": true
+            },
+            {
+              "staffMemberId": "FA9B83212C3A441887C0DEF214633890",
+              "staffMemberShiftId": "251178AB0B864346111BC45A7EB1FD66",
+              "workplaceId": "92AC18B5261F4F8D8A7EA3713238DED6",
+              "skillId": "84CFAD168848407F8FF768DEA804D222",
+              "workplaceShiftId": "6FBCE5F753514893A8AD4FEA3FF5FA0B",
+              "startDate": "2018-11-30T02:57:23.135Z",
+              "endDate": "2018-11-30T05:57:23.135Z",
+              "capacity": 0.7,
+              "fixed": false
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD66/planningResult"
+          },
+          "staffMemberShift": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/shifts/251178AB0B864346111BC45A7EB1FD66"
+          },
+          "updateAssignments": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD66/planningResult"
+          },
+          "deleteAssignments": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/shifts/251178AB0B864346111BC45A7EB1FD66/planningResult"
+          },
+          "workplace": [
+            {
+              "method": "GET",
+              "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/92AC18B5261F4F8D8A7EA3713238DED6"
+            }
+          ],
+          "skill": [
+            {
+              "method": "GET",
+              "href": "http://localhost:24080/ffwebservices/api/v2/masterData/skills/84CFAD168848407F8FF768DEA804D222"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/planningResult?paginationDirection=NEXT&limit=3&startDate=2018-11-28T08:21:01.355Z",
+      "title": "The current page of this collection"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/planningResult?paginationDirection=NEXT&limit=3&startDate=2018-11-28T08:21:01.355Z",
+      "title": "First page of this collection"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/planningResult?paginationDirection=PREVIOUS&limit=3&startDate=2018-11-28T08:21:01.355Z",
+      "title": "Last page of this collection"
+    },
+    "next": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890/planningResult?paginationDirection=NEXT&paginationTimestamp=2018-11-29T22:48:00.000Z&limit=3&paginationIdentifier=251178AB0B864346111BC45A7EB1FD66&startDate=2018-11-28T08:21:01.355Z",
+      "title": "Next page of this collection"
+    },
+    "staffMember": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/FA9B83212C3A441887C0DEF214633890"
+    }
+  }
+}

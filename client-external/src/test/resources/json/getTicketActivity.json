@@ -1,0 +1,23 @@
+{
+  "_embedded": {
+    "activities": [
+      {
+        "properties": {
+          "id": "DFBD056034BD4E9BAC5355778DD1CAD7",
+          "title": "t3",
+          "description": "d3",
+          "editor": "e3",
+          "dueDate": "2019-11-07T11:56:04.864Z",
+          "ticketActivityStateId": "IN_PROGRESS"
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tickets/CFBD056034BD4E9BAC5355778DD1CAD6",
+            "embeddable": false
+          }
+        }
+      }
+    ]
+  }
+}

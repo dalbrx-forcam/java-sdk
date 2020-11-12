@@ -1,0 +1,541 @@
+{
+  "pagination": {
+    "offset": 0,
+    "total": 10,
+    "count": 3,
+    "limit": 3,
+    "lastIdentifier": null,
+    "firstIdentifier": null
+  },
+  "_embedded": {
+    "tools": [
+      {
+        "properties": {
+          "id": "1EB0877C591848CA9915083104B2B856",
+          "name": "Planfräser-WSP D66",
+          "description": null,
+          "identifier1": "CLGR-M0310-MILLFACE",
+          "identifier2": "M0310",
+          "identifier3": "01",
+          "toolStateId": "A",
+          "documentUrl": "http://www.forcam.com",
+          "group": {
+            "name": "OCTOMILL",
+            "identifier": "03"
+          },
+          "class": {
+            "name": "FRÄSER KONISCH-BOHRUNG",
+            "identifier": "M02"
+          },
+          "lifeTime": {
+            "current": 0,
+            "warningLimit": 0,
+            "maximum": 0
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856?embed=workplace,description",
+            "embeddable": false
+          },
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+            "embeddable": false
+          },
+          "description": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/literals/7636CFD9852E441FA090971C7E3105D9",
+            "embeddable": false
+          },
+          "edges": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges",
+            "embeddable": true
+          },
+          "location": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/location",
+            "embeddable": true
+          }
+        },
+        "_embedded": {
+          "description": {
+            "properties": {
+              "id": "7636CFD9852E441FA090971C7E3105D9",
+              "translations": [
+                {
+                  "language": "de-DE",
+                  "translation": "SK50-NCT63-ZYLS27-Walter"
+                }
+              ]
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/7636CFD9852E441FA090971C7E3105D9",
+                "embeddable": false
+              }
+            }
+          },
+          "workplace": {
+            "properties": {
+              "id": "C0E399EE92C946FBA0B38E5002B51C91",
+              "number": "100",
+              "description": "Workplace100",
+              "erpContextId": "BF0268C3CAFD4430B85485FB35FEE00D",
+              "capacityGroup": null,
+              "productionLine": null,
+              "operatingState": {
+                "id": "00F07058355F4FD59E2E39C2B79AD0EE",
+                "description": "Undefined stoppage",
+                "code": "999",
+                "workplaceStateId": "DOWNTIME"
+              },
+              "isManualWorkplace": false
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+                "embeddable": false
+              },
+              "workplaces": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces",
+                "embeddable": false
+              },
+              "erpContext": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+                "embeddable": true
+              },
+              "description": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/BBCAC995EB37423CB92FE3361163E47B",
+                "embeddable": true
+              },
+              "devices": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/devices/169901",
+                "embeddable": true
+              },
+              "shifts": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=C0E399EE92C946FBA0B38E5002B51C91",
+                "embeddable": false
+              },
+              "recordedOperatingStates": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOperatingStates",
+                "embeddable": false
+              },
+              "recordedOutputQuantities": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOutputQuantities",
+                "embeddable": false
+              },
+              "quantitySummary": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/quantitySummary",
+                "embeddable": false
+              },
+              "operatingStateSummary": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/operatingStateSummary",
+                "embeddable": false
+              },
+              "scheduledOperatingTimes": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledOperatingTimes",
+                "embeddable": false
+              },
+              "scheduledMaintenanceTimes": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledMaintenanceTimes",
+                "embeddable": false
+              },
+              "recordedOperationPhases": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/recordedOperationPhases",
+                "embeddable": false
+              },
+              "operatingState": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/00F07058355F4FD59E2E39C2B79AD0EE",
+                "embeddable": true
+              },
+              "currentOperations": [],
+              "location": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/location",
+                "embeddable": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "4C46980D685C4D4597A8F99653E44976",
+          "name": "Bohrer-WSP D36 - 4xDc",
+          "description": null,
+          "identifier1": "CLGR-D0002-HOLEFLATDRILL",
+          "identifier2": "D0002",
+          "identifier3": "01",
+          "toolStateId": null,
+          "documentUrl": null,
+          "group": {
+            "name": "WPL-BOHRER",
+            "identifier": "04"
+          },
+          "class": {
+            "name": "BOHRER ALLGEMEIN",
+            "identifier": "D02"
+          },
+          "lifeTime": {
+            "current": 0,
+            "warningLimit": 0,
+            "maximum": 0
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/4C46980D685C4D4597A8F99653E44976?embed=workplace,description",
+            "embeddable": false
+          },
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB",
+            "embeddable": false
+          },
+          "description": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/literals/4CCE319D97DE42F48F24E9A6520322BC",
+            "embeddable": false
+          },
+          "edges": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/4C46980D685C4D4597A8F99653E44976/edges",
+            "embeddable": true
+          },
+          "location": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/4C46980D685C4D4597A8F99653E44976/location",
+            "embeddable": true
+          }
+        },
+        "_embedded": {
+          "description": {
+            "properties": {
+              "id": "4CCE319D97DE42F48F24E9A6520322BC",
+              "translations": [
+                {
+                  "language": "de-DE",
+                  "translation": "HSK-AC63-CAPTO C5 - Coromant"
+                }
+              ]
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/4CCE319D97DE42F48F24E9A6520322BC",
+                "embeddable": false
+              }
+            }
+          },
+          "workplace": {
+            "properties": {
+              "id": "3E226D43042E494E95ED0211E97DECDB",
+              "number": "90270",
+              "description": "B07",
+              "erpContextId": "BF0268C3CAFD4430B85485FB35FEE00D",
+              "capacityGroup": null,
+              "productionLine": null,
+              "operatingState": {
+                "id": "F2ACEE75368D4BF9AD4AD264BEB03E8F",
+                "description": "Free capacity inside of shift",
+                "code": "992",
+                "workplaceStateId": "DOWNTIME"
+              },
+              "isManualWorkplace": false
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB",
+                "embeddable": false
+              },
+              "workplaces": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces",
+                "embeddable": false
+              },
+              "erpContext": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+                "embeddable": true
+              },
+              "description": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/8CF5F747351F4679B1D1D1F0CFEF73F4",
+                "embeddable": true
+              },
+              "devices": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/devices/169905",
+                "embeddable": true
+              },
+              "shifts": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=3E226D43042E494E95ED0211E97DECDB",
+                "embeddable": false
+              },
+              "recordedOperatingStates": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/recordedOperatingStates",
+                "embeddable": false
+              },
+              "recordedOutputQuantities": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/recordedOutputQuantities",
+                "embeddable": false
+              },
+              "quantitySummary": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/quantitySummary",
+                "embeddable": false
+              },
+              "operatingStateSummary": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/operatingStateSummary",
+                "embeddable": false
+              },
+              "scheduledOperatingTimes": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/scheduledOperatingTimes",
+                "embeddable": false
+              },
+              "scheduledMaintenanceTimes": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/scheduledMaintenanceTimes",
+                "embeddable": false
+              },
+              "recordedOperationPhases": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/recordedOperationPhases",
+                "embeddable": false
+              },
+              "operatingState": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/F2ACEE75368D4BF9AD4AD264BEB03E8F",
+                "embeddable": true
+              },
+              "currentOperations": [],
+              "location": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/location",
+                "embeddable": true
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "2A1EB0F1C55649C49CA4FF62F7BF00E5",
+          "name": "Gewindefurcher M8",
+          "description": null,
+          "identifier1": "CLGR-D0008-HOLETAPFORMER",
+          "identifier2": "",
+          "identifier3": "01",
+          "toolStateId": null,
+          "documentUrl": null,
+          "group": {
+            "name": "FURCHER METRISCH",
+            "identifier": "01"
+          },
+          "class": {
+            "name": "BOHRER GEWINDEFURCHER",
+            "identifier": "D14"
+          },
+          "lifeTime": {
+            "current": 0,
+            "warningLimit": 0,
+            "maximum": 0
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/2A1EB0F1C55649C49CA4FF62F7BF00E5?embed=workplace,description",
+            "embeddable": false
+          },
+          "workplace": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB",
+            "embeddable": false
+          },
+          "description": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/literals/FF4D1884528547329965B597AECC9E6B",
+            "embeddable": false
+          },
+          "edges": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/2A1EB0F1C55649C49CA4FF62F7BF00E5/edges",
+            "embeddable": true
+          },
+          "location": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tools/2A1EB0F1C55649C49CA4FF62F7BF00E5/location",
+            "embeddable": true
+          }
+        },
+        "_embedded": {
+          "description": {
+            "properties": {
+              "id": "FF4D1884528547329965B597AECC9E6B",
+              "translations": [
+                {
+                  "language": "de-DE",
+                  "translation": "HSK-AC 63-CAPTO C4-SWF-SWE 3-GEWB8- Coromant"
+                }
+              ]
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/FF4D1884528547329965B597AECC9E6B",
+                "embeddable": false
+              }
+            }
+          },
+          "workplace": {
+            "properties": {
+              "id": "3E226D43042E494E95ED0211E97DECDB",
+              "number": "90270",
+              "description": "B07",
+              "erpContextId": "BF0268C3CAFD4430B85485FB35FEE00D",
+              "capacityGroup": null,
+              "productionLine": null,
+              "operatingState": {
+                "id": "F2ACEE75368D4BF9AD4AD264BEB03E8F",
+                "description": "Free capacity inside of shift",
+                "code": "992",
+                "workplaceStateId": "DOWNTIME"
+              },
+              "isManualWorkplace": false
+            },
+            "_links": {
+              "self": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB",
+                "embeddable": false
+              },
+              "workplaces": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces",
+                "embeddable": false
+              },
+              "erpContext": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+                "embeddable": true
+              },
+              "description": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/literals/8CF5F747351F4679B1D1D1F0CFEF73F4",
+                "embeddable": true
+              },
+              "devices": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/devices/169905",
+                "embeddable": true
+              },
+              "shifts": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=3E226D43042E494E95ED0211E97DECDB",
+                "embeddable": false
+              },
+              "recordedOperatingStates": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/recordedOperatingStates",
+                "embeddable": false
+              },
+              "recordedOutputQuantities": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/recordedOutputQuantities",
+                "embeddable": false
+              },
+              "quantitySummary": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/quantitySummary",
+                "embeddable": false
+              },
+              "operatingStateSummary": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/operatingStateSummary",
+                "embeddable": false
+              },
+              "scheduledOperatingTimes": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/scheduledOperatingTimes",
+                "embeddable": false
+              },
+              "scheduledMaintenanceTimes": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/scheduledMaintenanceTimes",
+                "embeddable": false
+              },
+              "recordedOperationPhases": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/recordedOperationPhases",
+                "embeddable": false
+              },
+              "operatingState": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/F2ACEE75368D4BF9AD4AD264BEB03E8F",
+                "embeddable": true
+              },
+              "currentOperations": [],
+              "location": {
+                "method": "GET",
+                "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/3E226D43042E494E95ED0211E97DECDB/location",
+                "embeddable": true
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tools?offset=0&limit=3&embed=workplace,description",
+      "embeddable": false,
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tools?offset=0&limit=3&embed=workplace,description",
+      "embeddable": false,
+      "title": "First page"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tools?offset=9&limit=3&embed=workplace,description",
+      "embeddable": false,
+      "title": "Last page"
+    },
+    "next": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tools?offset=3&limit=3&embed=workplace,description",
+      "embeddable": false,
+      "title": "Next page"
+    }
+  }
+}

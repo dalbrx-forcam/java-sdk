@@ -1,0 +1,55 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "operationPhaseId": "PROCESSING",
+        "startDate": "2018-08-09T07:06:55.501Z",
+        "endDate": "2018-08-09T07:18:43.214Z",
+        "operationId": "048D43122D994F69A4BC5924E4479229",
+        "workplaceId": "505BA62858CC460FBA555D90047FA49E"
+      },
+      {
+        "operationPhaseId": "SETUP",
+        "startDate": "2018-08-09T07:06:41.924Z",
+        "endDate": "2018-08-09T07:06:53.790Z",
+        "operationId": "048D43122D994F69A4BC5924E4479229",
+        "workplaceId": "505BA62858CC460FBA555D90047FA49E"
+      },
+      {
+        "operationPhaseId": "INTERRUPTED",
+        "startDate": "2018-08-09T07:06:38.053Z",
+        "endDate": "2018-08-09T07:06:41.924Z",
+        "operationId": "048D43122D994F69A4BC5924E4479229",
+        "workplaceId": "505BA62858CC460FBA555D90047FA49E"
+      }
+    ],
+    "processingPhaseDuration": 1829768,
+    "setupPhaseDuration": 82216,
+    "occupancyTime": 1911984,
+    "endDate": "2018-08-09T07:18:43.214Z",
+    "startDate": "2018-08-09T07:06:38.053Z"
+  },
+  "pagination": {
+    "offset": 0,
+    "limit": 100,
+    "total": 9,
+    "count": 3
+  },
+  "_links": {
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/505BA62858CC460FBA555D90047FA49E/recordedOperationPhases?offset=0&limit=100",
+      "title": "Last page"
+    },
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/505BA62858CC460FBA555D90047FA49E/recordedOperationPhases?offset=0&limit=100",
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/505BA62858CC460FBA555D90047FA49E/recordedOperationPhases?offset=0&limit=100",
+      "title": "First page"
+    }
+  }
+}

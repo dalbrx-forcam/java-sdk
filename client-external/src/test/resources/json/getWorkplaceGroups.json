@@ -1,0 +1,88 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "count" : 1,
+    "total" : 1,
+    "limit" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "workplaceGroups" : [ {
+      "properties" : {
+        "id" : "22FED9316B6E489CB2174D252AA68254",
+        "number" : "test",
+        "description" : "TEST",
+        "type" : "CAPACITY_GROUP",
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/22FED9316B6E489CB2174D252AA68254?embed=workplaces,erpContext,description"
+        },
+        "description" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/2146EFDCB277466894F8708211C7F7BB"
+        },
+        "assignedWorkplaces" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/22FED9316B6E489CB2174D252AA68254/assignedWorkplaces"
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "2146EFDCB277466894F8708211C7F7BB",
+            "translations" : [ {
+              "language" : "es-ES",
+              "translation" : "TEST"
+            }, {
+              "language" : "de-DE",
+              "translation" : "TEST"
+            }, {
+              "language" : "en-US",
+              "translation" : "TEST"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "TEST"
+            }, {
+              "language" : "en-GB",
+              "translation" : "TEST"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/2146EFDCB277466894F8708211C7F7BB"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaceGroups?offset=0&limit=3&embed=workplaces,erpContext,description"
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaceGroups?offset=0&limit=3&embed=workplaces,erpContext,description"
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaceGroups?offset=0&limit=3&embed=workplaces,erpContext,description"
+    }
+  }
+}

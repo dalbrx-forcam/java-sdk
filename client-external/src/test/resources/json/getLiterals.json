@@ -1,0 +1,105 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 21789,
+    "count" : 3,
+    "limit" : 3,
+    "firstIdentifier" : null,
+    "lastIdentifier" : null
+  },
+  "_embedded" : {
+    "literals" : [ {
+      "properties" : {
+        "id" : "C192C944378E447C9CAA211CAECA6FC3",
+        "translations" : [ {
+          "language" : "de-DE",
+          "translation" : "Englisch (GB)"
+        }, {
+          "language" : "en-US",
+          "translation" : "English (GB)"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "英語"
+        }, {
+          "language" : "en-GB",
+          "translation" : "English (GB)"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C192C944378E447C9CAA211CAECA6FC3",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "692C1D2C8F9D42DBAB6011F0FDAE054C",
+        "translations" : [ {
+          "language" : "de-DE",
+          "translation" : "en-GB"
+        }, {
+          "language" : "en-US",
+          "translation" : "en-GB"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "en-GB"
+        }, {
+          "language" : "en-GB",
+          "translation" : "en-GB"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/692C1D2C8F9D42DBAB6011F0FDAE054C",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "5ECD3E726A7E44AABE30FE5E137CD3C4",
+        "translations" : [ {
+          "language" : "de-DE",
+          "translation" : "Deutsch"
+        }, {
+          "language" : "en-US",
+          "translation" : "German"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "德國"
+        }, {
+          "language" : "en-GB",
+          "translation" : "German"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5ECD3E726A7E44AABE30FE5E137CD3C4",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "Last page"
+    }
+  }
+}

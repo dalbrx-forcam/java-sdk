@@ -1,0 +1,25 @@
+{
+  "properties" : {
+    "id" : "C192C944378E447C9CAA211CAECA6FC3",
+    "translations" : [ {
+      "language" : "de-DE",
+      "translation" : "Englisch (GB)"
+    }, {
+      "language" : "en-US",
+      "translation" : "English (GB)"
+    }, {
+      "language" : "zh-CN",
+      "translation" : "英語"
+    }, {
+      "language" : "en-GB",
+      "translation" : "English (GB)"
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C192C944378E447C9CAA211CAECA6FC3",
+      "embeddable" : false
+    }
+  }
+}

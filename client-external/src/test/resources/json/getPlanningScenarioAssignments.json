@@ -1,0 +1,49 @@
+{
+  "pagination": {
+    "offset": 0,
+    "limit": 100,
+    "total": 2,
+    "count": 2
+  },
+  "properties": {
+    "elements": [
+      {
+        "operationId": "2F3C0A594E114C1F8D3DC9F3315268FF",
+        "endDate": "2018-05-14T08:14:00.000Z",
+        "startDate": "2018-05-14T08:14:00.000Z",
+        "processingEndDate": "2018-05-14T08:14:00.000Z",
+        "processingStartDate": "2018-05-14T08:14:00.000Z",
+        "setupStartDate": "2018-05-14T08:14:00.000Z",
+        "workplaceId": "E5E87CCBB075483384BE444181180893",
+        "setupEndDate": "2018-05-14T08:14:00.000Z"
+      },
+      {
+        "operationId": "2F3C0A594E114C1F8D3DC9F3315268FF",
+        "endDate": "2018-05-14T08:14:00.000Z",
+        "startDate": "2018-05-14T08:14:00.000Z",
+        "processingEndDate": "2018-05-14T08:14:00.000Z",
+        "processingStartDate": "2018-05-14T08:14:00.000Z",
+        "setupStartDate": "2018-05-14T08:14:00.000Z",
+        "workplaceId": "E5E87CCBB075483384BE444181180893",
+        "setupEndDate": "2018-05-14T08:14:00.000Z"
+      }
+    ]
+  },
+  "_links": {
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/planningScenario/100?offset=0&limit=100"
+    },
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/planningScenario/100?offset=0&limit=100"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/planningScenario/100?offset=0&limit=100"
+    }
+  }
+}

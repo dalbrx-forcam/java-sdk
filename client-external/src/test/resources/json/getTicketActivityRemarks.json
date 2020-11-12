@@ -1,0 +1,55 @@
+{
+  "pagination": {
+    "offset": null,
+    "total": 3,
+    "count": 1,
+    "limit": 100,
+    "firstIdentifier": {
+      "timestamp": "2019-11-07T11:56:04.864Z",
+      "identifier": "CFBD056034BD4E9BAC5355778DD1CAD6"
+    },
+    "lastIdentifier": {
+      "timestamp": "2019-11-07T10:06:40.858Z",
+      "identifier": "EEAC8FFF9229490FAA3F752EE423770F"
+    }
+  },
+  "_embedded": {
+    "remarks": [
+      {
+        "properties": {
+          "id": "CFBD056034BD4E9BAC5355778DD1CAD6",
+          "remark": "Test remarks",
+          "editor": "Test Editor",
+          "creationDate": "2019-11-07T11:56:04.864Z"
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/remarks",
+            "embeddable": false
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/remarks?paginationDirection=NEXT&limit=100",
+      "embeddable": false,
+      "title": "The current page of this collection"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/remarks?paginationDirection=NEXT&limit=100",
+      "embeddable": false,
+      "title": "First page of this collection"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/tickets/EEAC8FFF9229490FAA3F752EE423770F/activities/DFBD056034BD4E9BAC5355778DD1CAD7/remarks?paginationDirection=PREVIOUS&limit=100",
+      "embeddable": false,
+      "title": "Last page of this collection"
+    }
+  }
+}

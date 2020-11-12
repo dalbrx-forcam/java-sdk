@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.forcam.na.bridgeAPI</groupId>
+        <artifactId>bridgeAPI-client</artifactId>
+        <version>1.2.0</version>
+    </parent>
+    <artifactId>bridgeAPI-client.webserviceaccess</artifactId>
+    <version>1.2.0</version>
+    <name>FF: ${project.artifactId}</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.swagger</groupId>
+            <artifactId>swagger-annotations</artifactId>
+        </dependency>
+    </dependencies>
+</project>

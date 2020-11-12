@@ -1,0 +1,52 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "qualityTypeId": "SCRAP",
+        "bookingTime": "2018-05-28T13:20:27.505Z",
+        "qualityDetailId": "ade3252e87b04e8cb1e1259dcb28c894",
+        "quantity": 1
+      },
+      {
+        "qualityTypeId": "YIELD",
+        "bookingTime": "2018-05-28T13:20:27.505Z",
+        "qualityDetailId": "c764ec205bbb467fbfeec6cc17322e05",
+        "quantity": 3
+      },
+      {
+        "qualityTypeId": "SCRAP",
+        "bookingTime": "2018-05-28T13:20:27.505Z",
+        "qualityDetailId": "2baaed381f3b44348279319ecd5a2e1f",
+        "quantity": 4
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 87,
+    "limit": 3,
+    "count": 3
+  },
+  "_links": {
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/6F297ABA0CF6471EA55AB8C8201E6F56/recordedOutputQuantities?offset=3&limit=3",
+      "title": "Next page"
+    },
+    "prev": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/6F297ABA0CF6471EA55AB8C8201E6F56/recordedOutputQuantities?offset=84&limit=3",
+      "title": "Previous page"
+    },
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/6F297ABA0CF6471EA55AB8C8201E6F56/recordedOutputQuantities?offset=0&limit=3",
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/6F297ABA0CF6471EA55AB8C8201E6F56/recordedOutputQuantities?offset=0&limit=3",
+      "title": "First page"
+    }
+  }
+}

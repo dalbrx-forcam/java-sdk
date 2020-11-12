@@ -1,0 +1,67 @@
+{
+  "pagination" : {
+    "offset" : null,
+    "total" : 1,
+    "count" : 1,
+    "limit" : 2,
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-16T23:00:00.000Z",
+      "identifier" : null
+    },
+    "lastIdentifier" : {
+      "timestamp" : "2019-01-16T23:00:00.000Z",
+      "identifier" : null
+    }
+  },
+  "_embedded" : {
+    "planningScenarios" : [ {
+      "properties" : {
+        "id" : "8ED1C045841445BAB6201250917A48A5",
+        "creator" : "abc",
+        "creationDate" : "2019-01-16T23:00:00.000Z",
+        "startDate" : "2019-01-16T23:00:00.000Z",
+        "endDate" : "2019-01-16T23:00:00.000Z",
+        "operationsPlanningScenarioId" : "3410D2845A9B41D0B8CD2877E211AA08",
+        "numberOfPlannedStaffMembers" : 2,
+        "scheduledWorkingTime" : 2,
+        "occupancyTime" : 2,
+        "occupancyRate" : 2.5,
+        "numberOfWorkplaces" : 1,
+        "requirementOfStaffHours" : 2,
+        "coverageOfPersonnelRequirements" : 5.5
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/planningScenarios/8ED1C045841445BAB6201250917A48A5"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/planningScenarios?paginationDirection=NEXT&limit=2&startDate=1970-01-01T00:00:00.000Z",
+      "title" : "The current page of this collection"
+    },
+    "first" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/planningScenarios?paginationDirection=NEXT&limit=2&startDate=1970-01-01T00:00:00.000Z",
+      "title" : "First page of this collection"
+    },
+    "last" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/planningScenarios?paginationDirection=PREVIOUS&limit=2&startDate=1970-01-01T00:00:00.000Z",
+      "title" : "Last page of this collection"
+    },
+    "createPlanningScenario" : {
+      "method" : "POST",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/planningScenarios"
+    }
+  }
+}

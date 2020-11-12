@@ -1,0 +1,47 @@
+{
+  "properties" : {
+    "id" : "59555439DFC348249B614C54A80D5D2C",
+    "name" : "ToolTest Name",
+    "description" : "ToolTest Description",
+    "identifier1" : "376375670",
+    "identifier2" : "2037585391",
+    "identifier3" : "182489540",
+    "toolStateId" : null,
+    "documentUrl" : "ToolTest DocumentURL",
+    "group" : {
+      "name" : "ToolTest GroupName",
+      "identifier" : "ToolTest GroupIdentifier"
+    },
+    "class" : {
+      "name" : "ToolTest ClassName",
+      "identifier" : "ToolTest ClassIdentifier"
+    },
+    "lifeTime" : {
+      "current" : 0,
+      "warningLimit" : 0,
+      "maximum" : 0
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/59555439DFC348249B614C54A80D5D2C",
+      "embeddable" : false
+    },
+    "workplace" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+      "embeddable" : true
+    },
+    "edges" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/59555439DFC348249B614C54A80D5D2C/edges",
+      "embeddable" : true
+    },
+    "location" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/59555439DFC348249B614C54A80D5D2C/location",
+      "embeddable" : true
+    }
+  }
+}

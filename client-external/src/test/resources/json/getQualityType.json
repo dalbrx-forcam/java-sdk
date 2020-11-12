@@ -1,0 +1,107 @@
+{
+  "properties" : {
+    "id" : "YIELD",
+    "color" : "#00CC84",
+    "description" : "Yield",
+    "shortDescription" : "YIELD"
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "4391E8C0BD594077BBC44B4508873301",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Yield"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Gut"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Yield"
+        }, {
+          "language" : "en-US",
+          "translation" : "Yield"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Cantidad buena"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Bonne Quantité"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "合格产量"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Yield"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Yield"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/4391E8C0BD594077BBC44B4508873301",
+          "embeddable" : false
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "1D150A9267E143CC8C797F8AC78A7AB1",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "YIELD"
+        }, {
+          "language" : "de-DE",
+          "translation" : "GUT"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "YIELD"
+        }, {
+          "language" : "en-US",
+          "translation" : "YIELD"
+        }, {
+          "language" : "es-ES",
+          "translation" : "BUENA"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "BON"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "产量"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "YIELD"
+        }, {
+          "language" : "en-GB",
+          "translation" : "YIELD"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1D150A9267E143CC8C797F8AC78A7AB1",
+          "embeddable" : false
+        }
+      }
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/11896CE3F0C94A67924017A0B7E808C6?embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1D150A9267E143CC8C797F8AC78A7AB1",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/4391E8C0BD594077BBC44B4508873301",
+      "embeddable" : false
+    }
+  }
+}

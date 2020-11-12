@@ -1,0 +1,62 @@
+{
+  "properties": {
+    "id": "CC614325EBE04A86AFB449528ED10830",
+    "staffNumber": "54000000",
+    "firstName": "Marion",
+    "lastName": "Huber",
+    "erpContextId": "4ca712a78a2b4cf58fa5a79544707e37",
+    "identificationNumber": "5000001"
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830?embed=erpContext,",
+      "embeddable": false
+    },
+    "erpContext": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+      "embeddable": false
+    },
+    "currentlyExecutedOperations": [],
+    "skills": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/skills",
+      "embeddable": true
+    },
+    "scheduledWorkingTimes": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/scheduledWorkingTimes",
+      "embeddable": false
+    },
+    "assignedWorkplaces": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/assignedWorkplace",
+      "embeddable": true
+    },
+    "location": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/location",
+      "embeddable": true
+    }
+  },
+  "_embedded": {
+    "erpContext": {
+      "properties": {
+        "id": "4ca712a78a2b4cf58fa5a79544707e37",
+        "type": "PERSONNEL_AREA",
+        "identifier1": "100",
+        "identifier3": "9000",
+        "identifier2": "9000",
+        "systemNumber": "1"
+      },
+      "_links": {
+        "self": {
+          "method": "GET",
+          "href": "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+          "embeddable": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "pagination": {
+    "offset": 1,
+    "total": 4,
+    "count": 2,
+    "limit": 2
+  },
+  "_embedded": {
+    "devices": [
+      {
+        "properties": {
+          "id": "418",
+          "name": "Temperaturen",
+          "description": "Temperaturen",
+          "recordedPhysicalQuantities": [
+            {
+              "tag": "1",
+              "name": "Temp1"
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices/418"
+          },
+          "devices": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "419",
+          "name": "Welding 247-2",
+          "description": "Welding 247-2",
+          "recordedPhysicalQuantities": [
+            {
+              "tag": "1",
+              "name": "HV Demand"
+            },
+            {
+              "tag": "2",
+              "name": "Gun Vacuum"
+            }
+          ]
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices/419"
+          },
+          "devices": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v1/devices"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "devices": [
+      {
+        "method": "GET",
+        "href": "http://localhost:24080/ffwebservices/api/v1/devices/418"
+      },
+      {
+        "method": "GET",
+        "href": "http://localhost:24080/ffwebservices/api/v1/devices/419"
+      }
+    ],
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices?offset=1&limit=2"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices?offset=0&limit=2"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices?offset=2&limit=2"
+    },
+    "next": {
+      "method": "GET",
+      "title": "Next page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices?offset=3&limit=2"
+    }
+  }
+}

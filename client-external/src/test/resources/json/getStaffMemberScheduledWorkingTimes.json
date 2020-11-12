@@ -1,0 +1,54 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "startDate": "2018-11-14T03:30:00.000Z",
+        "endDate": "2018-11-14T10:00:00.000Z",
+        "duration": 23400000
+      },
+      {
+        "startDate": "2018-11-14T00:15:00.000Z",
+        "endDate": "2018-11-14T03:15:00.000Z",
+        "duration": 10800000
+      },
+      {
+        "startDate": "2018-11-13T21:00:00.000Z",
+        "endDate": "2018-11-14T00:00:00.000Z",
+        "duration": 10800000
+      }
+    ]
+  },
+  "pagination": {
+    "total": 7,
+    "count": 3,
+    "limit": 3,
+    "lastIdentifier": {
+      "timestamp": "2018-11-13T21:00:00.000Z"
+    },
+    "firstIdentifier": {
+      "timestamp": "2018-11-14T03:30:00.000Z"
+    }
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/A88EF73806114E37A26C734DD89C9B9A/scheduledWorkingTimes%2520?paginationDirection=NEXT&endDate=2018-11-14T11:00:00.000+0100&limit=3&startDate=2018-11-13T16:31:00.000+0100"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/A88EF73806114E37A26C734DD89C9B9A/scheduledWorkingTimes%2520?paginationDirection=NEXT&endDate=2018-11-14T11:00:00.000+0100&limit=3&startDate=2018-11-13T16:31:00.000+0100"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/A88EF73806114E37A26C734DD89C9B9A/scheduledWorkingTimes%2520?paginationDirection=PREVIOUS&endDate=2018-11-14T11:00:00.000+0100&limit=3&startDate=2018-11-13T16:31:00.000+0100"
+    },
+    "next": {
+      "method": "GET",
+      "title": "Next page of this collection",
+      "href": "http://localhost:24080/ffwebservices/api/v2/staffMembers/A88EF73806114E37A26C734DD89C9B9A/scheduledWorkingTimes%2520?paginationDirection=NEXT&paginationTimestamp=2018-11-13T21:00:00.000Z&endDate=2018-11-14T11:00:00.000+0100&limit=3&startDate=2018-11-13T16:31:00.000+0100"
+    }
+  }
+}

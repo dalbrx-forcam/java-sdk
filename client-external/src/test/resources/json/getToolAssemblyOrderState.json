@@ -1,0 +1,108 @@
+{
+  "properties" : {
+    "id" : "REQUESTED",
+    "description" : "Scheduled",
+    "shortDescription" : "Scheduled",
+    "code" : "46",
+    "color" : "#FFFFFF"
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "88047B6FA2B7479DAEAA9FF56DCA83B8",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Eingeplant"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "en-US",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "计划"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Scheduled"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/88047B6FA2B7479DAEAA9FF56DCA83B8",
+          "embeddable" : false
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "48A4486B7ACC46C0A57B353D9B30DA05",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Eingeplant"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "en-US",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "计划"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Scheduled"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Scheduled"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/48A4486B7ACC46C0A57B353D9B30DA05",
+          "embeddable" : false
+        }
+      }
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates/REQUESTED?embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/88047B6FA2B7479DAEAA9FF56DCA83B8",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/48A4486B7ACC46C0A57B353D9B30DA05",
+      "embeddable" : false
+    }
+  }
+}

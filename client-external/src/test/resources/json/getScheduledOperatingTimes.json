@@ -1,0 +1,57 @@
+{
+  "properties" : {
+    "elements" : [ {
+      "startDate" : "2019-01-31T03:30:00.000Z",
+      "endDate" : "2019-01-31T05:00:00.000Z",
+      "duration" : 5400000
+    }, {
+      "startDate" : "2019-01-31T00:15:00.000Z",
+      "endDate" : "2019-01-31T03:15:00.000Z",
+      "duration" : 10800000
+    }, {
+      "startDate" : "2019-01-30T19:30:00.000Z",
+      "endDate" : "2019-01-31T00:00:00.000Z",
+      "duration" : 16200000
+    } ]
+  },
+  "pagination" : {
+    "offset" : null,
+    "count" : 3,
+    "total" : 69,
+    "limit" : 3,
+    "lastIdentifier" : {
+      "timestamp" : "2019-01-30T19:30:00.000Z",
+      "identifier" : null
+    },
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-31T03:30:00.000Z",
+      "identifier" : null
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledOperatingTimes?paginationDirection=NEXT&endDate=2019-02-01T23:00:00.000Z&workplaceId=C0E399EE92C946FBA0B38E5002B51C91&limit=3&startDate=2019-01-19T23:00:00.000Z"
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledOperatingTimes?paginationDirection=NEXT&endDate=2019-02-01T23:00:00.000Z&workplaceId=C0E399EE92C946FBA0B38E5002B51C91&limit=3&startDate=2019-01-19T23:00:00.000Z"
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledOperatingTimes?paginationDirection=PREVIOUS&endDate=2019-02-01T23:00:00.000Z&workplaceId=C0E399EE92C946FBA0B38E5002B51C91&limit=3&startDate=2019-01-19T23:00:00.000Z"
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91/scheduledOperatingTimes?paginationTimestamp=2019-01-30T19:30:00.000Z&paginationDirection=NEXT&endDate=2019-02-01T23:00:00.000Z&workplaceId=C0E399EE92C946FBA0B38E5002B51C91&limit=3&startDate=2019-01-19T23:00:00.000Z"
+    }
+  }
+}

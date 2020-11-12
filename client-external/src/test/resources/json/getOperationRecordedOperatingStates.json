@@ -1,0 +1,75 @@
+{
+  "properties" : {
+    "elements" : [ {
+      "operatingState" : {
+        "id" : "723D64591F8D48CDACE64EC79AA90A80",
+        "description" : "Completed",
+        "code" : "11",
+        "workplaceStateId" : null
+      },
+      "timePeriod" : {
+        "startDate" : "2019-01-18T15:37:04.180Z",
+        "endDate" : "1970-01-01T00:00:00.000Z",
+        "duration" : -1547825824180
+      }
+    }, {
+      "operatingState" : {
+        "id" : "F8E5E7A0366E442B856ECFE74F147CCE",
+        "description" : "Not assigned",
+        "code" : "-",
+        "workplaceStateId" : null
+      },
+      "timePeriod" : {
+        "startDate" : "2019-01-18T14:01:15.781Z",
+        "endDate" : "2019-01-21T09:58:59.108Z",
+        "duration" : 244663327
+      }
+    }, {
+      "operatingState" : {
+        "id" : "723D64591F8D48CDACE64EC79AA90A80",
+        "description" : "Completed",
+        "code" : "11",
+        "workplaceStateId" : null
+      },
+      "timePeriod" : {
+        "startDate" : "2019-01-18T14:00:03.922Z",
+        "endDate" : "2019-01-18T14:01:15.781Z",
+        "duration" : 71859
+      }
+    } ]
+  },
+  "pagination" : {
+    "offset" : null,
+    "count" : 3,
+    "total" : 3,
+    "limit" : 3,
+    "lastIdentifier" : {
+      "timestamp" : "2019-01-18T14:00:03.922Z",
+      "identifier" : null
+    },
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-18T15:37:04.180Z",
+      "identifier" : null
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/recordedOperatingStates?paginationDirection=NEXT&endDate=2019-01-21T10:49:09.720Z&limit=3&embed=operatingState&startDate=1970-01-01T00:00:00.000Z",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/recordedOperatingStates?paginationDirection=NEXT&endDate=2019-01-21T10:49:09.720Z&limit=3&embed=operatingState&startDate=1970-01-01T00:00:00.000Z",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/recordedOperatingStates?paginationDirection=PREVIOUS&endDate=2019-01-21T10:49:09.720Z&limit=3&embed=operatingState&startDate=1970-01-01T00:00:00.000Z",
+      "embeddable" : false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "properties" : {
+    "id" : "EA97209FAF0C4F28935F6720365D55F4",
+    "identifier" : "-1910294026",
+    "lifeTime" : {
+      "current" : 1000,
+      "warningLimit" : 5000,
+      "maximum" : 10000
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/EA97209FAF0C4F28935F6720365D55F4",
+      "embeddable" : false
+    }
+  }
+}

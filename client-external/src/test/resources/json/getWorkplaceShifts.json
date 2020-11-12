@@ -1,0 +1,550 @@
+{
+  "pagination" : {
+    "offset" : null,
+    "count" : 3,
+    "total" : 374,
+    "limit" : 3,
+    "lastIdentifier" : {
+      "timestamp" : "2019-01-30T21:00:00.000Z",
+      "identifier" : "C4A9748AB22446FA89EB906FC029FE2B"
+    },
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-30T21:00:00.000Z",
+      "identifier" : "F7672CA98B1449B1883BF93122BBD190"
+    }
+  },
+  "_embedded" : {
+    "shifts" : [ {
+      "properties" : {
+        "id" : "F7672CA98B1449B1883BF93122BBD190",
+        "workplaceId" : "E12298093B1A4F548649A151C1A2A0C2",
+        "shift" : {
+          "timePeriod" : {
+            "startDate" : "2019-01-30T21:00:00.000Z",
+            "endDate" : "2019-01-31T05:00:00.000Z",
+            "duration" : 28800000
+          },
+          "associatedDay" : "2019-01-30T23:00:00.000Z",
+          "breaks" : [ {
+            "timePeriod" : {
+              "startDate" : "2019-01-31T00:00:00.000Z",
+              "endDate" : "2019-01-31T00:15:00.000Z",
+              "duration" : 900000
+            }
+          }, {
+            "timePeriod" : {
+              "startDate" : "2019-01-31T03:15:00.000Z",
+              "endDate" : "2019-01-31T03:30:00.000Z",
+              "duration" : 900000
+            }
+          } ]
+        },
+        "shiftTypeId" : "ECADE0BD0C5B4AE19C219D9B3282812D",
+        "isWorkingShift" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts/F7672CA98B1449B1883BF93122BBD190?embed=workplace,shiftType"
+        },
+        "shiftType" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null"
+        },
+        "workplace" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2"
+        }
+      },
+      "_embedded" : {
+        "shiftType" : {
+          "properties" : {
+            "id" : "ECADE0BD0C5B4AE19C219D9B3282812D",
+            "description" : "Third shift",
+            "shortDescription" : "T",
+            "isWorkingShift" : true
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null"
+            },
+            "description" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C96F0ED2144648848CCCE467B8426FE5"
+            },
+            "shortDescription" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/17ECF52912334FDEBE0DA19AEC75EE5C"
+            }
+          }
+        },
+        "workplace" : {
+          "properties" : {
+            "id" : "E12298093B1A4F548649A151C1A2A0C2",
+            "number" : "90640",
+            "description" : "DC500",
+            "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "capacityGroup" : null,
+            "productionLine" : null,
+            "operatingState" : {
+              "id" : "F2ACEE75368D4BF9AD4AD264BEB03E8F",
+              "description" : "Free capacity inside of shift",
+              "code" : "992",
+              "workplaceStateId" : "DOWNTIME"
+            },
+            "isManualWorkplace" : false
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2"
+            },
+            "workplaces" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces"
+            },
+            "erpContext" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D"
+            },
+            "description" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/F3E8757816F14765A61472DB579E659C"
+            },
+            "devices" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/devices/169909"
+            },
+            "shifts" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=E12298093B1A4F548649A151C1A2A0C2"
+            },
+            "recordedOperatingStates" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/recordedOperatingStates"
+            },
+            "recordedOutputQuantities" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/recordedOutputQuantities"
+            },
+            "quantitySummary" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/quantitySummary"
+            },
+            "operatingStateSummary" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/operatingStateSummary"
+            },
+            "scheduledOperatingTimes" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/scheduledOperatingTimes"
+            },
+            "scheduledMaintenanceTimes" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/scheduledMaintenanceTimes"
+            },
+            "recordedOperationPhases" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/recordedOperationPhases"
+            },
+            "operatingState" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/F2ACEE75368D4BF9AD4AD264BEB03E8F"
+            },
+            "currentOperations" : [ ],
+            "location" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/E12298093B1A4F548649A151C1A2A0C2/location"
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "DE36A723583B4614983F501D5C3190D9",
+        "workplaceId" : "F787C937390640D4B3201A89558A96D7",
+        "shift" : {
+          "timePeriod" : {
+            "startDate" : "2019-01-30T21:00:00.000Z",
+            "endDate" : "2019-01-31T05:00:00.000Z",
+            "duration" : 28800000
+          },
+          "associatedDay" : "2019-01-30T23:00:00.000Z",
+          "breaks" : [ {
+            "timePeriod" : {
+              "startDate" : "2019-01-31T00:00:00.000Z",
+              "endDate" : "2019-01-31T00:15:00.000Z",
+              "duration" : 900000
+            }
+          }, {
+            "timePeriod" : {
+              "startDate" : "2019-01-31T03:15:00.000Z",
+              "endDate" : "2019-01-31T03:30:00.000Z",
+              "duration" : 900000
+            }
+          } ]
+        },
+        "shiftTypeId" : "ECADE0BD0C5B4AE19C219D9B3282812D",
+        "isWorkingShift" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts/DE36A723583B4614983F501D5C3190D9?embed=workplace,shiftType"
+        },
+        "shiftType" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null"
+        },
+        "workplace" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7"
+        }
+      },
+      "_embedded" : {
+        "shiftType" : {
+          "properties" : {
+            "id" : "ECADE0BD0C5B4AE19C219D9B3282812D",
+            "description" : "Third shift",
+            "shortDescription" : "T",
+            "isWorkingShift" : true
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null"
+            },
+            "description" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C96F0ED2144648848CCCE467B8426FE5"
+            },
+            "shortDescription" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/17ECF52912334FDEBE0DA19AEC75EE5C"
+            }
+          }
+        },
+        "workplace" : {
+          "properties" : {
+            "id" : "F787C937390640D4B3201A89558A96D7",
+            "number" : "90520",
+            "description" : "MV02",
+            "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "capacityGroup" : null,
+            "productionLine" : null,
+            "operatingState" : {
+              "id" : "F2ACEE75368D4BF9AD4AD264BEB03E8F",
+              "description" : "Free capacity inside of shift",
+              "code" : "992",
+              "workplaceStateId" : "DOWNTIME"
+            },
+            "isManualWorkplace" : false
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7"
+            },
+            "workplaces" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces"
+            },
+            "erpContext" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D"
+            },
+            "description" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/A4E457D6C7D746DDA79C25EB2E28D92D"
+            },
+            "devices" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/devices/169908"
+            },
+            "shifts" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=F787C937390640D4B3201A89558A96D7"
+            },
+            "recordedOperatingStates" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/recordedOperatingStates"
+            },
+            "recordedOutputQuantities" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/recordedOutputQuantities"
+            },
+            "quantitySummary" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/quantitySummary"
+            },
+            "operatingStateSummary" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/operatingStateSummary"
+            },
+            "scheduledOperatingTimes" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/scheduledOperatingTimes"
+            },
+            "scheduledMaintenanceTimes" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/scheduledMaintenanceTimes"
+            },
+            "recordedOperationPhases" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/recordedOperationPhases"
+            },
+            "operatingState" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/F2ACEE75368D4BF9AD4AD264BEB03E8F"
+            },
+            "currentOperations" : [ ],
+            "location" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/F787C937390640D4B3201A89558A96D7/location"
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "C4A9748AB22446FA89EB906FC029FE2B",
+        "workplaceId" : "5FDAE742C6934AC1A355F8CB7CAB773B",
+        "shift" : {
+          "timePeriod" : {
+            "startDate" : "2019-01-30T21:00:00.000Z",
+            "endDate" : "2019-01-31T05:00:00.000Z",
+            "duration" : 28800000
+          },
+          "associatedDay" : "2019-01-30T23:00:00.000Z",
+          "breaks" : [ {
+            "timePeriod" : {
+              "startDate" : "2019-01-31T00:00:00.000Z",
+              "endDate" : "2019-01-31T00:15:00.000Z",
+              "duration" : 900000
+            }
+          }, {
+            "timePeriod" : {
+              "startDate" : "2019-01-31T03:15:00.000Z",
+              "endDate" : "2019-01-31T03:30:00.000Z",
+              "duration" : 900000
+            }
+          } ]
+        },
+        "shiftTypeId" : "ECADE0BD0C5B4AE19C219D9B3282812D",
+        "isWorkingShift" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts/C4A9748AB22446FA89EB906FC029FE2B?embed=workplace,shiftType"
+        },
+        "shiftType" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null"
+        },
+        "workplace" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B"
+        }
+      },
+      "_embedded" : {
+        "shiftType" : {
+          "properties" : {
+            "id" : "ECADE0BD0C5B4AE19C219D9B3282812D",
+            "description" : "Third shift",
+            "shortDescription" : "T",
+            "isWorkingShift" : true
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null"
+            },
+            "description" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C96F0ED2144648848CCCE467B8426FE5"
+            },
+            "shortDescription" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/17ECF52912334FDEBE0DA19AEC75EE5C"
+            }
+          }
+        },
+        "workplace" : {
+          "properties" : {
+            "id" : "5FDAE742C6934AC1A355F8CB7CAB773B",
+            "number" : "90340",
+            "description" : "MB04",
+            "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "capacityGroup" : null,
+            "productionLine" : null,
+            "operatingState" : {
+              "id" : "F2ACEE75368D4BF9AD4AD264BEB03E8F",
+              "description" : "Free capacity inside of shift",
+              "code" : "992",
+              "workplaceStateId" : "DOWNTIME"
+            },
+            "isManualWorkplace" : false
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B"
+            },
+            "workplaces" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces"
+            },
+            "erpContext" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D"
+            },
+            "description" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/07BF32A3DAB54B11A175EFABEBA0FDA8"
+            },
+            "devices" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/devices/169906"
+            },
+            "shifts" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=5FDAE742C6934AC1A355F8CB7CAB773B"
+            },
+            "recordedOperatingStates" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/recordedOperatingStates"
+            },
+            "recordedOutputQuantities" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/recordedOutputQuantities"
+            },
+            "quantitySummary" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/quantitySummary"
+            },
+            "operatingStateSummary" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/operatingStateSummary"
+            },
+            "scheduledOperatingTimes" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/scheduledOperatingTimes"
+            },
+            "scheduledMaintenanceTimes" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/scheduledMaintenanceTimes"
+            },
+            "recordedOperationPhases" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/recordedOperationPhases"
+            },
+            "operatingState" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/F2ACEE75368D4BF9AD4AD264BEB03E8F"
+            },
+            "currentOperations" : [ {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/3541262697C845229F31EB129FB5F940"
+            } ],
+            "location" : {
+              "method" : "GET",
+              "embeddable" : true,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5FDAE742C6934AC1A355F8CB7CAB773B/location"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?endDate=2019-02-01T23:00:00.000Z&paginationDirection=NEXT&limit=3&embed=workplace,shiftType&startDate=2019-01-19T23:00:00.000Z"
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?endDate=2019-02-01T23:00:00.000Z&paginationDirection=NEXT&limit=3&embed=workplace,shiftType&startDate=2019-01-19T23:00:00.000Z"
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?endDate=2019-02-01T23:00:00.000Z&paginationDirection=PREVIOUS&limit=3&embed=workplace,shiftType&startDate=2019-01-19T23:00:00.000Z"
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page of this collection",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?paginationTimestamp=2019-01-30T21:00:00.000Z&endDate=2019-02-01T23:00:00.000Z&paginationIdentifier=C4A9748AB22446FA89EB906FC029FE2B&paginationDirection=NEXT&limit=3&embed=workplace,shiftType&startDate=2019-01-19T23:00:00.000Z"
+    }
+  }
+}

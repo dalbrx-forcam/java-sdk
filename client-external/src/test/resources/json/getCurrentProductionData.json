@@ -1,0 +1,33 @@
+{
+  "properties": {
+    "workplace": {
+      "id": "D17EE172BFAB41E783B8EAA78361EC96",
+      "number": "90340",
+      "description": null,
+      "erpContextId": "01E77110C60F4C499C0762792C0D8B23"
+    },
+    "strokes": 0,
+    "operationTimes": [
+      {
+        "name": "setupTime",
+        "duration": 7905
+      },
+      {
+        "name": "productionTime",
+        "duration": 0
+      },
+      {
+        "name": "malfunctionTime",
+        "duration": 0
+      }
+    ],
+    "operationPhaseId": "INTERRUPTED"
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/operations/57D21C9522B241FFBF0F2A37B507B878/currentProductionData",
+      "embeddable": false
+    }
+  }
+}

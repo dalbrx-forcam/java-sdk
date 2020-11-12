@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "operationPhaseId": "RELEASED",
+        "workplaceId": "F7A595E550A24471AC4C6E94F54EAB0B",
+        "endDate": "2018-07-20T11:10:45.522Z",
+        "startDate": "2018-07-20T11:10:45.522Z"
+      }
+    ],
+    "processingPhaseDuration": 0,
+    "setupPhaseDuration": 0,
+    "endDate": "2018-07-20T11:10:45.522Z",
+    "startDate": "2018-07-20T11:10:45.522Z",
+    "executionTime": 0
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 1,
+    "limit": 1,
+    "count": 1
+  },
+  "_links": {
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/0884DFECCB4A40C2BD465D1F1F908FCD/recordedOperationPhases?offset=0&endDate=2018-07-20T11:10:45.522Z&limit=100&startDate=2018-07-20T11:10:45.522Z"
+    },
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/0884DFECCB4A40C2BD465D1F1F908FCD/recordedOperationPhases?offset=0&endDate=2018-07-20T11:10:45.522Z&limit=100&startDate=2018-07-20T11:10:45.522Z"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/0884DFECCB4A40C2BD465D1F1F908FCD/recordedOperationPhases?offset=0&endDate=2018-07-20T11:10:45.522Z&limit=100&startDate=2018-07-20T11:10:45.522Z"
+    }
+  }
+}

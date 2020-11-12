@@ -1,0 +1,666 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <!-- HINWEISE: Notwendige Properties: siehe http://jiravm:8090/display/SYS/Windows+Umgebungsvariablen    -->
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.forcam.na.bridgeAPI</groupId>
+    <artifactId>bridgeAPI-client</artifactId>
+    <packaging>pom</packaging>
+    <version>1.2.0</version>
+    <name>FF: ${project.artifactId}</name>
+
+    <modules>
+        <module>client-external</module>
+        <module>model-basic</module>
+        <module>webserviceaccess</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-core</artifactId>
+            <version>${mockito.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.openjdk.jmh</groupId>
+            <artifactId>jmh-generator-annprocess</artifactId>
+            <version>${jmh.version}</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.noconnor</groupId>
+            <artifactId>junitperf</artifactId>
+            <version>1.15.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-->
+        As soon as Junit5 is used in some module, junit-vintage-engine is available as test runner.
+        Running tests with maven or individual test methods or classes in IntelliJ works.
+        But running all the tests in a module in IntelliJ fails with
+        Java.lang.ClassNotFoundException: javax.servlet.ServletContext
+        Adding this dependency solves the problem.
+        This is added here since common-modules.test-utils depends on Junit5 and most of tests depends on it.
+        This dependency is not necessary from 5.11 on
+        <-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.datatype</groupId>
+                <artifactId>jackson-datatype-jsr310</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.dagger</groupId>
+                <artifactId>dagger-compiler</artifactId>
+                <version>${google-dagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.dagger</groupId>
+                <artifactId>dagger</artifactId>
+                <version>${google-dagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.dagger</groupId>
+                <artifactId>dagger</artifactId>
+                <version>${google-dagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>logging-interceptor</artifactId>
+                <version>${okhttp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>mockwebserver</artifactId>
+                <version>${okhttp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.retrofit2</groupId>
+                <artifactId>converter-jackson</artifactId>
+                <version>${retrofit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.retrofit2</groupId>
+                <artifactId>retrofit</artifactId>
+                <version>${retrofit.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-collections</groupId>
+                <artifactId>commons-collections</artifactId>
+                <version>${commons-collections.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-annotations</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-models</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${servlet-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>javax.validation</groupId>
+                <artifactId>validation-api</artifactId>
+                <version>${javax-validation.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.eclipse.paho</groupId>
+                <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+                <version>1.2.4</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-runtime</artifactId>
+                <version>${jaxb-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.glassfish</groupId>
+                <artifactId>javax.faces</artifactId>
+                <version>2.2.14</version>
+            </dependency>
+            <dependency>
+                <groupId>org.nanohttpd</groupId>
+                <artifactId>nanohttpd-nanolets</artifactId>
+                <version>${nanohttpd.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.nanohttpd</groupId>
+                <artifactId>nanohttpd</artifactId>
+                <version>${nanohttpd.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>${slf4j-api.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>uk.com.robust-it</groupId>
+                <artifactId>cloning</artifactId>
+                <version>${cloning.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>${plugin.site.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${plugin.surefire.version}</version>
+                    <configuration>
+                        <!-- löst OutOfMemory PermGenSpace Fehler bei Ausführung von Tests -->
+                        <argLine>-Xmx2048m -Xms512m -XX:MaxPermSize=512m -Duser.timezone=Europe/Berlin</argLine>
+
+                        <classpathDependencyExcludes>
+                            <!-- exclude stub-only dependencies see: https://developer.jboss.org/docs/DOC-15019 -->
+                            <classpathDependencyExclude>javax.faces:jsf-api</classpathDependencyExclude>
+                        </classpathDependencyExcludes>
+
+                        <!-- nicht in eigener VM-Instanz ausführen, wegen Maven Bug: geforkte
+                            Prozesse werden nicht beendet, wenn der Maven Prozess gestoppt/gekilled wird -->
+                        <!-- <forkMode>never</forkMode> -->
+
+                        <forkCount>1</forkCount>
+                        <reuseForks>true</reuseForks>
+                        <trimStackTrace>false</trimStackTrace>
+
+                        <groups>${testcase.groups}</groups>
+                        <excludedGroups>${testcase.excluded}</excludedGroups>
+                        <workingDirectory>${plugin.surefire.workingDirectory}</workingDirectory>
+                        <systemPropertyVariables>
+                            <logback.configurationFile>${session.executionRootDirectory}/logback-surefire.xml
+                            </logback.configurationFile>
+                        </systemPropertyVariables>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>com.nickwongdev</groupId>
+                    <artifactId>aspectj-maven-plugin</artifactId>
+                    <version>${plugin.aspectj.version}</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.aspectj</groupId>
+                            <artifactId>aspectjrt</artifactId>
+                            <version>${aspectj.version}</version>
+                        </dependency>
+                        <!-- Ensure aspectj tools version used by compiler is the same version
+                            used as dependency. Avoids warning -->
+                        <dependency>
+                            <groupId>org.aspectj</groupId>
+                            <artifactId>aspectjtools</artifactId>
+                            <version>${aspectj.version}</version>
+                        </dependency>
+                    </dependencies>
+                    <configuration>
+                        <showWeaveInfo>false</showWeaveInfo>
+                        <verbose>false</verbose>
+                        <complianceLevel>${java.version}</complianceLevel>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                    </configuration>
+                </plugin>
+
+                <!-- Overview plugin-version: http://maven.apache.org/plugins/index.html -->
+                <!-- Core plugins -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-clean-plugin</artifactId>
+                    <version>${plugin.clean.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>${plugin.compiler.version}</version>
+                    <configuration>
+                        <fork>true</fork>
+                        <source>${java.version}</source>
+                        <target>${java.version}</target>
+                        <!-- For useIncrementalCompilation "false" enables the incremental compilation: https://issues.apache.org/jira/browse/MCOMPILER-209 -->
+                        <useIncrementalCompilation>false</useIncrementalCompilation>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-deploy-plugin</artifactId>
+                    <version>${plugin.deploy.version}</version>
+                </plugin>
+
+
+                <!-- Packaging types / tools -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>${plugin.jar.version}</version>
+                </plugin>
+
+                <!-- Reporting plugins -->
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>${plugin.javadoc.version}</version>
+                    <configuration>
+                        <encoding>UTF-8</encoding>
+                    </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>${plugin.source.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.zeroturnaround</groupId>
+                    <artifactId>jrebel-maven-plugin</artifactId>
+                    <version>${plugin.jrebel.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-enforcer-plugin</artifactId>
+                    <version>${plugin.enforcer.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>${plugin.jacoco.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>${plugin.dependency.version}</version>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>${plugin.assembly.version}</version>
+                </plugin>
+            </plugins>
+
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>${plugin.deploy.version}</version>
+                <executions>
+                    <execution>
+                        <id>default-deploy</id>
+                        <phase>deploy</phase>
+                        <goals>
+                            <goal>deploy</goal>
+                        </goals>
+                        <configuration>
+                            <altReleaseDeploymentRepository>
+                                internal-release-local::${artifactory.remote.baseurl}/artifactory/internal-release-local
+                            </altReleaseDeploymentRepository>
+                            <altSnapshotDeploymentRepository>
+                                internal-snapshot-local::${artifactory.remote.baseurl}/artifactory/internal-snapshot-local
+                            </altSnapshotDeploymentRepository>
+                            <deployAtEnd>true</deployAtEnd>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- rebel.xml Dateien löschen, damit sie jeweils neu angelegt werden -->
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>src/main/resources</directory>
+                            <includes>
+                                <include>rebel.xml</include>
+                            </includes>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+
+            <!-- prüfen, ob die entsprechenden Versionen von Maven, Java und OS vorliegen -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>enforce-versions</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <requireMavenVersion>
+                                    <version>3.5.0</version>
+                                </requireMavenVersion>
+                                <requireJavaVersion>
+                                    <version>${java.version}</version>
+                                </requireJavaVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <plugin>
+                <groupId>com.nickwongdev</groupId>
+                <artifactId>aspectj-maven-plugin</artifactId>
+            </plugin>
+
+            <!-- MANIFEST.MF mit Versionsinformation erweitern -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+                            <Build-By>${user.name}</Build-By>
+                            <Vendor>FORCAM GmbH</Vendor>
+                            <Version>${project.version}</Version>
+                            <Assembled>${maven.build.timestamp}</Assembled>
+                            <!-- Jenkins Build Referenz gemäß https://wiki.jenkins-ci.org/display/JENKINS/Building+a+software+project. -->
+                            <!--suppress MavenModelInspection -->
+                            <Build>${JOB_NAME}-${BUILD_NUMBER}-${BUILD_ID}</Build>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+
+            <!-- JRebel Konfigurationsdatei erzeugen; aktiv in der process-resources
+                Phase, und per mvn jrebel:generate -->
+            <plugin>
+                <groupId>org.zeroturnaround</groupId>
+                <artifactId>jrebel-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>generate-rebel-xml</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- abweichend vom Default die rebel.xml Datei in src/main/resources
+                        generieren, da das Eclipse Plugin dies ebenfalls so tut. Außerdem besteht
+                        so weniger die Gefahr, dass die Datei bei einem clean Build in Eclipse gelöscht
+                        wird, d.h. diese Lösung ist im Moment stabiler -->
+                    <rebelXmlDirectory>${basedir}/src/main/resources</rebelXmlDirectory>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${plugin.surefire.version}</version>
+                <configuration>
+                    <forkCount>1</forkCount>
+                    <reuseForks>true</reuseForks>   <!-- löst OutOfMemory PermGenSpace Fehler bei Ausführung von Tests -->
+                    <argLine>-Xms512m -Xmx2048m -XX:MaxPermSize=512m ${surefireArgLine}</argLine>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <!-- OS independent run order -->
+                    <runOrder>alphabetical</runOrder>
+
+                    <classpathDependencyExcludes>
+                        <!-- exclude stub-only dependencies see: https://developer.jboss.org/docs/DOC-15019 -->
+                        <classpathDependencyExclude>javax.faces:jsf-api</classpathDependencyExclude>
+                    </classpathDependencyExcludes>
+
+                    <trimStackTrace>false</trimStackTrace>
+                    <argLine>${surefire.argLine}</argLine>
+
+                    <groups>${testcase.groups}</groups>
+                    <excludedGroups>${testcase.excluded}</excludedGroups>
+                    <workingDirectory>${plugin.surefire.workingDirectory}</workingDirectory>
+                    <systemPropertyVariables>
+                        <logback.configurationFile>${session.executionRootDirectory}/logback-surefire.xml
+                        </logback.configurationFile>
+                    </systemPropertyVariables>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>unmarkedAndComponentTests</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <version>${plugin.surefire.version}</version>
+                        <configuration>
+                            <groups combine.self="override"></groups>
+                            <excludedGroups combine.self="override">
+                                com.forcam.na.common.test.FunctionalTest,com.forcam.na.common.test.UnitTest,com.forcam.na.common.test.UITest,FunctionalTest,UnitTest,UITest
+                            </excludedGroups>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>code-coverage</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.jacoco</groupId>
+                        <artifactId>jacoco-maven-plugin</artifactId>
+
+                        <executions>
+                            <execution>
+                                <id>jacoco-initialize</id>
+                                <goals>
+                                    <goal>prepare-agent</goal>
+                                </goals>
+                                <configuration>
+                                    <propertyName>surefireArgLine</propertyName>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>jacoco-site</id>
+                                <phase>package</phase>
+                                <goals>
+                                    <goal>report</goal>
+                                </goals>
+                                <configuration>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <!-- löst OutOfMemory PermGenSpace Fehler bei Ausführung von Tests -->
+                            <argLine>${surefireArgLine} -Xms512m -Xmx2048m -XX:MaxPermSize=512m</argLine>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>clean-nodes</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-clean-plugin</artifactId>
+                        <configuration>
+                            <filesets>
+                                <fileset>
+                                    <directory>${basedir}</directory>
+                                    <includes>
+                                        <include>**/node/**</include>
+                                        <include>**/node_modules/**</include>
+                                        <include>**/node-modules/**</include>
+                                        <include>**node/**</include>
+                                        <include>**node_modules/**</include>
+                                        <include>**node-modules/**</include>
+                                        <include>*/webpack.config.js</include>
+                                        <include>*/webpack.generated.js</include>
+                                        <include>*/package-lock.json</include>
+                                        <include>*/package.json</include>
+                                        <include>**webpack.config.js</include>
+                                        <include>**webpack.generated.js</include>
+                                        <include>**package-lock.json</include>
+                                        <include>**package.json</include>
+                                    </includes>
+                                </fileset>
+                            </filesets>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+    <reporting>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-report-plugin</artifactId>
+                <version>${plugin.surefire.report.version}</version>
+                <configuration>
+                    <forkCount>1</forkCount>
+                    <reuseForks>true</reuseForks>
+                    <!--suppress UnresolvedMavenProperty : surefireArgLine set by jacoco-maven-plugin (default-prepare-agent) -->
+                    <argLine>${surefireArgLine} -Xmx2048m -XX:MaxPermSize=512m</argLine>
+                </configuration>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    <properties>
+        <aspectj.version>1.9.5</aspectj.version>
+        <assertj.version>3.15.0</assertj.version>
+        <cloning.version>1.9.0</cloning.version>
+        <commons-collections.version>3.2.2</commons-collections.version>
+        <commons-io.version>2.4</commons-io.version>
+        <commons-lang3.version>3.9</commons-lang3.version>
+        <google-dagger.version>2.25.4</google-dagger.version>
+        <jackson.version>2.9.8</jackson.version>
+        <!-- direkte Abhängigkeit von c3p0; Achtung bei Update von c3p0! -->
+        <java.version>11</java.version>
+        <javax-validation.version>2.0.1.Final</javax-validation.version>
+        <jaxb-api.version>2.3.0</jaxb-api.version>
+        <jmh.version>1.21</jmh.version>
+        <junit.version>4.12</junit.version>
+        <logback.version>1.2.3-FORCAM-1</logback.version>
+        <mockito.version>2.28.2</mockito.version>
+        <nanohttpd.version>2.3.1</nanohttpd.version>
+        <okhttp.version>3.14.9</okhttp.version>
+        <plugin.aspectj.version>1.12.1</plugin.aspectj.version>
+        <plugin.assembly.version>3.0.0</plugin.assembly.version>
+        <plugin.clean.version>3.0.0</plugin.clean.version>
+        <plugin.failsafe.version>3.0.0-M1</plugin.failsafe.version>
+        <plugin.compiler.version>3.8.1</plugin.compiler.version>
+        <plugin.dependency.version>3.1.2</plugin.dependency.version>
+        <plugin.deploy.version>3.0.0-M1</plugin.deploy.version>
+        <plugin.enforcer.version>1.4.1</plugin.enforcer.version>
+        <plugin.jacoco.version>0.8.5</plugin.jacoco.version>
+        <plugin.jar.version>3.0.2</plugin.jar.version>
+        <plugin.javadoc.version>3.2.0</plugin.javadoc.version>
+        <plugin.jrebel.version>1.1.5</plugin.jrebel.version>
+        <plugin.site.version>3.7</plugin.site.version>
+        <plugin.source.version>3.0.1</plugin.source.version>
+        <plugin.surefire.report.version>2.22.1</plugin.surefire.report.version>
+        <plugin.surefire.version>3.0.0-M3</plugin.surefire.version>
+        <plugin.surefire.workingDirectory>test-workDir</plugin.surefire.workingDirectory>
+        <retrofit.version>2.9.0</retrofit.version>
+        <servlet-api.version>4.0.1</servlet-api.version>
+        <slf4j-api.version>1.7.25</slf4j-api.version>
+        <swagger.version>1.5.22</swagger.version>
+
+        <!-- Flag to skip functional/integration test execution during build.
+        By default set to true to avoid build failures, while no instrumented servers are running -->
+        <skipITs>true</skipITs>
+    </properties>
+</project>

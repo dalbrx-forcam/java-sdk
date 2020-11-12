@@ -1,0 +1,5 @@
+{
+  "message": "Test error",
+  "status": 500,
+  "code": "123"
+}

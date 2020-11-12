@@ -1,0 +1,108 @@
+{
+  "properties" : {
+    "id" : "RELEASED",
+    "description" : "Released",
+    "shortDescription" : "Released",
+    "code" : "45",
+    "color" : "#FFFFFF"
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "093473FADDE14708B68AFA0A0338D018",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Released"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Freigegeben"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Released"
+        }, {
+          "language" : "en-US",
+          "translation" : "Released"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Released"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Released"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "Released"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Released"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Released"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/093473FADDE14708B68AFA0A0338D018",
+          "embeddable" : false
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "1CF4CBA40CF5460883A562711EC05048",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Released"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Freigegeben"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Released"
+        }, {
+          "language" : "en-US",
+          "translation" : "Released"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Released"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Released"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "Released"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Released"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Released"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1CF4CBA40CF5460883A562711EC05048",
+          "embeddable" : false
+        }
+      }
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operationPhases/RELEASED?embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/093473FADDE14708B68AFA0A0338D018",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1CF4CBA40CF5460883A562711EC05048",
+      "embeddable" : false
+    }
+  }
+}

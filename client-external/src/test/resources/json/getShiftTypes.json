@@ -1,0 +1,357 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 16,
+    "limit" : 3,
+    "count" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "shiftTypes" : [ {
+      "properties" : {
+        "id" : "B2000D67169941CCAD650A552EB1317C",
+        "description" : "First shift",
+        "shortDescription" : "F",
+        "isWorkingShift" : true
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null?embed=shortDescription,description",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CFE58B7E9A754947AE66E37A9A8F2D51",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/38342549F1B64BB2A39D56A2B7EB30AC",
+          "embeddable" : false
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "CFE58B7E9A754947AE66E37A9A8F2D51",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "First shift"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Frühschicht"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "First shift"
+            }, {
+              "language" : "en-US",
+              "translation" : "First shift"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Turno de la mañana"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Équipe du matin"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "早班"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "First shift"
+            }, {
+              "language" : "en-GB",
+              "translation" : "First shift"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CFE58B7E9A754947AE66E37A9A8F2D51",
+              "embeddable" : false
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "38342549F1B64BB2A39D56A2B7EB30AC",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "F"
+            }, {
+              "language" : "de-DE",
+              "translation" : "F"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "F"
+            }, {
+              "language" : "en-US",
+              "translation" : "F"
+            }, {
+              "language" : "es-ES",
+              "translation" : "M"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "M"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "早班"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "F"
+            }, {
+              "language" : "en-GB",
+              "translation" : "F"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/38342549F1B64BB2A39D56A2B7EB30AC",
+              "embeddable" : false
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "C9647BD142D14350AE01240D81AD24B3",
+        "description" : "Second shift",
+        "shortDescription" : "S",
+        "isWorkingShift" : true
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null?embed=shortDescription,description",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C9305C10E47249C99C8D44BAFB13C027",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/F9FCA6D85F0C4B6A806F1F7CEBD29338",
+          "embeddable" : false
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "C9305C10E47249C99C8D44BAFB13C027",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Second shift"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Spätschicht"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Second shift"
+            }, {
+              "language" : "en-US",
+              "translation" : "Second shift"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Turno de la tarde"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Équipe du soir"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "中班"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Second shift"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Second shift"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/C9305C10E47249C99C8D44BAFB13C027",
+              "embeddable" : false
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "F9FCA6D85F0C4B6A806F1F7CEBD29338",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "S"
+            }, {
+              "language" : "de-DE",
+              "translation" : "S"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "S"
+            }, {
+              "language" : "en-US",
+              "translation" : "S"
+            }, {
+              "language" : "es-ES",
+              "translation" : "T"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "S"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "中班"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "S"
+            }, {
+              "language" : "en-GB",
+              "translation" : "S"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/F9FCA6D85F0C4B6A806F1F7CEBD29338",
+              "embeddable" : false
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "5DF951ECF83D4ACA8D6DB702341E990A",
+        "description" : "Nonworking shift 9",
+        "shortDescription" : "FS9",
+        "isWorkingShift" : false
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes/null?embed=shortDescription,description",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/FE9D5A6CEEAA433895774E7E9D41F493",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1CCEFDC4706249D1B73DB941FF9660EF",
+          "embeddable" : false
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "FE9D5A6CEEAA433895774E7E9D41F493",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Nonworking shift 9"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Freischicht 9"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Nonworking shift 9"
+            }, {
+              "language" : "en-US",
+              "translation" : "Nonworking shift 9"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Turno libre 9"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "jour libre 9"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "第9空余班组"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Nonworking shift 9"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Nonworking shift 9"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/FE9D5A6CEEAA433895774E7E9D41F493",
+              "embeddable" : false
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "1CCEFDC4706249D1B73DB941FF9660EF",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "FS9"
+            }, {
+              "language" : "de-DE",
+              "translation" : "FS9"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "FS9"
+            }, {
+              "language" : "en-US",
+              "translation" : "FS9"
+            }, {
+              "language" : "es-ES",
+              "translation" : "FS9"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "FS9"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "FS9"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "FS9"
+            }, {
+              "language" : "en-GB",
+              "translation" : "FS9"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1CCEFDC4706249D1B73DB941FF9660EF",
+              "embeddable" : false
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes?offset=0&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes?offset=0&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes?offset=15&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/shiftTypes?offset=3&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    }
+  }
+}

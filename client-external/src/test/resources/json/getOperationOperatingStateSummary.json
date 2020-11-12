@@ -1,0 +1,70 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "duration": 13310340000,
+        "frequency": 822,
+        "operatingState": {
+          "id": "A15C761E8C584106977B311E601EE3DB",
+          "description": "Waiting for processing",
+          "code": "010"
+        }
+      },
+      {
+        "duration": 2053800000,
+        "frequency": 533,
+        "operatingState": {
+          "id": "ED88506288CA4A059C798B7BD9834FFC",
+          "description": "Break",
+          "code": "993",
+          "workplaceStateId": "DOWNTIME"
+        }
+      },
+      {
+        "duration": 32773715712,
+        "frequency": 293,
+        "operatingState": {
+          "id": "1D1B69618F2E4FFEBD7598F74BED2861",
+          "description": "Free capacity outside shift",
+          "code": "991",
+          "workplaceStateId": "DOWNTIME"
+        }
+      },
+      {
+        "duration": 1124643538,
+        "frequency": 2,
+        "operatingState": {
+          "id": "5DDFBF97CFC84481BE14788513730DC4",
+          "description": "Released",
+          "code": "-"
+        }
+      }
+    ],
+    "productionTime": 0,
+    "setupTime": 0,
+    "executionTime": 0
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 4,
+    "count": 4,
+    "limit": 100
+  },
+  "_links": {
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://fctesttdm.northeurope.cloudapp.azure.com:24080/ffwebservices/api/v1/operations/B49783032BFD4DD3A742EB0F444EB80E/operatingStateSummary?offset=0&limit=100"
+    },
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://fctesttdm.northeurope.cloudapp.azure.com:24080/ffwebservices/api/v1/operations/B49783032BFD4DD3A742EB0F444EB80E/operatingStateSummary?offset=0&limit=100"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://fctesttdm.northeurope.cloudapp.azure.com:24080/ffwebservices/api/v1/operations/B49783032BFD4DD3A742EB0F444EB80E/operatingStateSummary?offset=0&limit=100"
+    }
+  }
+}

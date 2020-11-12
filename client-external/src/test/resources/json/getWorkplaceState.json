@@ -1,0 +1,108 @@
+{
+  "properties" : {
+    "id" : "DOWNTIME",
+    "description" : "Stoppage",
+    "shortDescription" : "Stoppage",
+    "code" : "999",
+    "color" : "#C60A44"
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "1FF31D1FEE4E41648A5C958E6BC336C9",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Stillstand"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "en-US",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Parada"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Arrêt"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "停机"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Stoppage"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1FF31D1FEE4E41648A5C958E6BC336C9",
+          "embeddable" : false
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "06967958F8F74FC9879D69796DF854E6",
+        "translations" : [ {
+          "language" : "pl-PL",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "de-DE",
+          "translation" : "Stillstand"
+        }, {
+          "language" : "hu-HU",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "en-US",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "es-ES",
+          "translation" : "Parada"
+        }, {
+          "language" : "fr-FR",
+          "translation" : "Arrêt"
+        }, {
+          "language" : "zh-CN",
+          "translation" : "停机"
+        }, {
+          "language" : "ja-JP",
+          "translation" : "Stoppage"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Stoppage"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/06967958F8F74FC9879D69796DF854E6",
+          "embeddable" : false
+        }
+      }
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/workplaceStates/DOWNTIME?embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1FF31D1FEE4E41648A5C958E6BC336C9",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/06967958F8F74FC9879D69796DF854E6",
+      "embeddable" : false
+    }
+  }
+}

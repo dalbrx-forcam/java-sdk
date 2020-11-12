@@ -1,0 +1,84 @@
+{
+  "pagination": {
+    "offset": 0,
+    "count": 3,
+    "total": 6,
+    "limit": 3
+  },
+  "_embedded": {
+    "toolAssemblyStates": [
+      {
+        "properties": {
+          "id": "REQUESTED",
+          "color": "#FFFFFF",
+          "code": "46"
+        },
+        "_links": {
+          "description": {
+            "href": "/literals/3A4B9C255A034F398D4B07599A4A4234"
+          },
+          "self": {
+            "href": "/toolAssemblyStates/REQUESTED"
+          },
+          "shortDescription": {
+            "href": "/literals/DDE486F2290C4DC7B881A8F270BF7D04"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "INITIATED",
+          "color": "#FFFFFF",
+          "code": "47"
+        },
+        "_links": {
+          "description": {
+            "href": "/literals/A086165E8EB943F6BF38D9E97E815DC9"
+          },
+          "self": {
+            "href": "/toolAssemblyStates/INITIATED"
+          },
+          "shortDescription": {
+            "href": "/literals/AB264890D74042259C8479941D2106ED"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "ASSEMBLED",
+          "color": "#FFFFFF",
+          "code": "48"
+        },
+        "_links": {
+          "description": {
+            "href": "/literals/C3E8C4D6E2A241B1BECF1DCBE8F56FB5"
+          },
+          "self": {
+            "href": "/toolAssemblyStates/ASSEMBLED"
+          },
+          "shortDescription": {
+            "href": "/literals/4416EB5B13FF4568A4B47CBE9C82D29A"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "next": {
+      "href": "/toolAssemblyStates?offset=3&limit=3",
+      "title": "Next page of this collection"
+    },
+    "last": {
+      "href": "/toolAssemblyStates?offset=3&limit=3",
+      "title": "Last page of this collection"
+    },
+    "self": {
+      "href": "/toolAssemblyStates?offset=0&limit=3",
+      "title": "This collection"
+    },
+    "first": {
+      "href": "/toolAssemblyStates?offset=0&limit=3",
+      "title": "First page of this collection"
+    }
+  }
+}

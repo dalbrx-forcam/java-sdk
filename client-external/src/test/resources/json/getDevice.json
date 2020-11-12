@@ -1,0 +1,27 @@
+{
+  "properties": {
+    "id": "417",
+    "name": "Welding 247",
+    "description": "Welding 247",
+    "recordedPhysicalQuantities": [
+      {
+        "tag": "1",
+        "name": "HV Demand"
+      },
+      {
+        "tag": "2",
+        "name": "Gun Vacuum"
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices/417"
+    },
+    "devices": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/devices"
+    }
+  }
+}

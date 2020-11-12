@@ -1,0 +1,17 @@
+{
+  "properties" : {
+    "id" : "BF0268C3CAFD4430B85485FB35FEE00D",
+    "type" : "PLANT",
+    "identifier3" : "9000",
+    "identifier2" : "9000",
+    "identifier1" : "100",
+    "systemNumber" : "1"
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+      "embeddable" : false
+    }
+  }
+}

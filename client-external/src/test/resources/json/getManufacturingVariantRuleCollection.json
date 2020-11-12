@@ -1,0 +1,200 @@
+{
+  "pagination": {
+    "offset": 0,
+    "total": 3,
+    "count": 3,
+    "limit": 100,
+    "lastIdentifier": null,
+    "firstIdentifier": null
+  },
+  "_embedded": {
+    "manufacturingVariantRules": [
+      {
+        "properties": {
+          "id": "9E91A7BE04344886B43C2D03DBE1F38B",
+          "origin": "MANUAL_DATA_MAINTENANCE",
+          "criterion": "MATERIAL_NUMBER",
+          "conditions": "299033215",
+          "workplaces": [
+            {
+              "id": "4BA3D38DB8924DE7A8422513E7A7BEC1",
+              "number": "100",
+              "description": "Workplace100",
+              "erpContextId": "F34EC93DB67D4F28BEF2B466DCDF9683"
+            },
+            {
+              "id": "44320E547A204FE288099A0F6042A8FB",
+              "number": "200",
+              "description": "Workplace200",
+              "erpContextId": "F34EC93DB67D4F28BEF2B466DCDF9683"
+            }
+          ],
+          "tools": [
+            {
+              "id": "9C8D107C7EA144C9BC7E486B76F37DCB",
+              "name": "Planfräser-WSP D66",
+              "description": null
+            }
+          ],
+          "additionalConditions": "nothing",
+          "forecastedDelays": {
+            "delayFactor": 166.66666666666663,
+            "processAvailability": 0.1,
+            "performance": 0.2,
+            "qualityRate": 0.3,
+            "additionalSetupTime": 0,
+            "intermediateSetupInterval": 0.5,
+            "intermediateSetupTime": 0,
+            "staffCapacityFactor": 0.7,
+            "skillFactor": 0.8
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/9E91A7BE04344886B43C2D03DBE1F38B"
+          },
+          "deleteManufacturingVariantRule": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/9E91A7BE04344886B43C2D03DBE1F38B"
+          },
+          "updateManufacturingVariantRule": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/9E91A7BE04344886B43C2D03DBE1F38B"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "47DE2E5D7E6A4F418645C8A411505AA9",
+          "origin": "AUTOMATIC_EVALUATION_SYSTEM",
+          "criterion": "MATERIAL_CHARACTERISTIC",
+          "conditions": "299fz03321uzub5",
+          "workplaces": [
+            {
+              "id": "4BA3D38DB8924DE7A8422513E7A7BEC1",
+              "number": "100",
+              "description": "Workplace100",
+              "erpContextId": "F34EC93DB67D4F28BEF2B466DCDF9683"
+            },
+            {
+              "id": "44320E547A204FE288099A0F6042A8FB",
+              "number": "200",
+              "description": "Workplace200",
+              "erpContextId": "F34EC93DB67D4F28BEF2B466DCDF9683"
+            }
+          ],
+          "tools": [
+            {
+              "id": "9C8D107C7EA144C9BC7E486B76F37DCB",
+              "name": "Planfräser-WSP D66",
+              "description": null
+            }
+          ],
+          "additionalConditions": "nothing2",
+          "forecastedDelays": {
+            "delayFactor": 124.99999999999997,
+            "processAvailability": 0.2,
+            "performance": 0.2,
+            "qualityRate": 0.2,
+            "additionalSetupTime": 0,
+            "intermediateSetupInterval": 0.2,
+            "intermediateSetupTime": 0,
+            "staffCapacityFactor": 0.2,
+            "skillFactor": 0.2
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/47DE2E5D7E6A4F418645C8A411505AA9"
+          },
+          "deleteManufacturingVariantRule": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/47DE2E5D7E6A4F418645C8A411505AA9"
+          },
+          "updateManufacturingVariantRule": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/47DE2E5D7E6A4F418645C8A411505AA9"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "AF6A35D65E7C48A7947F77062E7B82D4",
+          "origin": "AUTOMATIC_EVALUATION_SYSTEM",
+          "criterion": "MATERIAL_NUMBER",
+          "conditions": "P-033391",
+          "workplaces": [
+            {
+              "id": "BDE05FEBCC9541B4B92B4D4D5C0A5769",
+              "number": "90130",
+              "description": "S03",
+              "erpContextId": "F34EC93DB67D4F28BEF2B466DCDF9683"
+            },
+            {
+              "id": "44320E547A204FE288099A0F6042A8FB",
+              "number": "200",
+              "description": "Workplace200",
+              "erpContextId": "F34EC93DB67D4F28BEF2B466DCDF9683"
+            }
+          ],
+          "tools": [
+            {
+              "id": "9C8D107C7EA144C9BC7E486B76F37DCB",
+              "name": "Planfräser-WSP D66",
+              "description": null
+            }
+          ],
+          "additionalConditions": "nothing2",
+          "forecastedDelays": {
+            "delayFactor": 124.99999999999997,
+            "processAvailability": 0.2,
+            "performance": 0.2,
+            "qualityRate": 0.2,
+            "additionalSetupTime": 0,
+            "intermediateSetupInterval": 0.2,
+            "intermediateSetupTime": 0,
+            "staffCapacityFactor": 0.2,
+            "skillFactor": 0.2
+          }
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/AF6A35D65E7C48A7947F77062E7B82D4"
+          },
+          "deleteManufacturingVariantRule": {
+            "method": "DELETE",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/AF6A35D65E7C48A7947F77062E7B82D4"
+          },
+          "updateManufacturingVariantRule": {
+            "method": "PUT",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules/AF6A35D65E7C48A7947F77062E7B82D4"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules?offset=0&limit=100&workplaceNumber=200"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules?offset=0&limit=100&workplaceNumber=200"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules?offset=0&limit=100&workplaceNumber=200"
+    },
+    "createManufacturingVariantRule": {
+      "method": "POST",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/9780AC5E44984847A77AF133BEB99FE5/manufacturingVariantRules"
+    }
+  }
+}

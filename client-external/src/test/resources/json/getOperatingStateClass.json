@@ -1,0 +1,72 @@
+{
+  "properties" : {
+    "id" : "29ADD1E980304CD2AE2E381B929AAFF7",
+    "description" : "Free Capcities",
+    "shortDescription" : "Free Capcities",
+    "code" : "FREECAPA_SC",
+    "color" : "#B6BABF"
+  },
+  "_embedded" : {
+    "description" : {
+      "properties" : {
+        "id" : "D2ED458DD3C242B8A07C26DD0B04B412",
+        "translations" : [ {
+          "language" : "de-DE",
+          "translation" : "Freie Kapazitäten"
+        }, {
+          "language" : "en-US",
+          "translation" : "Free Capcities"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Free Capcities"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/D2ED458DD3C242B8A07C26DD0B04B412",
+          "embeddable" : false
+        }
+      }
+    },
+    "shortDescription" : {
+      "properties" : {
+        "id" : "6343ECE4A52A4367B55839813C2C2B05",
+        "translations" : [ {
+          "language" : "de-DE",
+          "translation" : "Freie Kapazitäten"
+        }, {
+          "language" : "en-US",
+          "translation" : "Free Capcities"
+        }, {
+          "language" : "en-GB",
+          "translation" : "Free Capcities"
+        } ]
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/6343ECE4A52A4367B55839813C2C2B05",
+          "embeddable" : false
+        }
+      }
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses/29ADD1E980304CD2AE2E381B929AAFF7?embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/D2ED458DD3C242B8A07C26DD0B04B412",
+      "embeddable" : false
+    },
+    "shortDescription" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/6343ECE4A52A4367B55839813C2C2B05",
+      "embeddable" : false
+    }
+  }
+}

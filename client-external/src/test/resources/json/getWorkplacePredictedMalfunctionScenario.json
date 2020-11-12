@@ -1,0 +1,46 @@
+{
+  "properties": {
+    "id": "AF3BC3F3F6884540ACFCB053CF39241A",
+    "creator": "SYSTEM",
+    "creationDate": "2018-09-28T05:52:06.638Z",
+    "startDate": "2018-09-28T10:49:35.288Z",
+    "endDate": "2018-09-28T12:49:35.288Z",
+    "elements": [
+      {
+        "workplaceId": "B48E24428D614AD592F415BF926AED15",
+        "operatingStateId": "E152D073CB9B4C5EB5EFA9D0D2396CA3",
+        "prewarningDate": "2018-09-28T10:49:35.288Z",
+        "criticalDate": "2018-09-28T11:49:35.288Z"
+      },
+      {
+        "workplaceId": "52CCB26D6B55480C84F82E9DB3678004",
+        "operatingStateId": "6925F773EC5C482D8A9689591BFD4C31",
+        "prewarningDate": "2018-09-28T11:49:35.288Z",
+        "criticalDate": "2018-09-28T12:49:35.288Z"
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 2,
+    "count": 2,
+    "limit": 100
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios/AF3BC3F3F6884540ACFCB053CF39241A?offset=0&limit=100"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios/AF3BC3F3F6884540ACFCB053CF39241A?offset=0&limit=100"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/predictedMalfunctionScenarios/AF3BC3F3F6884540ACFCB053CF39241A?offset=0&limit=100"
+    }
+  }
+}

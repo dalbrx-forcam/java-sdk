@@ -1,0 +1,345 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 5,
+    "limit" : 3,
+    "count" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "qualityDetails" : [ {
+      "properties" : {
+        "id" : "2121dab74e2844e9a890d19c861b5ac3",
+        "description" : "Surface",
+        "shortDescription" : "S1",
+        "qualityTypeId" : "SCRAP",
+        "code" : "S1",
+        "color" : "#C60A44"
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "7B50C9279C594DC4A808344483855D77",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Oberfläche"
+            }, {
+              "language" : "en-US",
+              "translation" : "Surface"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Surface"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/7B50C9279C594DC4A808344483855D77",
+              "embeddable" : false
+            }
+          }
+        },
+        "qualityType" : {
+          "properties" : {
+            "id" : "SCRAP",
+            "color" : "#C60A44",
+            "description" : "Scrap",
+            "shortDescription" : "SCRAP"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/32A7206C049E409E9D6F1C79FC4D54A7",
+              "embeddable" : false
+            },
+            "shortDescription" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5AD7929117D549ED9EB79238E3D8B03F",
+              "embeddable" : true
+            },
+            "description" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/72ABB0CA06E349878739BEB152335DD2",
+              "embeddable" : true
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "EDF6BEFDCA654AF5AB9D3BB670AC1FFC",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "S1"
+            }, {
+              "language" : "en-US",
+              "translation" : "S1"
+            }, {
+              "language" : "en-GB",
+              "translation" : "S1"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/EDF6BEFDCA654AF5AB9D3BB670AC1FFC",
+              "embeddable" : false
+            }
+          }
+        }
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails/2121dab74e2844e9a890d19c861b5ac3?embed=qualityType,shortDescription,description",
+          "embeddable" : false
+        },
+        "qualityType" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/32A7206C049E409E9D6F1C79FC4D54A7",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/EDF6BEFDCA654AF5AB9D3BB670AC1FFC",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/7B50C9279C594DC4A808344483855D77",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "5edd7d8a964548cfb5b815e72745157c",
+        "description" : "Yield quantity",
+        "shortDescription" : "YIELD",
+        "qualityTypeId" : "YIELD",
+        "code" : "Y",
+        "color" : "#00CC84"
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "13EB64DA537E4313BAD37D833D036EB4",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Gutmenge"
+            }, {
+              "language" : "en-US",
+              "translation" : "Yield quantity"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Yield quantity"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/13EB64DA537E4313BAD37D833D036EB4",
+              "embeddable" : false
+            }
+          }
+        },
+        "qualityType" : {
+          "properties" : {
+            "id" : "YIELD",
+            "color" : "#00CC84",
+            "description" : "Yield",
+            "shortDescription" : "YIELD"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/11896CE3F0C94A67924017A0B7E808C6",
+              "embeddable" : false
+            },
+            "shortDescription" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1D150A9267E143CC8C797F8AC78A7AB1",
+              "embeddable" : true
+            },
+            "description" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/4391E8C0BD594077BBC44B4508873301",
+              "embeddable" : true
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "9427B9988CFF4F64B29552DEA606A0F8",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "GUT"
+            }, {
+              "language" : "en-US",
+              "translation" : "YIELD"
+            }, {
+              "language" : "en-GB",
+              "translation" : "YIELD"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/9427B9988CFF4F64B29552DEA606A0F8",
+              "embeddable" : false
+            }
+          }
+        }
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails/5edd7d8a964548cfb5b815e72745157c?embed=qualityType,shortDescription,description",
+          "embeddable" : false
+        },
+        "qualityType" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/11896CE3F0C94A67924017A0B7E808C6",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/9427B9988CFF4F64B29552DEA606A0F8",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/13EB64DA537E4313BAD37D833D036EB4",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "874ba6d8d5b44ac4a727b7393328eec3",
+        "description" : "Geometry",
+        "shortDescription" : "R2",
+        "qualityTypeId" : "REWORK",
+        "code" : "R2",
+        "color" : "#FFDD00"
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "A5CC4A40D177431D873D7720E35081FE",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Geometrie"
+            }, {
+              "language" : "en-US",
+              "translation" : "Geometry"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Geometry"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/A5CC4A40D177431D873D7720E35081FE",
+              "embeddable" : false
+            }
+          }
+        },
+        "qualityType" : {
+          "properties" : {
+            "id" : "REWORK",
+            "color" : "#FFB500",
+            "description" : "Rework",
+            "shortDescription" : "REWORK"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/B73D74289DBF432BB3CC4D1A623CB4ED",
+              "embeddable" : false
+            },
+            "shortDescription" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/55961C35FC8A46C5834013FD7940D303",
+              "embeddable" : true
+            },
+            "description" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/697A39EADFD74C57B833221E316A76EF",
+              "embeddable" : true
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "4CC494A566974DE78CC64D203E5596A6",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "R2"
+            }, {
+              "language" : "en-US",
+              "translation" : "R2"
+            }, {
+              "language" : "en-GB",
+              "translation" : "R2"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/4CC494A566974DE78CC64D203E5596A6",
+              "embeddable" : false
+            }
+          }
+        }
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails/874ba6d8d5b44ac4a727b7393328eec3?embed=qualityType,shortDescription,description",
+          "embeddable" : false
+        },
+        "qualityType" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityTypes/B73D74289DBF432BB3CC4D1A623CB4ED",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/4CC494A566974DE78CC64D203E5596A6",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/A5CC4A40D177431D873D7720E35081FE",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails?offset=0&limit=3&embed=qualityType,shortDescription,description",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails?offset=0&limit=3&embed=qualityType,shortDescription,description",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails?offset=3&limit=3&embed=qualityType,shortDescription,description",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/qualityDetails?offset=3&limit=3&embed=qualityType,shortDescription,description",
+      "embeddable" : false
+    }
+  }
+}

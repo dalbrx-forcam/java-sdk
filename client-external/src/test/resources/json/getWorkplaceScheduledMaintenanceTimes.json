@@ -1,0 +1,49 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "duration": 10800000,
+        "startDate": "2018-03-12T08:46:00.000Z",
+        "endDate": "2018-03-12T11:46:00.000Z"
+      },
+      {
+        "duration": 10800000,
+        "startDate": "2018-03-12T12:01:00.000Z",
+        "endDate": "2018-03-12T15:01:00.000Z"
+      },
+      {
+        "duration": 16200000,
+        "startDate": "2018-03-12T15:16:00.000Z",
+        "endDate": "2018-03-12T19:46:00.000Z"
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "limit": 3,
+    "total": 85,
+    "count": 3
+  },
+  "_links": {
+    "next": {
+      "method": "GET",
+      "title": "Next page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/scheduledMaintenanceTimes?offset=3&workplaceId=CCDF52D23E944BA89E7D2B8BB048DBA2&limit=3"
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/scheduledMaintenanceTimes?offset=84&workplaceId=CCDF52D23E944BA89E7D2B8BB048DBA2&limit=3"
+    },
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/scheduledMaintenanceTimes?offset=0&workplaceId=CCDF52D23E944BA89E7D2B8BB048DBA2&limit=3"
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v1/workplaces/scheduledMaintenanceTimes?offset=0&workplaceId=CCDF52D23E944BA89E7D2B8BB048DBA2&limit=3"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "pagination": {
+    "offset": 0,
+    "total": 6,
+    "count": 3,
+    "limit": 3
+  },
+  "_embedded": {
+    "setupTransitionRules": [
+      {
+        "properties": {
+          "id": "4D6142FA04D341B2B206A59E25FA38EA",
+          "origin": "MANUAL_DATA_MAINTENANCE",
+          "criterion": "MATERIAL_NUMBER",
+          "predecessorConditions": "1800203178",
+          "successorConditions": "1800203178",
+          "setupTimeIncrement": 0,
+          "setupTime": 555
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules/4D6142FA04D341B2B206A59E25FA38EA"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "10DFD2D412A3457F9474B936CCF2C628",
+          "origin": "MANUAL_DATA_MAINTENANCE",
+          "criterion": "MATERIAL_NUMBER",
+          "predecessorConditions": "M-15287655",
+          "successorConditions": "M-15287655",
+          "setupTimeIncrement": 150,
+          "setupTime": 12300
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules/10DFD2D412A3457F9474B936CCF2C628"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "5131F326E4D24A82AC6163C419908BAF",
+          "origin": "MANUAL_DATA_MAINTENANCE",
+          "criterion": "MATERIAL_NUMBER",
+          "predecessorConditions": "299033215",
+          "successorConditions": "1800203178",
+          "setupTimeIncrement": 150,
+          "setupTime": 555
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules/5131F326E4D24A82AC6163C419908BAF"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules?offset=0&limit=3",
+      "title": "The current page"
+    },
+    "first": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules?offset=0&limit=3",
+      "title": "First page"
+    },
+    "last": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules?offset=3&limit=3",
+      "title": "Last page"
+    },
+    "next": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules?offset=3&limit=3",
+      "title": "Next page"
+    },
+    "createSetupTransitionRule": {
+      "method": "POST",
+      "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/BCFFE81411564B9CBEC98C7316A23E8E/setupTransitionRules"
+    }
+  }
+}

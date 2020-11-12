@@ -1,0 +1,195 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 5,
+    "count" : 3,
+    "limit" : 3,
+    "firstIdentifier" : null,
+    "lastIdentifier" : null
+  },
+  "_embedded" : {
+    "productionResourcesAndTools" : [ {
+      "properties" : {
+        "itemNumber" : null,
+        "type" : "E",
+        "group" : null,
+        "number" : "M-364019",
+        "description" : "Tool M-364019",
+        "quantity" : 0.0,
+        "quantityUnit" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools/E18AEF6078414B76825AF72B2455FD3D?embed=description"
+        },
+        "description" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/7FC2E57FE5DF406C8992789A5F2E3D14"
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "7FC2E57FE5DF406C8992789A5F2E3D14",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Tool M-364019"
+            }, {
+              "language" : "en-US",
+              "translation" : "Tool M-364019"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Tool M-364019"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Tool M-364019"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Tool M-364019"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/7FC2E57FE5DF406C8992789A5F2E3D14"
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "itemNumber" : null,
+        "type" : "E",
+        "group" : null,
+        "number" : "M-56237",
+        "description" : "Tool M-56237",
+        "quantity" : 0.0,
+        "quantityUnit" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools/333EB1FEAA1E43DA95518FCD6A5183C4?embed=description"
+        },
+        "description" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/D7C01B45D13645CC9B49B534C519C504"
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "D7C01B45D13645CC9B49B534C519C504",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Tool M-56237"
+            }, {
+              "language" : "en-US",
+              "translation" : "Tool M-56237"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Tool M-56237"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Tool M-56237"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Tool M-56237"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/D7C01B45D13645CC9B49B534C519C504"
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "itemNumber" : null,
+        "type" : "E",
+        "group" : null,
+        "number" : "M-871446",
+        "description" : "Tool M-871446",
+        "quantity" : 0.0,
+        "quantityUnit" : null
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools/30EC235C47FF4BA0B50022FE1BAB9457?embed=description"
+        },
+        "description" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/B0937D43DE2F41A3AAA5C96743C0684F"
+        }
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "B0937D43DE2F41A3AAA5C96743C0684F",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Tool M-871446"
+            }, {
+              "language" : "en-US",
+              "translation" : "Tool M-871446"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Tool M-871446"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Tool M-871446"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Tool M-871446"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "embeddable" : false,
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/B0937D43DE2F41A3AAA5C96743C0684F"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools?offset=0&limit=3&embed=description"
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools?offset=0&limit=3&embed=description"
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools?offset=3&limit=3&embed=description"
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools?offset=3&limit=3&embed=description"
+    }
+  }
+}

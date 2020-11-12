@@ -1,0 +1,114 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 6,
+    "limit" : 3,
+    "count" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "toolAssemblyOrderStates" : [ {
+      "properties" : {
+        "id" : "REQUESTED",
+        "description" : "Scheduled",
+        "shortDescription" : "Scheduled",
+        "code" : "46",
+        "color" : "#FFFFFF"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates/REQUESTED",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/88047B6FA2B7479DAEAA9FF56DCA83B8",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/48A4486B7ACC46C0A57B353D9B30DA05",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "INITIATED",
+        "description" : "Balanced",
+        "shortDescription" : "Balanced",
+        "code" : "47",
+        "color" : "#FFFFFF"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates/INITIATED",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/9DDB84BC1597462A8EC1F67BB104B31D",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/89B63CAEFF48474988D0093C36825ADE",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "ASSEMBLED",
+        "description" : "Installed",
+        "shortDescription" : "Installed",
+        "code" : "48",
+        "color" : "#FFFFFF"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates/ASSEMBLED",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/48158790AFF549BDAB22E1629331D3AE",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/099E4CEFCBA94FA0B6675BD2BA86EB1E",
+          "embeddable" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates?offset=3&limit=3",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/toolAssemblyOrderStates?offset=3&limit=3",
+      "embeddable" : false
+    }
+  }
+}

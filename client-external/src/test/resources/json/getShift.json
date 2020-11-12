@@ -1,0 +1,81 @@
+{
+  "properties" : {
+    "id" : "E2064BEE66E14FF680E2EBCF128BCD2A",
+    "shiftTypeId" : "3292E94997524721B010BBE3BAE87717",
+    "workplaceId" : "A363E33CB905482FA0E8E46740B28CA2",
+    "associatedDay" : "2017-10-04T22:00:00.000Z",
+    "breaks" : [ {
+      "timePeriod" : {
+        "duration" : 900000,
+        "startDate" : "2017-10-06T13:02:00.000Z",
+        "endDate" : "2017-10-06T13:17:00.000Z"
+      }
+    }, {
+      "timePeriod" : {
+        "duration" : 900000,
+        "startDate" : "2017-10-06T16:17:00.000Z",
+        "endDate" : "2017-10-06T16:32:00.000Z"
+      }
+    } ],
+    "timePeriod" : {
+      "duration" : 27000000
+    },
+    "isWorkingShift" : false
+  },
+  "_links" : {
+    "shiftType" : {
+      "href" : "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+    },
+    "self" : {
+      "href" : "/shifts/E2064BEE66E14FF680E2EBCF128BCD2A?embed=workplace,shiftType"
+    },
+    "workplace" : {
+      "href" : "/workplaces/A363E33CB905482FA0E8E46740B28CA2"
+    }
+  },
+  "_embedded" : {
+    "shiftType" : {
+      "properties" : {
+        "id" : "3292E94997524721B010BBE3BAE87717",
+        "color" : "",
+        "isWorkingShift" : true
+      },
+      "_links" : {
+        "description" : {
+          "href" : "/literals/68F8B5E6246D4609B24F2FC878CAD29F"
+        },
+        "self" : {
+          "href" : "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+        },
+        "shortDescription" : {
+          "href" : "/literals/2A7CA4CF24C74E919ACEB846BFEE1312"
+        }
+      }
+    },
+    "workplace" : {
+      "properties" : {
+        "id" : "A363E33CB905482FA0E8E46740B28CA2",
+        "number" : "WP-AutoStatus-06",
+        "description" : "WP-AutoStatus-06",
+        "erpContextId" : "8A2ECD55FE2B42B386561CF2105F754C"
+      },
+      "_links" : {
+        "self" : {
+          "href" : "/workplaces/A363E33CB905482FA0E8E46740B28CA2"
+        },
+        "description" : {
+          "href" : "/literals/00E9C084EF344A87B809F3572F822DCE"
+        },
+        "shifts" : {
+          "href" : "/workplaces/A363E33CB905482FA0E8E46740B28CA2/shifts"
+        },
+        "erpContext" : {
+          "href" : "/erpContexts/8A2ECD55FE2B42B386561CF2105F754C"
+        },
+        "recordedOperatingStates" : {
+          "href" : "/workplaces/A363E33CB905482FA0E8E46740B28CA2/recordedOperatingStates"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "properties" : {
+    "elements" : [ {
+      "name" : "ToolEdgeTest CharacteristicName",
+      "identifier" : "ToolEdgeTest CharacteristicIdentifier",
+      "value" : "ToolEdgeTest CharacteristicValue",
+      "unit" : "MS"
+    } ]
+  },
+  "pagination" : {
+    "offset" : 0,
+    "total" : 1,
+    "count" : 1,
+    "limit" : 100,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/CCF51B9844E544F783DF0F6F116F2CC6/characteristics?offset=0&limit=100",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/CCF51B9844E544F783DF0F6F116F2CC6/characteristics?offset=0&limit=100",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges/CCF51B9844E544F783DF0F6F116F2CC6/characteristics?offset=0&limit=100",
+      "embeddable" : false,
+      "title" : "Last page"
+    }
+  }
+}

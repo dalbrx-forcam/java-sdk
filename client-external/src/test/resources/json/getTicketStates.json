@@ -1,0 +1,93 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 5,
+    "count" : 3,
+    "limit" : 3,
+    "firstIdentifier" : null,
+    "lastIdentifier" : null
+  },
+  "_embedded" : {
+    "ticketStates" : [ {
+      "properties" : {
+        "id" : "NEW",
+        "name" : "New",
+        "color" : "#ff0000"
+      },
+      "_links" : {
+        "name" : {
+          "method" : "GET",
+          "embeddable" : true,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/FDF4D554C0E748C5B2F62FF39A067BE0"
+        },
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/ticketStates/NEW"
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "IN_PROGRESS",
+        "name" : "In progress",
+        "color" : "#00ffff"
+      },
+      "_links" : {
+        "name" : {
+          "method" : "GET",
+          "embeddable" : true,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/ACF88633DFD445D5895804910F423616"
+        },
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/ticketStates/IN_PROGRESS"
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "DONE",
+        "name" : "Done",
+        "color" : "#00ff00"
+      },
+      "_links" : {
+        "name" : {
+          "method" : "GET",
+          "embeddable" : true,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/373D76362A5B4C8DA4CE092B1D4B2714"
+        },
+        "self" : {
+          "method" : "GET",
+          "embeddable" : false,
+          "href" : "http://localhost:24080/ffwebservices/api/v2/ticketStates/DONE"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/ticketStates?offset=0&limit=3"
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/ticketStates?offset=0&limit=3"
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/ticketStates?offset=3&limit=3"
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/ticketStates?offset=3&limit=3"
+    }
+  }
+}

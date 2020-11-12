@@ -1,0 +1,184 @@
+{
+  "properties": {
+    "elements": [
+      {
+        "totalQuantity": null,
+        "materialId": "8B34A988530B4DADA361B89D602026F5",
+        "reworkQuantity": 1.0,
+        "workplaceId": "5639BEFB78AE45DC895433E4905D1654",
+        "startDate": "2019-12-09T16:29:35.000Z",
+        "endDate": "2019-12-10T13:51:55.000Z",
+        "targetQuantity": 2000.0,
+        "yieldQuantity": 1.0,
+        "scrapQuantity": 1.0
+      }
+    ]
+  },
+  "pagination": {
+    "offset": 0,
+    "total": 1,
+    "count": 1,
+    "limit": 100,
+    "lastIdentifier": null,
+    "firstIdentifier": null
+  },
+  "_links": {
+    "self": {
+      "method": "GET",
+      "title": "The current page",
+      "href": "http://localhost:24080/ffwebservices/api/v2/reports/totalQuantity?offset=0&limit=100",
+      "embeddable": false
+    },
+    "first": {
+      "method": "GET",
+      "title": "First page",
+      "href": "http://localhost:24080/ffwebservices/api/v2/reports/totalQuantity?offset=0&limit=100",
+      "embeddable": false
+    },
+    "last": {
+      "method": "GET",
+      "title": "Last page",
+      "href": "http://localhost:24080/ffwebservices/api/v2/reports/totalQuantity?offset=0&limit=100",
+      "embeddable": false
+    }
+  },
+  "_embedded": {
+    "workplaces": [
+      {
+        "properties": {
+          "id": "5639BEFB78AE45DC895433E4905D1654",
+          "number": "90270",
+          "description": "B07",
+          "erpContextId": "3A612EDDE83B4D2896D1D4F9E5031277",
+          "capacityGroup": {
+            "id": "C18B9FB294C84681A97CF30D74DE033D",
+            "number": "ERP-HIER-SPLIT1",
+            "description": "ERP-HIER-SPLIT1",
+            "type": "CAPACITY_GROUP",
+            "erpContextId": "3A612EDDE83B4D2896D1D4F9E5031277"
+          },
+          "productionLine": null,
+          "operatingState": {
+            "id": "25F782AE675949E08C405C5FA99D5E50",
+            "description": "Stoppage",
+            "code": "999",
+            "workplaceStateId": "DOWNTIME"
+          },
+          "isManualWorkplace": false,
+          "workplaceType": "MACHINE_WORKPLACE"
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654",
+            "embeddable": false
+          },
+          "workplaces": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces",
+            "embeddable": false
+          },
+          "erpContext": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/erpContexts/3A612EDDE83B4D2896D1D4F9E5031277",
+            "embeddable": true
+          },
+          "description": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/literals/D90A68B413994CD19640ADA9765FB786",
+            "embeddable": true
+          },
+          "devices": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/devices/5639BEFB78AE45DC895433E4905D1654",
+            "embeddable": true
+          },
+          "shifts": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/shifts?workplaceId=5639BEFB78AE45DC895433E4905D1654",
+            "embeddable": false
+          },
+          "recordedOperatingStates": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/recordedOperatingStates",
+            "embeddable": false
+          },
+          "recordedOutputQuantities": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/recordedOutputQuantities",
+            "embeddable": false
+          },
+          "quantitySummary": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/quantitySummary",
+            "embeddable": false
+          },
+          "operatingStateSummary": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/operatingStateSummary",
+            "embeddable": false
+          },
+          "scheduledOperatingTimes": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/scheduledOperatingTimes",
+            "embeddable": false
+          },
+          "scheduledMaintenanceTimes": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/scheduledMaintenanceTimes",
+            "embeddable": false
+          },
+          "recordedOperationPhases": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/recordedOperationPhases",
+            "embeddable": false
+          },
+          "capacityGroup": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaceGroups/C18B9FB294C84681A97CF30D74DE033D",
+            "embeddable": true
+          },
+          "location": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/workplaces/5639BEFB78AE45DC895433E4905D1654/location",
+            "embeddable": true
+          },
+          "operatingState": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStates/25F782AE675949E08C405C5FA99D5E50",
+            "embeddable": true
+          },
+          "currentOperations": [
+            {
+              "method": "GET",
+              "href": "http://localhost:24080/ffwebservices/api/v2/operations/6661AF810B324F9FB49CC50CDFCC3914",
+              "embeddable": true
+            }
+          ]
+        }
+      }
+    ],
+    "materials": [
+      {
+        "properties": {
+          "id": "8B34A988530B4DADA361B89D602026F5",
+          "number": "M-15223675",
+          "description": "AFTV-Vertikal-Kettenförderer VKF 600",
+          "type": null
+        },
+        "_links": {
+          "self": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/materials/8B34A988530B4DADA361B89D602026F5",
+            "embeddable": false
+          },
+          "description": {
+            "method": "GET",
+            "href": "http://localhost:24080/ffwebservices/api/v2/literals/2532382D80354C7CAC9647E6960372B3",
+            "embeddable": true
+          }
+        }
+      }
+    ]
+  }
+}

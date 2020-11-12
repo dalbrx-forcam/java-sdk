@@ -1,0 +1,52 @@
+{
+  "properties" : {
+    "id" : "1EB0877C591848CA9915083104B2B856",
+    "name" : "Planfräser-WSP D66",
+    "description" : null,
+    "identifier1" : "CLGR-M0310-MILLFACE",
+    "identifier2" : "M0310",
+    "identifier3" : "01",
+    "toolStateId" : "A",
+    "documentUrl" : "http://www.forcam.com",
+    "group" : {
+      "name" : "OCTOMILL",
+      "identifier" : "03"
+    },
+    "class" : {
+      "name" : "FRÄSER KONISCH-BOHRUNG",
+      "identifier" : "M02"
+    },
+    "lifeTime" : {
+      "current" : 0,
+      "warningLimit" : 0,
+      "maximum" : 0
+    }
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856",
+      "embeddable" : false
+    },
+    "workplace" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+      "embeddable" : true
+    },
+    "description" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/literals/7636CFD9852E441FA090971C7E3105D9",
+      "embeddable" : true
+    },
+    "edges" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/edges",
+      "embeddable" : true
+    },
+    "location" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/tools/1EB0877C591848CA9915083104B2B856/location",
+      "embeddable" : true
+    }
+  }
+}

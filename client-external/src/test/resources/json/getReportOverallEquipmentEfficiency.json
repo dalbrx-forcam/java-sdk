@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "oee": 0.0,
+    "performance": 0.0,
+    "quality": 0.0,
+    "availability": 0.0
+  },
+  "_links": {
+    "self": {
+      "embeddable": false,
+      "href": "http://localhost:24080/ffwebservices/api/v2/reports/overallEquipmentEfficiency",
+      "method": "GET"
+    }
+  }
+}

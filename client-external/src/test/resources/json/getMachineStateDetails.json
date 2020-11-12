@@ -1,0 +1,372 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 27,
+    "limit" : 3,
+    "count" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "machineStateDetails" : [ {
+      "properties" : {
+        "id" : "2C60FD5CBF104E7E9039C1ED630D108A",
+        "description" : "Production",
+        "shortDescription" : "Production",
+        "code" : "000",
+        "color" : "#00CC84",
+        "customerCode" : null,
+        "isRecodable" : false,
+        "isSplittable" : false,
+        "isAnnotatable" : false
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "5A8658FC94F34EA38C3CF1194AB30E7E",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Production"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Produktion"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Production"
+            }, {
+              "language" : "en-US",
+              "translation" : "Production"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Production"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Production"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Production"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Production"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Production"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5A8658FC94F34EA38C3CF1194AB30E7E",
+              "embeddable" : false
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "5A8658FC94F34EA38C3CF1194AB30E7E",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Production"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Produktion"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Production"
+            }, {
+              "language" : "en-US",
+              "translation" : "Production"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Production"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Production"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Production"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Production"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Production"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5A8658FC94F34EA38C3CF1194AB30E7E",
+              "embeddable" : false
+            }
+          }
+        }
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStateDetails/2C60FD5CBF104E7E9039C1ED630D108A?embed=shortDescription,description",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5A8658FC94F34EA38C3CF1194AB30E7E",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/5A8658FC94F34EA38C3CF1194AB30E7E",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "18B9C0BC3D5F49268C0CB801651FB119",
+        "description" : "Setup",
+        "shortDescription" : "Setup",
+        "code" : "020",
+        "color" : "#AA7900",
+        "customerCode" : null,
+        "isRecodable" : false,
+        "isSplittable" : false,
+        "isAnnotatable" : false
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "CF5843664EF04D12B4355732A11483AC",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Setup"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Rüsten"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Setup"
+            }, {
+              "language" : "en-US",
+              "translation" : "Setup"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Setup"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Setup"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Setup"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Setup"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Setup"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CF5843664EF04D12B4355732A11483AC",
+              "embeddable" : false
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "CF5843664EF04D12B4355732A11483AC",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Setup"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Rüsten"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Setup"
+            }, {
+              "language" : "en-US",
+              "translation" : "Setup"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Setup"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Setup"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Setup"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Setup"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Setup"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CF5843664EF04D12B4355732A11483AC",
+              "embeddable" : false
+            }
+          }
+        }
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStateDetails/18B9C0BC3D5F49268C0CB801651FB119?embed=shortDescription,description",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CF5843664EF04D12B4355732A11483AC",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CF5843664EF04D12B4355732A11483AC",
+          "embeddable" : false
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "B68AD4F440224225B6606B4373D5C2F4",
+        "description" : "Break",
+        "shortDescription" : "Break",
+        "code" : "993",
+        "color" : "#B6BABF",
+        "customerCode" : null,
+        "isRecodable" : false,
+        "isSplittable" : false,
+        "isAnnotatable" : false
+      },
+      "_embedded" : {
+        "description" : {
+          "properties" : {
+            "id" : "0A72BB04918E4F98A9DF3CCC193ED885",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Break"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Pause"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Break"
+            }, {
+              "language" : "en-US",
+              "translation" : "Break"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Pausa"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Break"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "间隙"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Break"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Break"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/0A72BB04918E4F98A9DF3CCC193ED885",
+              "embeddable" : false
+            }
+          }
+        },
+        "shortDescription" : {
+          "properties" : {
+            "id" : "0A72BB04918E4F98A9DF3CCC193ED885",
+            "translations" : [ {
+              "language" : "pl-PL",
+              "translation" : "Break"
+            }, {
+              "language" : "de-DE",
+              "translation" : "Pause"
+            }, {
+              "language" : "hu-HU",
+              "translation" : "Break"
+            }, {
+              "language" : "en-US",
+              "translation" : "Break"
+            }, {
+              "language" : "es-ES",
+              "translation" : "Pausa"
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Break"
+            }, {
+              "language" : "zh-CN",
+              "translation" : "间隙"
+            }, {
+              "language" : "ja-JP",
+              "translation" : "Break"
+            }, {
+              "language" : "en-GB",
+              "translation" : "Break"
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/0A72BB04918E4F98A9DF3CCC193ED885",
+              "embeddable" : false
+            }
+          }
+        }
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStateDetails/B68AD4F440224225B6606B4373D5C2F4?embed=shortDescription,description",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/0A72BB04918E4F98A9DF3CCC193ED885",
+          "embeddable" : false
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/0A72BB04918E4F98A9DF3CCC193ED885",
+          "embeddable" : false
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStateDetails?offset=0&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStateDetails?offset=0&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStateDetails?offset=24&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/machineStateDetails?offset=3&limit=3&embed=shortDescription,description",
+      "embeddable" : false
+    }
+  }
+}

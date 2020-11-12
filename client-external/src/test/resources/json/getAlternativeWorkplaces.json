@@ -1,0 +1,50 @@
+{
+  "_embedded": {
+    "alternativeWorkplaces": [
+      {
+        "properties": {
+          "id": "8AECA03AF3C5474A801283CC98E0EA0E",
+          "number": "WP-GRP1-Std-11",
+          "description": "WP-GRP1-Std-11",
+          "erpContextId": "8A2ECD55FE2B42B386561CF2105F754C"
+        },
+        "_links": {
+          "self": {
+            "href": "/workplaces/8AECA03AF3C5474A801283CC98E0EA0E?embed=machine,erpContext"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "65DD9948B8AF48CDA08117FC20025764",
+          "number": "WP-OperationFree-03",
+          "description": "WP-OperationFree-03",
+          "erpContextId": "8A2ECD55FE2B42B386561CF2105F754C"
+        },
+        "_links": {
+          "self": {
+            "href": "/workplaces/65DD9948B8AF48CDA08117FC20025764?embed=machine,erpContext"
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "6CFCEC08A9AB48CD8F4B2979C50E1CD6",
+          "number": "WP-GRP1-Std-10",
+          "description": "WP-GRP1-Std-10",
+          "erpContextId": "8A2ECD55FE2B42B386561CF2105F754C"
+        },
+        "_links": {
+          "self": {
+            "href": "/workplaces/6CFCEC08A9AB48CD8F4B2979C50E1CD6?embed=machine,erpContext"
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "self": {
+      "href": "/operations/6CFCEC08A9AB48CD8F4B2979C50E1CD6/alternativeWorkplaces"
+    }
+  }
+}

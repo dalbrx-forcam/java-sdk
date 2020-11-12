@@ -1,0 +1,12 @@
+{
+  "properties" : {
+    "id" : "NEW"
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "embeddable" : false,
+      "href" : "http://localhost:24080/ffwebservices/api/v2/ticketActivityStates/NEW"
+    }
+  }
+}

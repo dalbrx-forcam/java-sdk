@@ -1,0 +1,13 @@
+{
+  "title": "Test title",
+  "description": "Test description",
+  "rootCause": "test rootClause",
+  "priority": "LOW",
+  "editor": "Test editor",
+  "ticketStateId": "NEW",
+  "ticketClassId": "test class id",
+  "operationId": "E3C39A230B3C4DFAB3E20309B7452B51",
+  "materialNumber": "M-15223675",
+  "workplaceId": "75DE708E3215456A8829146FED901BA8",
+  "shiftId": "2A1644DC41264EC7A33277735C17E9D3"
+}

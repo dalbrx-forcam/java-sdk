@@ -1,0 +1,1692 @@
+{
+  "pagination" : {
+    "offset" : null,
+    "count" : 3,
+    "total" : 156,
+    "limit" : 3,
+    "lastIdentifier" : {
+      "timestamp" : "2018-07-12T04:00:00.000Z",
+      "identifier" : "5606DAC636BA4AAAA601FEED5229A1F8"
+    },
+    "firstIdentifier" : {
+      "timestamp" : "2019-01-18T14:00:03.922Z",
+      "identifier" : "EB4B083CC03F4B64A8289D0066F25956"
+    }
+  },
+  "_embedded" : {
+    "operations" : [ {
+      "properties" : {
+        "id" : "EB4B083CC03F4B64A8289D0066F25956",
+        "number" : "0060",
+        "split" : "0",
+        "sequenceNumber" : null,
+        "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "productionOrder" : {
+          "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+          "number" : "2001000100",
+          "split" : "0",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "material" : {
+            "number" : "299033455",
+            "description" : "TnT Flap",
+            "type" : null
+          },
+          "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+        },
+        "material" : {
+          "number" : "M-15223675",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "type" : null
+        },
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "currentWorkplace" : null,
+        "operationPhaseId" : "COMPLETED"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956?embed=productionOrder,description,erpContext,components,userFields,alternativeWorkplaces,",
+          "embeddable" : false
+        },
+        "operations" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations",
+          "embeddable" : false
+        },
+        "productionOrder" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CDE7B2BFDCCD47A1B3856512567DC36E",
+          "embeddable" : false
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+          "embeddable" : false
+        },
+        "specification" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/specification",
+          "embeddable" : true
+        },
+        "productionResourcesAndTools" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/productionResourcesAndTools",
+          "embeddable" : true
+        },
+        "quantitySummary" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/quantitySummary",
+          "embeddable" : true
+        },
+        "recordedOperatingStates" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/recordedOperatingStates",
+          "embeddable" : false
+        },
+        "scheduledDates" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/scheduledDates",
+          "embeddable" : true
+        },
+        "recordedOperationPhases" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/recordedOperationPhases",
+          "embeddable" : false
+        },
+        "operatingStateSummary" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/operatingStateSummary",
+          "embeddable" : false
+        },
+        "recordedOutputQuantities" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/recordedOutputQuantities",
+          "embeddable" : false
+        },
+        "plannedWorkplace" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/C0E399EE92C946FBA0B38E5002B51C91",
+          "embeddable" : true
+        },
+        "targetWorkplace" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5236DFF98C6E4661B1C0988FDABE1C76",
+          "embeddable" : true
+        },
+        "manufacturingVariants" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/manufacturingVariants",
+          "embeddable" : true
+        },
+        "components" : {
+          "method" : "GET",
+          "title" : "The current page",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/components?offset=0&limit=100",
+          "embeddable" : false
+        },
+        "userFields" : {
+          "method" : "GET",
+          "title" : "The current page",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/userFields?offset=0&limit=100",
+          "embeddable" : false
+        },
+        "productionOrderSpecification" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+          "embeddable" : true
+        },
+        "alternativeWorkplaces" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/alternativeWorkplaces",
+          "embeddable" : false
+        },
+        "requiredTools" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/requiredTools",
+          "embeddable" : true
+        },
+        "requiredSkills" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/requiredSkills",
+          "embeddable" : true
+        },
+        "materialCharacteristics" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/materialCharacteristics",
+          "embeddable" : true
+        },
+        "planningResult" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/planningResult",
+          "embeddable" : true
+        },
+        "forecastResult" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/forecastResult",
+          "embeddable" : true
+        }
+      },
+      "_embedded" : {
+        "components" : {
+          "properties" : {
+            "elements" : [ {
+              "material" : {
+                "number" : "COMP-961954",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            }, {
+              "material" : {
+                "number" : "COMP-COMP-56237",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            }, {
+              "material" : {
+                "number" : "COMP-COMP-871446",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            } ]
+          },
+          "pagination" : {
+            "offset" : 0,
+            "count" : 3,
+            "total" : 3,
+            "limit" : 100,
+            "lastIdentifier" : null,
+            "firstIdentifier" : null
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "title" : "The current page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "first" : {
+              "method" : "GET",
+              "title" : "First page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "last" : {
+              "method" : "GET",
+              "title" : "Last page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "operation" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956",
+              "embeddable" : true
+            }
+          }
+        },
+        "userFields" : {
+          "properties" : {
+            "elements" : [ {
+              "position" : 1,
+              "value" : "UF1 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 2,
+              "value" : "UF2 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 3,
+              "value" : "UF3 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 4,
+              "value" : "UF4 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 5,
+              "value" : "UF5 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 6,
+              "value" : "UF6 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 7,
+              "value" : "UF7 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 8,
+              "value" : "UF8 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 9,
+              "value" : "UF9 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 10,
+              "value" : "UF10 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 11,
+              "value" : "UF11 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 12,
+              "value" : "UF12 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 13,
+              "value" : "UF13 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 14,
+              "value" : "UF14 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 15,
+              "value" : "UF15 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 16,
+              "value" : "UF16 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 17,
+              "value" : "UF17 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 18,
+              "value" : "UF18 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 19,
+              "value" : "UF19 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 20,
+              "value" : "UF20 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 21,
+              "value" : "UF21 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 22,
+              "value" : "UF22 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 23,
+              "value" : "UF23 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 24,
+              "value" : "UF24 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 25,
+              "value" : "UF25 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 26,
+              "value" : "UF26 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 27,
+              "value" : "UF27 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 28,
+              "value" : "UF28 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 29,
+              "value" : "UF29 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 30,
+              "value" : "UF30 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 31,
+              "value" : "UF31 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 32,
+              "value" : "UF32 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 33,
+              "value" : "UF33 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 34,
+              "value" : "UF34 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 35,
+              "value" : "UF35 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 36,
+              "value" : "UF36 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 37,
+              "value" : "UF37 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 38,
+              "value" : "UF38 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 39,
+              "value" : "UF39 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 40,
+              "value" : "UF40 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 41,
+              "value" : "UF41 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 42,
+              "value" : "UF42 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 43,
+              "value" : "UF43 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 44,
+              "value" : "UF44 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 45,
+              "value" : "UF45 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 46,
+              "value" : "UF46 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 47,
+              "value" : "UF47 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 48,
+              "value" : "UF48 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 49,
+              "value" : "UF49 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 50,
+              "value" : "UF50 --> tempor invidunt ut labore et dolore"
+            } ]
+          },
+          "pagination" : {
+            "offset" : 0,
+            "count" : 50,
+            "total" : 50,
+            "limit" : 100,
+            "lastIdentifier" : null,
+            "firstIdentifier" : null
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "title" : "The current page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "first" : {
+              "method" : "GET",
+              "title" : "First page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "last" : {
+              "method" : "GET",
+              "title" : "Last page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "operation" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956",
+              "embeddable" : true
+            }
+          }
+        },
+        "alternativeWorkplaces" : {
+          "_embedded" : {
+            "alternativeWorkplaces" : [ ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/EB4B083CC03F4B64A8289D0066F25956/alternativeWorkplaces",
+              "embeddable" : false
+            }
+          }
+        },
+        "description" : {
+          "properties" : {
+            "id" : "CDE7B2BFDCCD47A1B3856512567DC36E",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "en-US",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "en-GB",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CDE7B2BFDCCD47A1B3856512567DC36E",
+              "embeddable" : false
+            }
+          }
+        },
+        "erpContext" : {
+          "properties" : {
+            "id" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "type" : "PLANT",
+            "identifier1" : "100",
+            "identifier3" : "9000",
+            "identifier2" : "9000",
+            "systemNumber" : "1"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : false
+            }
+          }
+        },
+        "productionOrder" : {
+          "properties" : {
+            "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+            "number" : "2001000100",
+            "split" : "0",
+            "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+            "material" : {
+              "number" : "299033455",
+              "description" : "TnT Flap",
+              "type" : null
+            },
+            "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51",
+              "embeddable" : false
+            },
+            "description" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/FC10A0AE8F774B709A61F24E1318469B",
+              "embeddable" : true
+            },
+            "erpContext" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : true
+            },
+            "specification" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+              "embeddable" : true
+            },
+            "scheduledDates" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/scheduledDates",
+              "embeddable" : true
+            },
+            "operationSequence" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+              "embeddable" : true
+            },
+            "operations" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations?productionOrderId=E2BC7F36C5B54923B0D477CF48744A51",
+              "embeddable" : true
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "B5C48A83172745E7AB6A322367DFC853",
+        "number" : "0050",
+        "split" : "0",
+        "sequenceNumber" : null,
+        "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "productionOrder" : {
+          "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+          "number" : "2001000100",
+          "split" : "0",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "material" : {
+            "number" : "299033455",
+            "description" : "TnT Flap",
+            "type" : null
+          },
+          "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+        },
+        "material" : {
+          "number" : "M-15223675",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "type" : null
+        },
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "currentWorkplace" : null,
+        "operationPhaseId" : "RELEASED"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853?embed=productionOrder,description,erpContext,components,userFields,alternativeWorkplaces,",
+          "embeddable" : false
+        },
+        "operations" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations",
+          "embeddable" : false
+        },
+        "productionOrder" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/84DD4434D8D44C2284DFF102430A07A0",
+          "embeddable" : false
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+          "embeddable" : false
+        },
+        "specification" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/specification",
+          "embeddable" : true
+        },
+        "productionResourcesAndTools" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/productionResourcesAndTools",
+          "embeddable" : true
+        },
+        "quantitySummary" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/quantitySummary",
+          "embeddable" : true
+        },
+        "recordedOperatingStates" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/recordedOperatingStates",
+          "embeddable" : false
+        },
+        "scheduledDates" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/scheduledDates",
+          "embeddable" : true
+        },
+        "recordedOperationPhases" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/recordedOperationPhases",
+          "embeddable" : false
+        },
+        "operatingStateSummary" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/operatingStateSummary",
+          "embeddable" : false
+        },
+        "recordedOutputQuantities" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/recordedOutputQuantities",
+          "embeddable" : false
+        },
+        "targetWorkplace" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5236DFF98C6E4661B1C0988FDABE1C76",
+          "embeddable" : true
+        },
+        "manufacturingVariants" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/manufacturingVariants",
+          "embeddable" : true
+        },
+        "components" : {
+          "method" : "GET",
+          "title" : "The current page",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/components?offset=0&limit=100",
+          "embeddable" : false
+        },
+        "userFields" : {
+          "method" : "GET",
+          "title" : "The current page",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/userFields?offset=0&limit=100",
+          "embeddable" : false
+        },
+        "productionOrderSpecification" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+          "embeddable" : true
+        },
+        "alternativeWorkplaces" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/alternativeWorkplaces",
+          "embeddable" : false
+        },
+        "requiredTools" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/requiredTools",
+          "embeddable" : true
+        },
+        "requiredSkills" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/requiredSkills",
+          "embeddable" : true
+        },
+        "materialCharacteristics" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/materialCharacteristics",
+          "embeddable" : true
+        },
+        "planningResult" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/planningResult",
+          "embeddable" : true
+        },
+        "updatePlanningResult" : {
+          "method" : "PUT",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/planningResult",
+          "embeddable" : false
+        },
+        "deletePlanningResult" : {
+          "method" : "DELETE",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/planningResult",
+          "embeddable" : false
+        },
+        "forecastResult" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/forecastResult",
+          "embeddable" : true
+        },
+        "updateForecastResult" : {
+          "method" : "PUT",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/forecastResult",
+          "embeddable" : false
+        },
+        "deleteForecastResult" : {
+          "method" : "DELETE",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/forecastResult",
+          "embeddable" : false
+        }
+      },
+      "_embedded" : {
+        "components" : {
+          "properties" : {
+            "elements" : [ {
+              "material" : {
+                "number" : "COMP-961954",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            }, {
+              "material" : {
+                "number" : "COMP-COMP-56237",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            }, {
+              "material" : {
+                "number" : "COMP-COMP-871446",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            } ]
+          },
+          "pagination" : {
+            "offset" : 0,
+            "count" : 3,
+            "total" : 3,
+            "limit" : 100,
+            "lastIdentifier" : null,
+            "firstIdentifier" : null
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "title" : "The current page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "first" : {
+              "method" : "GET",
+              "title" : "First page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "last" : {
+              "method" : "GET",
+              "title" : "Last page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "operation" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853",
+              "embeddable" : true
+            }
+          }
+        },
+        "userFields" : {
+          "properties" : {
+            "elements" : [ {
+              "position" : 1,
+              "value" : "UF1 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 2,
+              "value" : "UF2 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 3,
+              "value" : "UF3 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 4,
+              "value" : "UF4 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 5,
+              "value" : "UF5 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 6,
+              "value" : "UF6 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 7,
+              "value" : "UF7 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 8,
+              "value" : "UF8 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 9,
+              "value" : "UF9 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 10,
+              "value" : "UF10 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 11,
+              "value" : "UF11 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 12,
+              "value" : "UF12 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 13,
+              "value" : "UF13 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 14,
+              "value" : "UF14 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 15,
+              "value" : "UF15 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 16,
+              "value" : "UF16 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 17,
+              "value" : "UF17 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 18,
+              "value" : "UF18 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 19,
+              "value" : "UF19 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 20,
+              "value" : "UF20 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 21,
+              "value" : "UF21 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 22,
+              "value" : "UF22 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 23,
+              "value" : "UF23 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 24,
+              "value" : "UF24 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 25,
+              "value" : "UF25 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 26,
+              "value" : "UF26 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 27,
+              "value" : "UF27 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 28,
+              "value" : "UF28 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 29,
+              "value" : "UF29 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 30,
+              "value" : "UF30 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 31,
+              "value" : "UF31 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 32,
+              "value" : "UF32 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 33,
+              "value" : "UF33 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 34,
+              "value" : "UF34 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 35,
+              "value" : "UF35 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 36,
+              "value" : "UF36 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 37,
+              "value" : "UF37 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 38,
+              "value" : "UF38 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 39,
+              "value" : "UF39 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 40,
+              "value" : "UF40 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 41,
+              "value" : "UF41 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 42,
+              "value" : "UF42 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 43,
+              "value" : "UF43 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 44,
+              "value" : "UF44 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 45,
+              "value" : "UF45 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 46,
+              "value" : "UF46 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 47,
+              "value" : "UF47 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 48,
+              "value" : "UF48 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 49,
+              "value" : "UF49 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 50,
+              "value" : "UF50 --> tempor invidunt ut labore et dolore"
+            } ]
+          },
+          "pagination" : {
+            "offset" : 0,
+            "count" : 50,
+            "total" : 50,
+            "limit" : 100,
+            "lastIdentifier" : null,
+            "firstIdentifier" : null
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "title" : "The current page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "first" : {
+              "method" : "GET",
+              "title" : "First page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "last" : {
+              "method" : "GET",
+              "title" : "Last page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "operation" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853",
+              "embeddable" : true
+            }
+          }
+        },
+        "alternativeWorkplaces" : {
+          "_embedded" : {
+            "alternativeWorkplaces" : [ ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/B5C48A83172745E7AB6A322367DFC853/alternativeWorkplaces",
+              "embeddable" : false
+            }
+          }
+        },
+        "description" : {
+          "properties" : {
+            "id" : "84DD4434D8D44C2284DFF102430A07A0",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "en-US",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "en-GB",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/84DD4434D8D44C2284DFF102430A07A0",
+              "embeddable" : false
+            }
+          }
+        },
+        "erpContext" : {
+          "properties" : {
+            "id" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "type" : "PLANT",
+            "identifier1" : "100",
+            "identifier3" : "9000",
+            "identifier2" : "9000",
+            "systemNumber" : "1"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : false
+            }
+          }
+        },
+        "productionOrder" : {
+          "properties" : {
+            "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+            "number" : "2001000100",
+            "split" : "0",
+            "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+            "material" : {
+              "number" : "299033455",
+              "description" : "TnT Flap",
+              "type" : null
+            },
+            "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51",
+              "embeddable" : false
+            },
+            "description" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/FC10A0AE8F774B709A61F24E1318469B",
+              "embeddable" : true
+            },
+            "erpContext" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : true
+            },
+            "specification" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+              "embeddable" : true
+            },
+            "scheduledDates" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/scheduledDates",
+              "embeddable" : true
+            },
+            "operationSequence" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+              "embeddable" : true
+            },
+            "operations" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations?productionOrderId=E2BC7F36C5B54923B0D477CF48744A51",
+              "embeddable" : true
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "5606DAC636BA4AAAA601FEED5229A1F8",
+        "number" : "0040",
+        "split" : "0",
+        "sequenceNumber" : null,
+        "description" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+        "productionOrder" : {
+          "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+          "number" : "2001000100",
+          "split" : "0",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "material" : {
+            "number" : "299033455",
+            "description" : "TnT Flap",
+            "type" : null
+          },
+          "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+        },
+        "material" : {
+          "number" : "M-15223675",
+          "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+          "type" : null
+        },
+        "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D",
+        "currentWorkplace" : null,
+        "operationPhaseId" : "RELEASED"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8?embed=productionOrder,description,erpContext,components,userFields,alternativeWorkplaces,",
+          "embeddable" : false
+        },
+        "operations" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations",
+          "embeddable" : false
+        },
+        "productionOrder" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/79EB43633DE84293B1CAC6418DB34AB2",
+          "embeddable" : false
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+          "embeddable" : false
+        },
+        "specification" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/specification",
+          "embeddable" : true
+        },
+        "productionResourcesAndTools" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/productionResourcesAndTools",
+          "embeddable" : true
+        },
+        "quantitySummary" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/quantitySummary",
+          "embeddable" : true
+        },
+        "recordedOperatingStates" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/recordedOperatingStates",
+          "embeddable" : false
+        },
+        "scheduledDates" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/scheduledDates",
+          "embeddable" : true
+        },
+        "recordedOperationPhases" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/recordedOperationPhases",
+          "embeddable" : false
+        },
+        "operatingStateSummary" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/operatingStateSummary",
+          "embeddable" : false
+        },
+        "recordedOutputQuantities" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/recordedOutputQuantities",
+          "embeddable" : false
+        },
+        "targetWorkplace" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/workplaces/5236DFF98C6E4661B1C0988FDABE1C76",
+          "embeddable" : true
+        },
+        "manufacturingVariants" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/manufacturingVariants",
+          "embeddable" : true
+        },
+        "components" : {
+          "method" : "GET",
+          "title" : "The current page",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/components?offset=0&limit=100",
+          "embeddable" : false
+        },
+        "userFields" : {
+          "method" : "GET",
+          "title" : "The current page",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/userFields?offset=0&limit=100",
+          "embeddable" : false
+        },
+        "productionOrderSpecification" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+          "embeddable" : true
+        },
+        "alternativeWorkplaces" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/alternativeWorkplaces",
+          "embeddable" : false
+        },
+        "requiredTools" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/requiredTools",
+          "embeddable" : true
+        },
+        "requiredSkills" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/requiredSkills",
+          "embeddable" : true
+        },
+        "materialCharacteristics" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/materialCharacteristics",
+          "embeddable" : true
+        },
+        "planningResult" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/planningResult",
+          "embeddable" : true
+        },
+        "updatePlanningResult" : {
+          "method" : "PUT",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/planningResult",
+          "embeddable" : false
+        },
+        "deletePlanningResult" : {
+          "method" : "DELETE",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/planningResult",
+          "embeddable" : false
+        },
+        "forecastResult" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/forecastResult",
+          "embeddable" : true
+        },
+        "updateForecastResult" : {
+          "method" : "PUT",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/forecastResult",
+          "embeddable" : false
+        },
+        "deleteForecastResult" : {
+          "method" : "DELETE",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/forecastResult",
+          "embeddable" : false
+        }
+      },
+      "_embedded" : {
+        "components" : {
+          "properties" : {
+            "elements" : [ {
+              "material" : {
+                "number" : "COMP-961954",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            }, {
+              "material" : {
+                "number" : "COMP-COMP-56237",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            }, {
+              "material" : {
+                "number" : "COMP-COMP-871446",
+                "description" : null,
+                "type" : null
+              },
+              "quantity" : 1.0,
+              "quantityUnit" : "Stk"
+            } ]
+          },
+          "pagination" : {
+            "offset" : 0,
+            "count" : 3,
+            "total" : 3,
+            "limit" : 100,
+            "lastIdentifier" : null,
+            "firstIdentifier" : null
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "title" : "The current page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "first" : {
+              "method" : "GET",
+              "title" : "First page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "last" : {
+              "method" : "GET",
+              "title" : "Last page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/components?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "operation" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8",
+              "embeddable" : true
+            }
+          }
+        },
+        "userFields" : {
+          "properties" : {
+            "elements" : [ {
+              "position" : 1,
+              "value" : "UF1 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 2,
+              "value" : "UF2 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 3,
+              "value" : "UF3 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 4,
+              "value" : "UF4 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 5,
+              "value" : "UF5 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 6,
+              "value" : "UF6 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 7,
+              "value" : "UF7 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 8,
+              "value" : "UF8 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 9,
+              "value" : "UF9 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 10,
+              "value" : "UF10 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 11,
+              "value" : "UF11 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 12,
+              "value" : "UF12 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 13,
+              "value" : "UF13 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 14,
+              "value" : "UF14 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 15,
+              "value" : "UF15 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 16,
+              "value" : "UF16 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 17,
+              "value" : "UF17 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 18,
+              "value" : "UF18 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 19,
+              "value" : "UF19 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 20,
+              "value" : "UF20 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 21,
+              "value" : "UF21 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 22,
+              "value" : "UF22 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 23,
+              "value" : "UF23 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 24,
+              "value" : "UF24 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 25,
+              "value" : "UF25 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 26,
+              "value" : "UF26 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 27,
+              "value" : "UF27 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 28,
+              "value" : "UF28 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 29,
+              "value" : "UF29 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 30,
+              "value" : "UF30 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 31,
+              "value" : "UF31 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 32,
+              "value" : "UF32 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 33,
+              "value" : "UF33 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 34,
+              "value" : "UF34 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 35,
+              "value" : "UF35 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 36,
+              "value" : "UF36 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 37,
+              "value" : "UF37 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 38,
+              "value" : "UF38 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 39,
+              "value" : "UF39 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 40,
+              "value" : "UF40 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 41,
+              "value" : "UF41 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 42,
+              "value" : "UF42 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 43,
+              "value" : "UF43 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 44,
+              "value" : "UF44 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 45,
+              "value" : "UF45 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 46,
+              "value" : "UF46 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 47,
+              "value" : "UF47 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 48,
+              "value" : "UF48 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 49,
+              "value" : "UF49 --> tempor invidunt ut labore et dolore"
+            }, {
+              "position" : 50,
+              "value" : "UF50 --> tempor invidunt ut labore et dolore"
+            } ]
+          },
+          "pagination" : {
+            "offset" : 0,
+            "count" : 50,
+            "total" : 50,
+            "limit" : 100,
+            "lastIdentifier" : null,
+            "firstIdentifier" : null
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "title" : "The current page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "first" : {
+              "method" : "GET",
+              "title" : "First page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "last" : {
+              "method" : "GET",
+              "title" : "Last page",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/userFields?offset=0&limit=100",
+              "embeddable" : false
+            },
+            "operation" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8",
+              "embeddable" : true
+            }
+          }
+        },
+        "alternativeWorkplaces" : {
+          "_embedded" : {
+            "alternativeWorkplaces" : [ ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations/5606DAC636BA4AAAA601FEED5229A1F8/alternativeWorkplaces",
+              "embeddable" : false
+            }
+          }
+        },
+        "description" : {
+          "properties" : {
+            "id" : "79EB43633DE84293B1CAC6418DB34AB2",
+            "translations" : [ {
+              "language" : "de-DE",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "en-US",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "fr-FR",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "zh-CN",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            }, {
+              "language" : "en-GB",
+              "translation" : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+            } ]
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/79EB43633DE84293B1CAC6418DB34AB2",
+              "embeddable" : false
+            }
+          }
+        },
+        "erpContext" : {
+          "properties" : {
+            "id" : "BF0268C3CAFD4430B85485FB35FEE00D",
+            "type" : "PLANT",
+            "identifier1" : "100",
+            "identifier3" : "9000",
+            "identifier2" : "9000",
+            "systemNumber" : "1"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : false
+            }
+          }
+        },
+        "productionOrder" : {
+          "properties" : {
+            "id" : "E2BC7F36C5B54923B0D477CF48744A51",
+            "number" : "2001000100",
+            "split" : "0",
+            "description" : "AFTV-Vertikal-Kettenförderer VKF 600",
+            "material" : {
+              "number" : "299033455",
+              "description" : "TnT Flap",
+              "type" : null
+            },
+            "erpContextId" : "BF0268C3CAFD4430B85485FB35FEE00D"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51",
+              "embeddable" : false
+            },
+            "description" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/literals/FC10A0AE8F774B709A61F24E1318469B",
+              "embeddable" : true
+            },
+            "erpContext" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/BF0268C3CAFD4430B85485FB35FEE00D",
+              "embeddable" : true
+            },
+            "specification" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+              "embeddable" : true
+            },
+            "scheduledDates" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/scheduledDates",
+              "embeddable" : true
+            },
+            "operationSequence" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/productionOrders/E2BC7F36C5B54923B0D477CF48744A51/specification",
+              "embeddable" : true
+            },
+            "operations" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/operations?productionOrderId=E2BC7F36C5B54923B0D477CF48744A51",
+              "embeddable" : true
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "planningScenarios" : {
+      "method" : "GET",
+      "title" : "Retrieve planning scenarios",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningScenarios",
+      "embeddable" : false
+    },
+    "planningResults" : {
+      "method" : "GET",
+      "title" : "Retrieve planning results",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/planningResults",
+      "embeddable" : false
+    },
+    "forecastResults" : {
+      "method" : "GET",
+      "title" : "Retrieve forecast results",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/forecastResults",
+      "embeddable" : false
+    },
+    "operationsWithSpecification" : {
+      "method" : "GET",
+      "title" : "Retrieve operations with specification",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?embed=specification",
+      "embeddable" : false
+    },
+    "searchOperationsWithSpecification" : {
+      "method" : "POST",
+      "title" : "Retrieve operations with specification",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations/search?embed=specification",
+      "embeddable" : false
+    },
+    "operationsWithManufacturingVariants" : {
+      "method" : "GET",
+      "title" : "Retrieve operations with manufacturing variants",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?embed=manufacturingVariants",
+      "embeddable" : false
+    },
+    "operationsWithProductionResourcesAndTools" : {
+      "method" : "GET",
+      "title" : "Retrieve operations with production resources and tools",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?embed=productionResourcesAndTools",
+      "embeddable" : false
+    },
+    "operationsWithComponents" : {
+      "method" : "GET",
+      "title" : "Retrieve operations with components",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?embed=components",
+      "embeddable" : false
+    },
+    "operationsWithScheduledDates" : {
+      "method" : "GET",
+      "title" : "Retrieve operations with scheduled dates",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?embed=scheduledDates",
+      "embeddable" : false
+    },
+    "operationsWithPlanningResults" : {
+      "method" : "GET",
+      "title" : "Retrieve operations with planning results",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?embed=planningResults",
+      "embeddable" : false
+    },
+    "operationsWithForecastResults" : {
+      "method" : "GET",
+      "title" : "Retrieve operations with forecast results",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?embed=forecastResults",
+      "embeddable" : false
+    },
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?paginationDirection=NEXT&limit=3&embed=productionOrder,description,erpContext,components,userFields,alternativeWorkplaces,",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?paginationDirection=NEXT&limit=3&embed=productionOrder,description,erpContext,components,userFields,alternativeWorkplaces,",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?paginationDirection=PREVIOUS&limit=3&embed=productionOrder,description,erpContext,components,userFields,alternativeWorkplaces,",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page of this collection",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/operations?paginationTimestamp=2018-07-12T04:00:00.000Z&paginationIdentifier=5606DAC636BA4AAAA601FEED5229A1F8&paginationDirection=NEXT&limit=3&embed=productionOrder,description,erpContext,components,userFields,alternativeWorkplaces,",
+      "embeddable" : false
+    }
+  }
+}

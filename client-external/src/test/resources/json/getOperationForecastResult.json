@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "setupStartDate": "2018-05-09T06:59:01.791Z",
+    "processingStartDate": "2018-05-09T06:59:01.791Z",
+    "processingEndDate": "2018-05-09T06:59:01.791Z",
+    "startDate": "2018-05-09T06:59:01.791Z",
+    "endDate": "2018-05-09T06:59:01.791Z",
+    "setupEndDate": "2018-05-09T06:59:01.791Z",
+    "workplaceId": "86GD712D15414648985B92FE1DF456R8",
+    "operationId": "7636A12D15414648985B92FE10FB737B"
+  },
+  "_links": {
+    "updateForecastResult": {
+      "method": "PUT",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/7636A12D15414648985B92FE10FB737B/forecastResult"
+    },
+    "deleteForecastResult": {
+      "method": "DELETE",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/7636A12D15414648985B92FE10FB737B/forecastResult"
+    },
+    "self": {
+      "method": "GET",
+      "href": "http://localhost:24080/ffwebservices/api/v1/operations/7636A12D15414648985B92FE10FB737B/forecastResult"
+    }
+  }
+}

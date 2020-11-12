@@ -1,0 +1,83 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 2,
+    "count" : 2,
+    "limit" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "personnelStates" : [ {
+      "properties" : {
+        "id" : "SIGNED_ON",
+        "description" : "Assigned",
+        "shortDescription" : "Assigned",
+        "code" : "1",
+        "color" : "#00CC84"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/staffMemberStates/SIGNED_ON",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/33268E80BC3849DE85E0F5129E0ABE76",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/98006D3A89424DC7B5E0B41DD6021AEF",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "SIGNED_OFF",
+        "description" : "Unassigned",
+        "shortDescription" : "Unassigned",
+        "code" : "2",
+        "color" : "#C60A44"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/staffMemberStates/SIGNED_OFF",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/1DD77C0AC28D462C934678A6EB65DDF2",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/BC5C4E40CE564D0285BAB594F9BA2569",
+          "embeddable" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/staffMemberStates?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/staffMemberStates?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/staffMemberStates?offset=0&limit=3",
+      "embeddable" : false,
+      "title" : "Last page"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "properties" : {
+    "elements" : [ {
+      "staffMemberId" : "CC614325EBE04A86AFB449528ED10830",
+      "scheduledWorkingTimes" : [ ]
+    }, {
+      "staffMemberId" : "51714551F1DB4EDD977DE9D97F001AF4",
+      "scheduledWorkingTimes" : [ {
+        "startDate" : "2019-01-17T09:53:00.000Z",
+        "endDate" : "2019-01-17T17:53:00.000Z",
+        "duration" : 28800000
+      } ]
+    }, {
+      "staffMemberId" : "072DF3347C224AB6B2E2AB4C96A4F5F3",
+      "scheduledWorkingTimes" : [ ]
+    } ]
+  },
+  "pagination" : {
+    "offset" : 0,
+    "total" : 1002,
+    "count" : 3,
+    "limit" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/scheduledWorkingTimes?offset=0&limit=3&startDate=1970-01-01T01:00:00.000+0100",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/scheduledWorkingTimes?offset=0&limit=3&startDate=1970-01-01T01:00:00.000+0100",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/scheduledWorkingTimes?offset=999&limit=3&startDate=1970-01-01T01:00:00.000+0100",
+      "embeddable" : false,
+      "title" : "Last page"
+    },
+    "next" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/scheduledWorkingTimes?offset=3&limit=3&startDate=1970-01-01T01:00:00.000+0100",
+      "embeddable" : false,
+      "title" : "Next page"
+    }
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "pagination": {
+    "offset": 0,
+    "count": 3,
+    "total": 55440,
+    "limit": 3
+  },
+  "_embedded": {
+    "shifts": [
+      {
+        "properties": {
+          "id": "E2064BEE66E14FF680E2EBCF128BCD2A",
+          "shiftTypeId": "3292E94997524721B010BBE3BAE87717",
+          "workplaceId": "A363E33CB905482FA0E8E46740B28CA2",
+          "associatedDay": "2017-10-04T22:00:00.000Z",
+          "breaks": [
+            {
+              "timePeriod": {
+                "duration": 900000,
+                "startDate": "2017-10-06T13:02:00.000Z",
+                "endDate": "2017-10-06T13:17:00.000Z"
+              }
+            },
+            {
+              "timePeriod": {
+                "duration": 900000,
+                "startDate": "2017-10-06T16:17:00.000Z",
+                "endDate": "2017-10-06T16:32:00.000Z"
+              }
+            }
+          ],
+          "timePeriod": {
+            "duration": 27000000
+          },
+          "isWorkingShift": false
+        },
+        "_links": {
+          "shiftType": {
+            "href": "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+          },
+          "self": {
+            "href": "/shifts/E2064BEE66E14FF680E2EBCF128BCD2A?embed=workplace,shiftType"
+          },
+          "workplace": {
+            "href": "/workplaces/A363E33CB905482FA0E8E46740B28CA2"
+          }
+        },
+        "_embedded": {
+          "shiftType": {
+            "properties": {
+              "id": "3292E94997524721B010BBE3BAE87717",
+              "color": "",
+              "isWorkingShift": true
+            },
+            "_links": {
+              "description": {
+                "href": "/literals/68F8B5E6246D4609B24F2FC878CAD29F"
+              },
+              "self": {
+                "href": "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+              },
+              "shortDescription": {
+                "href": "/literals/2A7CA4CF24C74E919ACEB846BFEE1312"
+              }
+            }
+          },
+          "workplace": {
+            "properties": {
+              "id": "A363E33CB905482FA0E8E46740B28CA2",
+              "number": "WP-AutoStatus-06",
+              "description": "WP-AutoStatus-06",
+              "erpContextId": "8A2ECD55FE2B42B386561CF2105F754C"
+            },
+            "_links": {
+              "self": {
+                "href": "/workplaces/A363E33CB905482FA0E8E46740B28CA2"
+              },
+              "description": {
+                "href": "/literals/00E9C084EF344A87B809F3572F822DCE"
+              },
+              "shifts": {
+                "href": "/workplaces/A363E33CB905482FA0E8E46740B28CA2/shifts"
+              },
+              "erpContext": {
+                "href": "/erpContexts/8A2ECD55FE2B42B386561CF2105F754C"
+              },
+              "recordedOperatingStates": {
+                "href": "/workplaces/A363E33CB905482FA0E8E46740B28CA2/recordedOperatingStates"
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "A735747F169A4E4FAD1AA73554F159B4",
+          "shiftTypeId": "3292E94997524721B010BBE3BAE87717",
+          "workplaceId": "68CF784F3BF94D32B2023404E08E42BF",
+          "associatedDay": "2017-10-04T22:00:00.000Z",
+          "breaks": [
+            {
+              "timePeriod": {
+                "duration": 900000,
+                "startDate": "2017-10-06T13:02:00.000Z",
+                "endDate": "2017-10-06T13:17:00.000Z"
+              }
+            },
+            {
+              "timePeriod": {
+                "duration": 900000,
+                "startDate": "2017-10-06T16:17:00.000Z",
+                "endDate": "2017-10-06T16:32:00.000Z"
+              }
+            }
+          ],
+          "timePeriod": {
+            "duration": 27000000
+          },
+          "isWorkingShift": false
+        },
+        "_links": {
+          "shiftType": {
+            "href": "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+          },
+          "self": {
+            "href": "/shifts/A735747F169A4E4FAD1AA73554F159B4?embed=workplace,shiftType"
+          },
+          "workplace": {
+            "href": "/workplaces/68CF784F3BF94D32B2023404E08E42BF"
+          }
+        },
+        "_embedded": {
+          "shiftType": {
+            "properties": {
+              "id": "3292E94997524721B010BBE3BAE87717",
+              "color": "",
+              "isWorkingShift": true
+            },
+            "_links": {
+              "description": {
+                "href": "/literals/68F8B5E6246D4609B24F2FC878CAD29F"
+              },
+              "self": {
+                "href": "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+              },
+              "shortDescription": {
+                "href": "/literals/2A7CA4CF24C74E919ACEB846BFEE1312"
+              }
+            }
+          },
+          "workplace": {
+            "properties": {
+              "id": "68CF784F3BF94D32B2023404E08E42BF",
+              "number": "WP-Standard-04",
+              "description": "WP-Standard-04",
+              "erpContextId": "8A2ECD55FE2B42B386561CF2105F754C"
+            },
+            "_links": {
+              "self": {
+                "href": "/workplaces/68CF784F3BF94D32B2023404E08E42BF"
+              },
+              "description": {
+                "href": "/literals/C127224203B64E72808EF4CDA0C51E12"
+              },
+              "shifts": {
+                "href": "/workplaces/68CF784F3BF94D32B2023404E08E42BF/shifts"
+              },
+              "erpContext": {
+                "href": "/erpContexts/8A2ECD55FE2B42B386561CF2105F754C"
+              },
+              "recordedOperatingStates": {
+                "href": "/workplaces/68CF784F3BF94D32B2023404E08E42BF/recordedOperatingStates"
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "id": "A42C7BD908464622869F29DB8987046A",
+          "shiftTypeId": "3292E94997524721B010BBE3BAE87717",
+          "workplaceId": "6A8B2AA0A968422085F51537802515E4",
+          "associatedDay": "2017-10-04T22:00:00.000Z",
+          "breaks": [
+            {
+              "timePeriod": {
+                "duration": 900000,
+                "startDate": "2017-10-06T13:02:00.000Z",
+                "endDate": "2017-10-06T13:17:00.000Z"
+              }
+            },
+            {
+              "timePeriod": {
+                "duration": 900000,
+                "startDate": "2017-10-06T16:17:00.000Z",
+                "endDate": "2017-10-06T16:32:00.000Z"
+              }
+            }
+          ],
+          "timePeriod": {
+            "duration": 27000000
+          },
+          "isWorkingShift": false
+        },
+        "_links": {
+          "shiftType": {
+            "href": "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+          },
+          "self": {
+            "href": "/shifts/A42C7BD908464622869F29DB8987046A?embed=workplace,shiftType"
+          },
+          "workplace": {
+            "href": "/workplaces/6A8B2AA0A968422085F51537802515E4"
+          }
+        },
+        "_embedded": {
+          "shiftType": {
+            "properties": {
+              "id": "3292E94997524721B010BBE3BAE87717",
+              "color": "",
+              "isWorkingShift": true
+            },
+            "_links": {
+              "description": {
+                "href": "/literals/68F8B5E6246D4609B24F2FC878CAD29F"
+              },
+              "self": {
+                "href": "/shiftTypes/3292E94997524721B010BBE3BAE87717"
+              },
+              "shortDescription": {
+                "href": "/literals/2A7CA4CF24C74E919ACEB846BFEE1312"
+              }
+            }
+          },
+          "workplace": {
+            "properties": {
+              "id": "6A8B2AA0A968422085F51537802515E4",
+              "number": "WP-AutoStatus-01",
+              "description": "WP-AutoStatus-01",
+              "erpContextId": "8A2ECD55FE2B42B386561CF2105F754C"
+            },
+            "_links": {
+              "self": {
+                "href": "/workplaces/6A8B2AA0A968422085F51537802515E4"
+              },
+              "description": {
+                "href": "/literals/3DF76CD3370F4CC8B40377920B91EF31"
+              },
+              "shifts": {
+                "href": "/workplaces/6A8B2AA0A968422085F51537802515E4/shifts"
+              },
+              "erpContext": {
+                "href": "/erpContexts/8A2ECD55FE2B42B386561CF2105F754C"
+              },
+              "recordedOperatingStates": {
+                "href": "/workplaces/6A8B2AA0A968422085F51537802515E4/recordedOperatingStates"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "_links": {
+    "next": {
+      "href": "/shifts?offset=3&limit=3&embed=workplace,shiftType",
+      "title": "Next page of this collection"
+    },
+    "last": {
+      "href": "/shifts?offset=55437&limit=3&embed=workplace,shiftType",
+      "title": "Last page of this collection"
+    },
+    "self": {
+      "href": "/shifts?offset=0&limit=3&embed=workplace,shiftType",
+      "title": "This collection"
+    },
+    "first": {
+      "href": "/shifts?offset=0&limit=3&embed=workplace,shiftType",
+      "title": "First page of this collection"
+    }
+  }
+}

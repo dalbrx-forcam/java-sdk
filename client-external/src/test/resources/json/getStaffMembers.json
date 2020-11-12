@@ -1,0 +1,222 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 1002,
+    "count" : 3,
+    "limit" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "staffMembers" : [ {
+      "properties" : {
+        "id" : "CC614325EBE04A86AFB449528ED10830",
+        "staffNumber" : "54000000",
+        "firstName" : "Marion",
+        "lastName" : "Huber",
+        "erpContextId" : "4ca712a78a2b4cf58fa5a79544707e37",
+        "identificationNumber" : "5000001"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830?embed=erpContext,",
+          "embeddable" : false
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+          "embeddable" : false
+        },
+        "currentlyExecutedOperations" : [ ],
+        "skills" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/skills",
+          "embeddable" : true
+        },
+        "scheduledWorkingTimes" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/scheduledWorkingTimes",
+          "embeddable" : false
+        },
+        "assignedWorkplaces" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/assignedWorkplace",
+          "embeddable" : true
+        },
+        "location" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/CC614325EBE04A86AFB449528ED10830/location",
+          "embeddable" : true
+        }
+      },
+      "_embedded" : {
+        "erpContext" : {
+          "properties" : {
+            "id" : "4ca712a78a2b4cf58fa5a79544707e37",
+            "type" : "PERSONNEL_AREA",
+            "identifier1" : "100",
+            "identifier3" : "9000",
+            "identifier2" : "9000",
+            "systemNumber" : "1"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+              "embeddable" : false
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "51714551F1DB4EDD977DE9D97F001AF4",
+        "staffNumber" : "54000001",
+        "firstName" : "Gerd",
+        "lastName" : "Schlotterheimer",
+        "erpContextId" : "4ca712a78a2b4cf58fa5a79544707e37",
+        "identificationNumber" : "5000002"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4?embed=erpContext,",
+          "embeddable" : false
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+          "embeddable" : false
+        },
+        "currentlyExecutedOperations" : [ ],
+        "skills" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/skills",
+          "embeddable" : true
+        },
+        "scheduledWorkingTimes" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/scheduledWorkingTimes",
+          "embeddable" : false
+        },
+        "assignedWorkplaces" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/assignedWorkplace",
+          "embeddable" : true
+        },
+        "location" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/51714551F1DB4EDD977DE9D97F001AF4/location",
+          "embeddable" : true
+        }
+      },
+      "_embedded" : {
+        "erpContext" : {
+          "properties" : {
+            "id" : "4ca712a78a2b4cf58fa5a79544707e37",
+            "type" : "PERSONNEL_AREA",
+            "identifier1" : "100",
+            "identifier3" : "9000",
+            "identifier2" : "9000",
+            "systemNumber" : "1"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+              "embeddable" : false
+            }
+          }
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "072DF3347C224AB6B2E2AB4C96A4F5F3",
+        "staffNumber" : "54000002",
+        "firstName" : "Jason",
+        "lastName" : "Hocke",
+        "erpContextId" : "4ca712a78a2b4cf58fa5a79544707e37",
+        "identificationNumber" : "5000003"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/072DF3347C224AB6B2E2AB4C96A4F5F3?embed=erpContext,",
+          "embeddable" : false
+        },
+        "erpContext" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+          "embeddable" : false
+        },
+        "currentlyExecutedOperations" : [ ],
+        "skills" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/072DF3347C224AB6B2E2AB4C96A4F5F3/skills",
+          "embeddable" : true
+        },
+        "scheduledWorkingTimes" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/072DF3347C224AB6B2E2AB4C96A4F5F3/scheduledWorkingTimes",
+          "embeddable" : false
+        },
+        "assignedWorkplaces" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/072DF3347C224AB6B2E2AB4C96A4F5F3/assignedWorkplace",
+          "embeddable" : true
+        },
+        "location" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers/072DF3347C224AB6B2E2AB4C96A4F5F3/location",
+          "embeddable" : true
+        }
+      },
+      "_embedded" : {
+        "erpContext" : {
+          "properties" : {
+            "id" : "4ca712a78a2b4cf58fa5a79544707e37",
+            "type" : "PERSONNEL_AREA",
+            "identifier1" : "100",
+            "identifier3" : "9000",
+            "identifier2" : "9000",
+            "systemNumber" : "1"
+          },
+          "_links" : {
+            "self" : {
+              "method" : "GET",
+              "href" : "http://localhost:24080/ffwebservices/api/v2/erpContexts/4ca712a78a2b4cf58fa5a79544707e37",
+              "embeddable" : false
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers?offset=0&limit=3&embed=erpContext,",
+      "embeddable" : false,
+      "title" : "The current page"
+    },
+    "first" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers?offset=0&limit=3&embed=erpContext,",
+      "embeddable" : false,
+      "title" : "First page"
+    },
+    "last" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers?offset=999&limit=3&embed=erpContext,",
+      "embeddable" : false,
+      "title" : "Last page"
+    },
+    "next" : {
+      "method" : "GET",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/staffMembers?offset=3&limit=3&embed=erpContext,",
+      "embeddable" : false,
+      "title" : "Next page"
+    }
+  }
+}

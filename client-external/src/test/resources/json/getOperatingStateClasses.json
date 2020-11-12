@@ -1,0 +1,114 @@
+{
+  "pagination" : {
+    "offset" : 0,
+    "total" : 6,
+    "limit" : 3,
+    "count" : 3,
+    "lastIdentifier" : null,
+    "firstIdentifier" : null
+  },
+  "_embedded" : {
+    "operatingStateClasses" : [ {
+      "properties" : {
+        "id" : "29ADD1E980304CD2AE2E381B929AAFF7",
+        "description" : "Free Capcities",
+        "shortDescription" : "Free Capcities",
+        "code" : "FREECAPA_SC",
+        "color" : "#B6BABF"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses/29ADD1E980304CD2AE2E381B929AAFF7",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/D2ED458DD3C242B8A07C26DD0B04B412",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/6343ECE4A52A4367B55839813C2C2B05",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "9478019210E0423AAC7C4ABC147CD24E",
+        "description" : "Maintenance Downtimes",
+        "shortDescription" : "Maintenance Downtimes",
+        "code" : "MAINTENANCE_SC",
+        "color" : "#660011"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses/9478019210E0423AAC7C4ABC147CD24E",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/B8FE191CC6C64C3EABE003BE25F65759",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/96B693BE22B54A5D8048B05A78893824",
+          "embeddable" : true
+        }
+      }
+    }, {
+      "properties" : {
+        "id" : "05004E227AE642709B27BEF620E2FED0",
+        "description" : "Organizational Downtimes",
+        "shortDescription" : "Organizational Downtimes",
+        "code" : "ORGANIZATIONAL_SC",
+        "color" : "#FFB500"
+      },
+      "_links" : {
+        "self" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses/05004E227AE642709B27BEF620E2FED0",
+          "embeddable" : false
+        },
+        "description" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/B52BC664382B412F9A5B63851BE15AC8",
+          "embeddable" : true
+        },
+        "shortDescription" : {
+          "method" : "GET",
+          "href" : "http://localhost:24080/ffwebservices/api/v2/literals/CC7DD56CFF0B4DB1B7E4C721CE055399",
+          "embeddable" : true
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "method" : "GET",
+      "title" : "The current page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "first" : {
+      "method" : "GET",
+      "title" : "First page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses?offset=0&limit=3",
+      "embeddable" : false
+    },
+    "last" : {
+      "method" : "GET",
+      "title" : "Last page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses?offset=3&limit=3",
+      "embeddable" : false
+    },
+    "next" : {
+      "method" : "GET",
+      "title" : "Next page",
+      "href" : "http://localhost:24080/ffwebservices/api/v2/masterData/operatingStateClasses?offset=3&limit=3",
+      "embeddable" : false
+    }
+  }
+}
