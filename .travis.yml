@@ -1,3 +1,3 @@
 language: java
 
-script: mvn post-site -DskipTests -B
+script: mvn post-site -B
