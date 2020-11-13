@@ -30,42 +30,6 @@
             <version>${mockito.version}</version>
             <scope>test</scope>
         </dependency>
-
-        <dependency>
-            <groupId>org.openjdk.jmh</groupId>
-            <artifactId>jmh-generator-annprocess</artifactId>
-            <version>${jmh.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.noconnor</groupId>
-            <artifactId>junitperf</artifactId>
-            <version>1.15.0</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.assertj</groupId>
-            <artifactId>assertj-core</artifactId>
-            <version>${assertj.version}</version>
-            <scope>test</scope>
-        </dependency>
-
-        <!-->
-        As soon as Junit5 is used in some module, junit-vintage-engine is available as test runner.
-        Running tests with maven or individual test methods or classes in IntelliJ works.
-        But running all the tests in a module in IntelliJ fails with
-        Java.lang.ClassNotFoundException: javax.servlet.ServletContext
-        Adding this dependency solves the problem.
-        This is added here since common-modules.test-utils depends on Junit5 and most of tests depends on it.
-        This dependency is not necessary from 5.11 on
-        <-->
-        <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <scope>provided</scope>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -156,11 +120,6 @@
                 <version>${swagger.version}</version>
             </dependency>
             <dependency>
-                <groupId>javax.servlet</groupId>
-                <artifactId>javax.servlet-api</artifactId>
-                <version>${servlet-api.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>javax.validation</groupId>
                 <artifactId>validation-api</artifactId>
                 <version>${javax-validation.version}</version>
@@ -178,17 +137,12 @@
             <dependency>
                 <groupId>org.eclipse.paho</groupId>
                 <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
-                <version>1.2.4</version>
+                <version>${eclipse-mqttv3.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.glassfish.jaxb</groupId>
                 <artifactId>jaxb-runtime</artifactId>
                 <version>${jaxb-api.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.glassfish</groupId>
-                <artifactId>javax.faces</artifactId>
-                <version>2.2.14</version>
             </dependency>
             <dependency>
                 <groupId>org.nanohttpd</groupId>
@@ -620,23 +574,21 @@
 
     <properties>
         <aspectj.version>1.9.5</aspectj.version>
-        <assertj.version>3.15.0</assertj.version>
         <cloning.version>1.9.0</cloning.version>
         <commons-collections.version>3.2.2</commons-collections.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-lang3.version>3.9</commons-lang3.version>
-        <google-dagger.version>2.25.4</google-dagger.version>
-        <jackson.version>2.9.8</jackson.version>
+        <google-dagger.version>2.29.1</google-dagger.version>
+        <jackson.version>2.10.5</jackson.version>
         <!-- direkte Abhängigkeit von c3p0; Achtung bei Update von c3p0! -->
         <java.version>11</java.version>
         <javax-validation.version>2.0.1.Final</javax-validation.version>
         <jaxb-api.version>2.3.0</jaxb-api.version>
-        <jmh.version>1.21</jmh.version>
-        <junit.version>4.12</junit.version>
-        <logback.version>1.2.3-FORCAM-1</logback.version>
+        <junit.version>4.13.1</junit.version>
+        <logback.version>1.2.3</logback.version>
         <mockito.version>2.28.2</mockito.version>
         <nanohttpd.version>2.3.1</nanohttpd.version>
-        <okhttp.version>3.14.9</okhttp.version>
+        <okhttp.version>4.9.0</okhttp.version>
         <plugin.aspectj.version>1.12.1</plugin.aspectj.version>
         <plugin.assembly.version>3.0.0</plugin.assembly.version>
         <plugin.clean.version>3.0.0</plugin.clean.version>
@@ -658,6 +610,7 @@
         <servlet-api.version>4.0.1</servlet-api.version>
         <slf4j-api.version>1.7.25</slf4j-api.version>
         <swagger.version>1.5.22</swagger.version>
+        <eclipse-mqttv3.version>1.2.4</eclipse-mqttv3.version>
 
         <!-- Flag to skip functional/integration test execution during build.
         By default set to true to avoid build failures, while no instrumented servers are running -->
